@@ -1,4 +1,4 @@
-# 🍕 State College Food Intelligence
+# State College Food Intelligence
 
 > What 145 restaurants, real reviews, and actual data say about eating in Happy Valley.
 
@@ -8,7 +8,7 @@ an interactive Streamlit dashboard.
 
 ---
 
-## 🔍 What This Project Does
+## What This Project Does
 
 - Scrapes **145 restaurants** across State College using the Google Places API
 - Cleans, structures, and tags cuisine types across 27 categories
@@ -18,7 +18,7 @@ an interactive Streamlit dashboard.
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 - Average restaurant rating in State College: **4.12 ⭐**
 - **40 restaurants** open past midnight
@@ -32,7 +32,7 @@ an interactive Streamlit dashboard.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Tools |
 |---|---|
@@ -44,7 +44,7 @@ an interactive Streamlit dashboard.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 state-college-food/
 ├── app.py                        # Streamlit dashboard
@@ -64,7 +64,7 @@ state-college-food/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 **1. Clone the repo**
 ```bash
@@ -89,7 +89,7 @@ streamlit run app.py
 
 ---
 
-## 🔮 Roadmap
+## Roadmap
 
 - [ ] Reddit integration (r/StateCollege + r/PennStateUniversity) 
       for word-of-mouth analysis
