@@ -3,9 +3,11 @@ import csv
 import os
 from collections import defaultdict
 
-REDDIT_FILE      = "/Users/medhasharma/state-college-food/data/raw/reddit_posts.json"
-RESTAURANTS_FILE = "/Users/medhasharma/state-college-food/data/clean/restaurants_tagged.csv"
-OUTPUT_FILE      = "/Users/medhasharma/state-college-food/data/clean/reddit_mentions.csv"
+from config import CLEAN, RAW
+
+REDDIT_FILE      = RAW / "reddit_posts.json"
+RESTAURANTS_FILE = CLEAN / "restaurants_tagged.csv"
+OUTPUT_FILE      = CLEAN / "reddit_mentions.csv"
 
 os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 

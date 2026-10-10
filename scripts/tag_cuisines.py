@@ -2,8 +2,10 @@ import csv
 import os
 from collections import Counter
 
-INPUT_FILE  = "/Users/medhasharma/state-college-food/data/clean/restaurants_clean.csv"
-OUTPUT_FILE = "/Users/medhasharma/state-college-food/data/clean/restaurants_tagged.csv"
+from config import CLEAN
+
+INPUT_FILE  = CLEAN / "restaurants_clean.csv"
+OUTPUT_FILE = CLEAN / "restaurants_tagged.csv"
 
 # ── TWO-LEVEL TAXONOMY ────────────────────────────────────────────────────────
 # cuisine_type → category

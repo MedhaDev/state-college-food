@@ -2,7 +2,9 @@ import csv
 import json
 from collections import defaultdict
 
-INPUT_FILE = "/Users/medhasharma/state-college-food/data/clean/restaurants_clean.csv"
+from config import CLEAN
+
+INPUT_FILE = CLEAN / "restaurants_clean.csv"
 
 def load_data():
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
