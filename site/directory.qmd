@@ -1,0 +1,46 @@
+---
+title: "Directory"
+toc: false
+---
+
+```{python}
+#| include: false
+import _common as c
+
+r = c.restaurants(include_closed=True)
+```
+
+::: {.tagline}
+Every restaurant in the data, by cuisine. Plain links, no ads, no algorithm.
+:::
+
+```{python}
+#| output: asis
+CATEGORY_ORDER = ["Food", "Fast Food", "Drinks", "Dessert & Snacks", "Campus Dining"]
+CATEGORY_TITLES = {
+    "Food": "Restaurants", "Fast Food": "Fast food", "Drinks": "Bars, coffee & nightlife",
+    "Dessert & Snacks": "Dessert & snacks", "Campus Dining": "Campus dining",
+}
+out = []
+for cat in CATEGORY_ORDER:
+    sub = r[r["category"] == cat]
+    if sub.empty:
+        continue
+    groups = []
+    for cuisine, g in sorted(sub.groupby("cuisine_type"), key=lambda x: (-len(x[1]), x[0])):
+        items = []
+        for _, d in g.sort_values("name").iterrows():
+            bits = [f"★{d['rating']:.1f}"] if d["rating"] == d["rating"] else []
+            if d["price"]:
+                bits.append(d["price"])
+            bits.append(d["area"].lower() if isinstance(d["area"], str) else "")
+            if d["status"] != "OPERATIONAL":
+                bits.append("temporarily closed")
+            items.append(f'<li>{c.link(d["name"], d["website"])} <span class="meta">({", ".join(b for b in bits if b)})</span></li>')
+        groups.append(f'<div class="directory-group"><h4>{cuisine} ({len(g)})</h4><ul class="listing">{"".join(items)}</ul></div>')
+    out.append(f'<h2>{CATEGORY_TITLES[cat]} <span style="font-size:.9rem;color:#54595d">({len(sub)})</span></h2>'
+               f'<div class="columns-3">{"".join(groups)}</div>')
+print(c.raw("".join(out)))
+```
+
+Ratings and prices are from Google Places (March 2026). Cuisine types come from a keyword taxonomy described under [Data & methods](data.qmd).

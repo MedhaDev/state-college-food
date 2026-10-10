@@ -4,7 +4,17 @@
 
 When 100,000+ fans fill Beaver Stadium, downtown State College changes completely. When students leave for winter break, it empties out. This project combines restaurant data with the Penn State academic and football calendar so visiting families, students and locals can decide *when* and *where* to eat, not just what's rated well.
 
-> **Status: being rebuilt (Fall 2026).** The data foundation below is done. Next up is a Quarto website, replacing the original Streamlit dashboard ([still live here](https://state-college-food.streamlit.app)).
+**Read it: [medhadev.github.io/state-college-food](https://medhadev.github.io/state-college-food/)**
+
+The site is styled like an old reference book and has five pages:
+
+| Page | What it does |
+|---|---|
+| **Article** | The case study: the question, the data, findings, planning by occasion, methods and limitations |
+| **Plan a meal** | Pick a date and time; see the expected crowd and every restaurant open then (runs in the browser) |
+| **The calendar** | Every day of 2026–27 shaded by expected crowd, plus all key dates with sources |
+| **Directory** | Every restaurant by cuisine, classifieds-style |
+| **Data & methods** | Downloads and the full data dictionary |
 
 ## The question
 
@@ -25,14 +35,13 @@ Most restaurant guides answer "what's good?" This one answers "**what works for 
 
 Full column-by-column documentation is in the **[data dictionary](docs/data_dictionary.md)**.
 
-## What I found so far
+## What I found
 
-The average rating is 4.17, which sounds high until you realize Google ratings are inflated everywhere. More interesting things:
-
-- 32 restaurants are open past midnight, but the options are pretty uneven by category
-- There are no upscale ($$$$) restaurants in State College at all. It's entirely $ to $$
-- The halal scene is genuinely good and underrecognized. Fatema's Kitchen, Mosul Grill, Fatoum Bistro all have strong ratings with relatively few reviews
-- Budget and mid-range restaurants have nearly identical average ratings. Paying more does not get you better food here
+- **Half the town eats within ten minutes of College & Allen.** 71 of 139 open restaurants are downtown, holding 49% of all Google reviews. On game days, nearly all visitor demand lands on that one grid.
+- **Paying more barely buys better food.** There are no $$$ restaurants at all; $$ places average 4.15 stars against 4.03 for $ places.
+- **The best-kept secret is Middle Eastern food.** The seven Middle Eastern and halal restaurants average 4.69 stars against 4.12 for the town, and four of them have fewer than 150 reviews.
+- **Sunday mornings are thin.** Only 36 open restaurants serve at 10 a.m. on a Sunday, the morning after every home game.
+- **Late night is real.** 33 restaurants serve past midnight on Saturdays.
 
 ## Cost: $0
 
@@ -57,8 +66,9 @@ state-college-food/
 │   ├── raw/                          API responses
 │   ├── reference/                    hand-curated Penn State events, with sources
 │   └── clean/                        analysis-ready tables
+├── site/                             the Quarto website (one .qmd file per page)
 ├── docs/data_dictionary.md
-└── app.py                            original Streamlit dashboard (to be retired)
+└── .github/workflows/publish-site.yml  rebuilds the site on every push to main
 ```
 
 ## Run it locally
@@ -71,15 +81,20 @@ pip install -r requirements.txt
 # Rebuild the calendar and hours/distance tables (no API key needed)
 python scripts/build_calendar.py
 python scripts/build_hours_and_locations.py
+
+# Preview the website (needs Quarto: https://quarto.org)
+quarto preview site
 ```
+
+To edit the site's text, change the `.qmd` files in `site/`. They're plain text with headings and paragraphs, and the site rebuilds itself when changes reach `main`.
 
 ## Methodology notes
 
-**Cuisine classification** matches keywords in restaurant names against a priority-ordered map, so more specific terms like "penn kebab" match before a generic "kebab". Anything that doesn't match gets flagged as "Other" for review.
+**Cuisine classification** matches keywords in restaurant names against a priority-ordered map, so more specific terms like "penn kebab" match before a generic "kebab". A short list of hand-checked overrides covers names that don't reveal their cuisine.
 
-**Hidden gems** are rated 4.3 or higher with fewer than 150 reviews: high quality relative to how discoverable the place is.
+**Hidden gems** are rated 4.5 or higher with 20–150 reviews: high quality relative to how discoverable the place is, with enough reviews to trust.
 
-**Reddit mentions** use substring matching of restaurant names against post titles and text. It's not perfect, but it captures genuine word-of-mouth pretty well.
+**Reddit mentions** use substring matching of restaurant names against post titles and text. Mentions turned out to be rare (no place appears in more than two posts), so Reddit is a qualitative check, not a ranking signal.
 
 **Crowd levels** are a rule-based estimate (breaks = very quiet, home games = packed, etc.), documented in the data dictionary. They're assumptions, stated openly so they can be tested later.
 
@@ -90,6 +105,6 @@ python scripts/build_hours_and_locations.py
 - [x] Clean up pipeline: portable paths, API key out of the code
 - [x] Penn State 2026–27 calendar dataset with sources
 - [x] Opening-hours and walking-distance tables
-- [ ] Quarto website: case-study article plus an interactive "plan your day" page
+- [x] Quarto website: case-study article, interactive planner, calendar, directory, data page
 - [ ] AI dining guide (Gemini Gem) grounded in this data, with a written evaluation of its answers
 - [ ] Future idea: measure how the calendar actually moves demand (would need repeated data pulls over a semester)

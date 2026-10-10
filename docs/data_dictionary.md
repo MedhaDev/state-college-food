@@ -115,6 +115,7 @@ Each day starts from its term phase's level. Big events can raise it but never l
 | `price_level` | 1 = $, 2 = $$, 3 = $$$ (blank if unknown) |
 | `status` | `OPERATIONAL` (139) or `CLOSED_TEMPORARILY` (6) |
 | `cuisine_type` | Cuisine label (keyword taxonomy in `tag_cuisines.py`) |
+| `category` | Food, Drinks, Dessert & Snacks, Fast Food or Campus Dining (`restaurants_tagged.csv` only) |
 | `is_late_night` | True if it closes between midnight and 6 AM on any day |
 | `opens_sunday` | True if open on Sundays |
 | `avg_review_rating` | Average of the 5 most recent reviews Google returned |
@@ -136,7 +137,7 @@ Each day starts from its term phase's level. Big events can raise it but never l
 
 ## Known data quality notes
 
-- **Committed clean files predate the current tagging script.** Re-running `tag_cuisines.py` adds a `category` column and changes some cuisine labels (e.g. The Tavern: American → Bar & Pub). The Streamlit app also re-classifies on load. These will be merged into one classification step when the website is built.
+- **Cuisine tags are name-based.** `tag_cuisines.py` matches keywords in restaurant names, with a short list of hand-checked overrides. A place whose name doesn't reveal its cuisine falls back to Google's type tag.
 - **Reviews are thin:** Google returns only 5 reviews per place, so `avg_review_rating` and `review_texts` are a small sample.
 - **Ratings barely move:** `rating` is a lifetime average, so calendar effects show up in review *counts*, not ratings.
 - **Reddit coverage is sparse:** 139 posts over 15 years. This is useful for word-of-mouth, too thin for time trends.

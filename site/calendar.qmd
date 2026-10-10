@@ -1,0 +1,95 @@
+---
+title: "The calendar"
+toc: true
+---
+
+```{python}
+#| include: false
+import calendar as pycal
+
+import _common as c
+
+cal = c.calendar().set_index("date")
+ev = c.events()
+```
+
+::: {.tagline}
+Every day of the 2026–27 Penn State year, shaded by how busy State College is expected to be.
+:::
+
+## The year at a glance
+
+```{python}
+#| output: asis
+legend = " ".join(
+    f'<span style="margin-right:1em"><span class="crowd-swatch crowd-{k}"></span>{k} {v}</span>'
+    for k, v in c.CROWD_LABELS.items()
+)
+known = set(cal.index.strftime("%Y-%m-%d"))
+months = []
+for year, month in [(2026, m) for m in range(8, 13)] + [(2027, m) for m in range(1, 9)]:
+    weeks = pycal.Calendar(firstweekday=6).monthdatescalendar(year, month)
+    rows = []
+    for week in weeks:
+        cells = []
+        for d in week:
+            key = str(d)
+            if d.month != month or key not in known:
+                cells.append("<td></td>")
+                continue
+            row = cal.loc[key]
+            tip = f"{d:%a %b %-d}: {row['crowd_label']}. {row['crowd_reason']}"
+            if isinstance(row["events"], str):
+                tip += f" ({row['events']})"
+            classes = f"crowd-{row['expected_crowd']}" + (" event" if row["is_home_game"] else "")
+            cells.append(f'<td class="{classes}" title="{tip}">{d.day}</td>')
+        rows.append("<tr>" + "".join(cells) + "</tr>")
+    head = "".join(f"<th>{d}</th>" for d in "SMTWTFS")
+    months.append(
+        f'<div class="month"><table><caption>{pycal.month_name[month]} {year}</caption>'
+        f"<thead><tr>{head}</tr></thead><tbody>{''.join(rows)}</tbody></table></div>"
+    )
+print(c.raw(f'<p>{legend}</p><div class="month-grid">{"".join(months)}</div>'
+            '<p style="font-size:.85rem;color:#54595d">Home football games are underlined. Hover over a day for details.</p>'))
+```
+
+## How the crowd level is set
+
+Each day starts from the level for its part of the academic year. Big events can raise it but never lower it.
+
+```{python}
+#| output: asis
+import pandas as pd
+rules = pd.DataFrame([
+    ["1", "Very quiet", "Thanksgiving, winter and spring breaks"],
+    ["2", "Quiet", "Summer"],
+    ["3", "Normal", "Regular semester days and finals"],
+    ["4", "Busy", "Move-in, fall commencement, THON, the Friday before a home game"],
+    ["5", "Packed", "Home football games, spring commencement, Arts Fest"],
+], columns=["Level", "Label", "When"])
+rules["Level"] = [f'<span class="crowd-swatch crowd-{k}"></span>{k}' for k in rules["Level"]]
+print(c.html_table(rules))
+```
+
+These are stated assumptions, not measurements. Testing them would mean collecting restaurant data repeatedly through a semester and comparing game weeks with breaks.
+
+## Key dates
+
+```{python}
+#| output: asis
+tbl = ev.copy()
+def when(s, e):
+    if s == e:
+        return f"{s:%a, %b %-d, %Y}"
+    if s.year == e.year:
+        return f"{s:%b %-d} – {e:%b %-d, %Y}"
+    return f"{s:%b %-d, %Y} – {e:%b %-d, %Y}"
+tbl["Date"] = [when(s, e) for s, e in zip(tbl["start_date"], tbl["end_date"])]
+tbl["Event"] = tbl["event_name"]
+tbl["Crowd"] = [f'<span class="crowd-swatch crowd-{k}"></span>{c.CROWD_LABELS[k]}' for k in tbl["expected_crowd"]]
+tbl["Notes"] = tbl["notes"].fillna("")
+tbl["Source"] = [f'<a href="{u}">{u.split("/")[2].replace("www.", "")}</a>' for u in tbl["source_url"]]
+print(c.html_table(tbl[["Date", "Event", "Crowd", "Notes", "Source"]]))
+```
+
+Dates were checked against official Penn State sources in October 2026. The 2027 Blue-White Game is not included because its date had not been announced.

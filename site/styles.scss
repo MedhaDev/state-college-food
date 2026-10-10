@@ -1,0 +1,202 @@
+/*-- scss:defaults --*/
+// An old-fashioned reference-book look: serif type, plain blue links,
+// thin grey rules, no rounded cards.
+$font-family-sans-serif: Georgia, "Times New Roman", Times, serif;
+$headings-font-family: "Linux Libertine", "Libertinus Serif", Georgia, "Times New Roman", serif;
+$font-size-root: 17px;
+$body-bg: #ffffff;
+$body-color: #202122;
+$link-color: #0645ad;
+$link-decoration: none;
+$link-hover-decoration: underline;
+$border-color: #a2a9b1;
+$navbar-bg: #f8f9fa;
+$navbar-fg: #0645ad;
+$navbar-hl: #202122;
+$footer-bg: #f8f9fa;
+$border-radius: 0;
+$border-radius-sm: 0;
+$border-radius-lg: 0;
+$code-color: #202122;
+$toc-color: #0645ad;
+
+/*-- scss:rules --*/
+a:visited { color: #0b0080; }
+.navbar a:visited { color: inherit; }
+
+.navbar {
+  border-bottom: 1px solid #a2a9b1;
+  font-family: $headings-font-family;
+  .navbar-title { font-size: 1.35rem; color: #202122; }
+  .nav-link { font-size: 0.95rem; }
+  .nav-link.active { color: #202122 !important; border-bottom: 2px solid #202122; }
+}
+
+// Headings: Wikipedia-style rules under H1 and H2
+h1, .title {
+  font-weight: normal;
+  font-size: 2rem;
+  border-bottom: 1px solid #a2a9b1;
+  padding-bottom: 0.15em;
+  margin-bottom: 0.25em;
+}
+h2 {
+  font-weight: normal;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #a2a9b1;
+  padding-bottom: 0.15em;
+  margin-top: 1.4em;
+}
+h3 { font-weight: bold; font-size: 1.1rem; font-family: $font-family-sans-serif; }
+#title-block-header .subtitle, .tagline {
+  font-size: 0.9rem; color: #54595d; font-style: normal;
+}
+.quarto-title-meta { display: none; }
+
+// "From Table for 100,000, ..." line under the title
+.tagline { margin: 0 0 1em; }
+
+// Italic, indented notes at the top of sections ("For the planner, see ...")
+.hatnote {
+  font-style: italic;
+  padding-left: 1.6em;
+  margin-bottom: 0.6em;
+  color: #202122;
+}
+
+// Contents box
+#TOC, #quarto-margin-sidebar .sidebar nav[role="doc-toc"] {
+  font-size: 0.9rem;
+}
+nav#TOC {
+  border: 1px solid #a2a9b1;
+  background: #f8f9fa;
+  padding: 0.6em 0.9em;
+  h2 { border: none; font-size: 1rem; font-weight: bold; margin: 0 0 .3em; text-align: center; }
+}
+.sidebar nav[role="doc-toc"] > h2 { font-family: $headings-font-family; border: none; }
+
+// Infobox: the grey summary table floated right
+.infobox {
+  float: right;
+  clear: right;
+  width: 21em;
+  max-width: 100%;
+  margin: 0.3em 0 1em 1.4em;
+  border: 1px solid #a2a9b1;
+  background: #f8f9fa;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  padding: 0.25em;
+  .infobox-title {
+    font-family: $headings-font-family;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 0.2em 0 0.3em;
+    font-weight: bold;
+  }
+  .infobox-caption { text-align: center; color: #54595d; padding-bottom: .4em; font-size: .8rem; }
+  .infobox-title p, .infobox-caption p, .infobox-header p { margin: 0; }
+  .infobox-header {
+    background: #dde3ec;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.15em;
+    margin-top: 0.3em;
+  }
+  table { width: 100%; margin: 0; border: none; background: none; }
+  thead { display: none; }
+  th, td { border: none !important; background: none !important; box-shadow: none !important; }
+  th { vertical-align: top; padding: 0.15em 0.4em; width: 45%; font-weight: bold; }
+  td { vertical-align: top; padding: 0.15em 0.4em; }
+}
+@media (max-width: 720px) {
+  .infobox { float: none; width: 100%; margin: 0 0 1em; }
+}
+
+// Figures as framed thumbnails with small captions
+.quarto-figure, .cell-output-display .figure, figure {
+  border: 1px solid #c8ccd1;
+  background: #f8f9fa;
+  padding: 4px;
+}
+figure img, .quarto-figure img { background: #fff; border: 1px solid #c8ccd1; }
+figcaption, .figure-caption {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #202122;
+  padding: 0.3em 0.2em 0.1em;
+  text-align: left !important;
+}
+
+// Plain reference tables (every table in the page body except the infobox)
+table.wikitable, main table.table:not(.infobox table), .cell-output-display table {
+  border: 1px solid #a2a9b1;
+  border-collapse: collapse;
+  background: #f8f9fa;
+  font-size: 0.88rem;
+  margin: 0.8em 0 1em;
+  th, td { border: 1px solid #a2a9b1; padding: 0.25em 0.5em; }
+  th { background: #eaecf0; text-align: center; font-weight: bold; }
+  td.num { text-align: right; }
+  code { white-space: normal; word-break: break-word; font-size: .8rem; background: none; }
+}
+main table col { width: auto !important; }
+
+
+// Footnotes look like a reference list
+section.footnotes, #footnotes { font-size: 0.85rem; }
+
+// Planner and directory lists, in the spirit of a classifieds page
+.listing { list-style: none; padding-left: 0; margin: 0; }
+.listing li { padding: 0.15em 0; border-bottom: 1px dotted #c8ccd1; }
+.listing .meta { color: #54595d; font-size: 0.85rem; }
+.columns-3 { column-count: 3; column-gap: 2em; }
+.columns-2 { column-count: 2; column-gap: 2em; }
+@media (max-width: 900px) { .columns-3 { column-count: 2; } }
+@media (max-width: 600px) { .columns-3, .columns-2 { column-count: 1; } }
+.directory-group { break-inside: avoid; margin-bottom: 1em; }
+.directory-group h4 {
+  font-family: $font-family-sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 0 .2em;
+  background: #eaecf0;
+  padding: 0.1em 0.4em;
+}
+
+// Crowd-level banner and swatches (1 = very quiet ... 5 = packed)
+.crowd-banner {
+  border: 1px solid #a2a9b1;
+  background: #f8f9fa;
+  padding: 0.6em 0.9em;
+  margin: 0.8em 0;
+}
+.crowd-swatch {
+  display: inline-block;
+  width: 0.9em; height: 0.9em;
+  border: 1px solid #72777d;
+  vertical-align: -0.1em;
+  margin-right: 0.3em;
+}
+.crowd-1 { background: #cde2fb; }
+.crowd-2 { background: #86b6ef; }
+.crowd-3 { background: #3987e5; }
+.crowd-4 { background: #1c5cab; }
+.crowd-5 { background: #0d366b; }
+
+// Month grids on the calendar page
+.month-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(15.5em, 1fr)); gap: 1.2em; }
+.month table { width: 100%; border-collapse: collapse; font-size: 0.8rem; background: #fff; }
+.month caption { caption-side: top; font-family: $headings-font-family; font-size: 1.05rem; color: #202122; padding: 0 0 .2em; }
+.month th { font-weight: normal; color: #54595d; text-align: center; border-bottom: 1px solid #a2a9b1; }
+.month td { text-align: center; padding: 0.25em 0; border: 2px solid #fff; }
+.month td.crowd-4, .month td.crowd-5 { color: #fff; }
+// Bootstrap paints table cells with an inset shadow, so the shade goes there too
+@each $level, $color in (1: #cde2fb, 2: #86b6ef, 3: #3987e5, 4: #1c5cab, 5: #0d366b) {
+  .month td.crowd-#{$level} { background: $color; box-shadow: inset 0 0 0 9999px $color; }
+}
+.month td.event { font-weight: bold; text-decoration: underline; }
+
+// OJS inputs: plain and compact
+.ojs-inputs form { font-family: $font-family-sans-serif; font-size: .9rem; }
