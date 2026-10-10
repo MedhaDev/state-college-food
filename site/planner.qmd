@@ -84,11 +84,11 @@ weekday = day ? DAYS[day.getUTCDay()] : null
 prevDay = day ? DAYS[(day.getUTCDay() + 6) % 7] : null
 
 ADVICE = ({
-  1: "Very quiet. Most students are away on break. Getting a table is easy, but check holiday hours before you go.",
-  2: "Quiet. It's summer, and many students are away; some campus-area places keep shorter hours.",
+  1: "Most students are away on break. Getting a table is easy, but check holiday hours before you go.",
+  2: "It's summer, and many students are away; some campus-area places keep shorter hours.",
   3: "A normal day in a college town.",
-  4: "Busier than usual. Book dinner if you can.",
-  5: "Packed. Expect long waits downtown. Book ahead, eat early, or pick a place outside downtown."
+  4: "Book dinner if you can.",
+  5: "Expect long waits downtown. Book ahead, eat early, or pick a place outside downtown."
 })
 
 html`<div class="crowd-banner">
