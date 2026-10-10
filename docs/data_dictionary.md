@@ -13,9 +13,10 @@ Every dataset in this project: what one row means, where it comes from, how ofte
 | 5 | `analyze_reddit.py` | Reddit posts + tagged restaurants | `clean/reddit_mentions.csv` | No |
 | 6 | `build_hours_and_locations.py` | `raw/restaurants_detailed.json` | `clean/restaurant_hours.csv`, `clean/restaurant_locations.csv` | No |
 | 7 | `build_calendar.py` | `reference/psu_events_2026_27.csv` | `clean/calendar_days.csv` | No |
-| Weekly | `snapshot_places.py` (GitHub Actions) | Google Places API (New) | `snapshots/places_YYYY-MM-DD.csv` | Yes |
 
-All tables join on `place_id` (Google's ID for a place), apart from the two calendar tables, which join on `date`.
+Restaurant tables join on `place_id` (Google's ID for a place). The calendar table joins on `date`.
+
+Only step 1 needs a Google API key, and it has already been run. Everything else is free and offline.
 
 ---
 
@@ -71,7 +72,7 @@ All tables join on `place_id` (Google's ID for a place), apart from the two cale
 | 4 | Busy | Move-in, fall commencement, THON, the Friday before a home game |
 | 5 | Packed | Home football games, spring commencement, Arts Fest |
 
-Each day starts from its term phase's level. Big events can raise it but never lower it. The weekly snapshots exist to test whether these assumptions hold.
+Each day starts from its term phase's level. Big events can raise it but never lower it. These are stated assumptions, not measurements.
 
 ### `data/clean/restaurant_hours.csv`
 
@@ -86,7 +87,7 @@ Each day starts from its term phase's level. Big events can raise it but never l
 | `closes_after_midnight` | True if the window runs past midnight |
 | `open_24_hours` | True for 24-hour places (Sheetz, McDonald's) |
 
-**Snapshot date:** these are regular weekly hours from the March 2026 data pull. Holiday hours are in the weekly snapshots (`has_special_hours`).
+**Data date:** these are regular weekly hours from the March 2026 data pull. Holiday hours are not included.
 
 ### `data/clean/restaurant_locations.csv`
 
@@ -133,31 +134,10 @@ Each day starts from its term phase's level. Big events can raise it but never l
 
 ---
 
-## Snapshots (time series)
-
-### `data/snapshots/places_YYYY-MM-DD.csv`
-
-**One row = one restaurant on one snapshot date.** Collected every Monday by `.github/workflows/weekly-snapshot.yml`.
-
-| Column | Meaning |
-|---|---|
-| `snapshot_date` | Date the snapshot ran |
-| `place_id`, `name` | Restaurant |
-| `fetch_status` | `ok`, or `error <HTTP code>` if Google couldn't return it |
-| `business_status` | `OPERATIONAL`, `CLOSED_TEMPORARILY`, `CLOSED_PERMANENTLY` |
-| `rating` | Star rating that week |
-| `user_rating_count` | Total review count that week. **Week-over-week change = new reviews, used as a stand-in for visits** |
-| `has_special_hours` | True if Google lists holiday or special hours in the coming week |
-| `week_hours` | That week's hours as Google displays them |
-
-**Cost guardrail:** each restaurant is one Place Details (Enterprise) call. Google gives 1,000 free per month; the script stops itself before 900. At 145 restaurants × up to 5 Mondays = 725 calls/month max.
-
----
-
 ## Known data quality notes
 
 - **Committed clean files predate the current tagging script.** Re-running `tag_cuisines.py` adds a `category` column and changes some cuisine labels (e.g. The Tavern: American → Bar & Pub). The Streamlit app also re-classifies on load. These will be merged into one classification step when the website is built.
 - **Reviews are thin:** Google returns only 5 reviews per place, so `avg_review_rating` and `review_texts` are a small sample.
 - **Ratings barely move:** `rating` is a lifetime average, so calendar effects show up in review *counts*, not ratings.
 - **Reddit coverage is sparse:** 139 posts over 15 years. This is useful for word-of-mouth, too thin for time trends.
-- **Static data is from March 2026.** Some restaurants may have closed or changed hours since; the weekly snapshots will flag status changes.
+- **Static data is from March 2026.** Some restaurants may have closed or changed hours since.

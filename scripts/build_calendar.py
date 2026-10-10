@@ -5,8 +5,7 @@ Output: data/clean/calendar_days.csv            (Aug 15 2026 - Aug 14 2027)
 
 Every day gets a term phase (in session, break, finals...) and an expected
 crowd level from 1 (very quiet) to 5 (packed). The crowd level is a rule-based
-estimate, written down here so it can be checked later against the weekly
-review-count snapshots.
+estimate, written down here so the assumptions are easy to see and change.
 """
 import pandas as pd
 
