@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - planner.qmd
+    - calendar.qmd
+    - directory.qmd
+    - data.qmd
+
+website:
+  title: "Table for 100,000"
+  description: "Where to eat in State College, planned around the Penn State calendar."
+  site-url: https://medhadev.github.io/state-college-food/
+  repo-url: https://github.com/MedhaDev/state-college-food
+  navbar:
+    left:
+      - text: Article
+        href: index.qmd
+      - text: Plan a meal
+        href: planner.qmd
+      - text: The calendar
+        href: calendar.qmd
+      - text: Directory
+        href: directory.qmd
+      - text: Data & methods
+        href: data.qmd
+    right:
+      - icon: github
+        href: https://github.com/MedhaDev/state-college-food
+        aria-label: Source on GitHub
+  page-footer:
+    left: "Table for 100,000 · a data project by Medha Devalraj"
+    right: "Restaurant data: Google Places, March 2026 · Calendar: Penn State, 2026–27"
+
+format:
+  html:
+    theme: [default, styles.scss]
+    toc: true
+    toc-location: left
+    toc-title: Contents
+    fig-format: svg
+    fig-cap-location: bottom
+    smooth-scroll: false
+    link-external-newwindow: true
+    grid:
+      body-width: 900px
+      sidebar-width: 240px
+
+language:
+  section-title-footnotes: References
+
+execute:
+  echo: false
+  warning: false

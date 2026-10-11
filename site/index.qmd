@@ -1,0 +1,330 @@
+---
+title: "Table for 100,000"
+toc: true
+---
+
+```{python}
+#| include: false
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import pandas as pd
+
+import _common as c
+
+c.chart_style()
+r = c.restaurants()
+all_r = c.restaurants(include_closed=True)
+cal = c.calendar()
+ev = c.events()
+h = c.hours()
+
+n_total = len(all_r)
+n_open = len(r)
+avg_rating = f"{r['rating'].mean():.2f}"
+n_reviews = f"{int(r['review_count'].sum()):,}"
+n_cuisines = r["cuisine_type"].nunique()
+n_home = int(cal["is_home_game"].sum())
+n_packed = int((cal["expected_crowd"] == 5).sum())
+n_quiet = int((cal["expected_crowd"] == 1).sum())
+n_downtown = int((r["area"] == "Downtown").sum())
+share_downtown_reviews = f"{r.loc[r['area'] == 'Downtown', 'review_count'].sum() / r['review_count'].sum():.0%}"
+n_walk_stadium = int(r["walkable_to_stadium"].sum())
+n_no_price = int(r["price"].eq("").sum())
+by_price = r[r["price"] != ""].groupby("price")["rating"].agg(["count", "mean"])
+cheap, mid = by_price.loc["$"], by_price.loc["$$"]
+
+late_sat = set(h[(h["day_of_week"] == "Saturday") & (h["close_minute"] > 24 * 60)]["place_id"])
+n_late_sat = len(late_sat & set(r["place_id"]))
+sunday_10 = c.open_at("Sunday", 10 * 60) & set(r["place_id"])
+n_sunday_10 = len(sunday_10)
+me = r[r["cuisine_type"].isin(["Middle Eastern", "Halal"])]
+n_me, me_rating = len(me), f"{me['rating'].mean():.2f}"
+n_me_small = int((me["review_count"] < 150).sum())
+gems_df = r[(r["rating"] >= 4.5) & r["review_count"].between(20, 150)]
+n_gems = len(gems_df)
+n_gems_me = int(gems_df["cuisine_type"].isin(["Middle Eastern", "Halal"]).sum())
+closed_sunday = (set(h["place_id"]) - set(h[h["day_of_week"] == "Sunday"]["place_id"])) & set(r["place_id"])
+n_closed_sunday = len(closed_sunday)
+
+
+def listing_table(df, cols):
+    out = df.copy()
+    out["Restaurant"] = [c.link(n, w) for n, w in zip(out["name"], out["website"])]
+    out["Cuisine"] = out["cuisine_type"]
+    out["Rating"] = out["rating"].map(lambda x: f"{x:.1f}")
+    out["Reviews"] = out["review_count"].map(lambda x: f"{int(x):,}")
+    out["Price"] = out["price"].replace("", "–")
+    out["Walk to stadium"] = out["walk_min_to_stadium"].map(lambda x: f"{x:.0f} min")
+    out["Walk to downtown"] = out["walk_min_to_downtown"].map(lambda x: f"{x:.0f} min")
+    return c.html_table(out[cols], numeric=("Rating", "Reviews", "Walk to stadium", "Walk to downtown"))
+```
+
+::: {.tagline}
+From *Table for 100,000*, a data guide to eating in State College, Pennsylvania
+:::
+
+::: {.infobox}
+::: {.infobox-title}
+Table for 100,000
+:::
+::: {.infobox-caption}
+Restaurants of State College, read against the Penn State calendar
+:::
+::: {.infobox-header}
+Coverage
+:::
+
+| | |
+|---|---|
+| **Place** | State College, Pa. |
+| **Restaurants** | `{python} n_total` (`{python} n_open` open) |
+| **Cuisine types** | `{python} n_cuisines` |
+| **Google reviews** | `{python} n_reviews` |
+| **Average rating** | `{python} avg_rating` ★ |
+
+::: {.infobox-header}
+The 2026–27 calendar
+:::
+
+| | |
+|---|---|
+| **Home games** | `{python} n_home` |
+| **Packed days** | `{python} n_packed` |
+| **Very quiet days** | `{python} n_quiet` |
+| **Calendar span** | Aug 2026 – Aug 2027 |
+
+::: {.infobox-header}
+Project
+:::
+
+| | |
+|---|---|
+| **Data** | Google Places, Reddit, Penn State |
+| **Collected** | March 2026 |
+| **Tools** | Python, pandas, Quarto |
+| **Cost** | \$0 |
+| **Source** | [GitHub](https://github.com/MedhaDev/state-college-food) |
+:::
+
+**Table for 100,000** is a data project about where to eat in State College, Pennsylvania, and, more to the point, *when*. State College is home to Penn State's University Park campus, and the town's rhythm follows the university's calendar. On a home football Saturday, Beaver Stadium holds more than 100,000 people.[^stadium] Over winter break, most of the students leave and the town goes quiet.
+
+Most restaurant guides answer *"what's good?"* This one answers *"what works for this day?"* It combines `{python} n_total` restaurants pulled from the Google Places API with a hand-built, day-by-day Penn State calendar for 2026–27, plus opening hours and walking distances. The result is a planning guide for visiting families, students and locals.
+
+::: {.hatnote}
+For the interactive version, see [Plan a meal](planner.qmd). For every date and its expected crowd, see [The calendar](calendar.qmd).
+:::
+
+## Background
+
+### A town that changes size
+
+A college town's demand is not steady. It is set by the academic calendar: move-in, home games, finals, commencement and breaks. Each day from August 2026 to August 2027 was assigned an *expected crowd level* from 1 (very quiet) to 5 (packed), based on the official academic calendar,[^registrar] the 2026 football schedule[^football] and major events such as THON[^thon] and the Central Pennsylvania Festival of the Arts.[^artsfest]
+
+```{python}
+#| label: fig-year
+#| fig-cap: "Expected crowd level for every day of the 2026–27 academic year. Each column is a week and each row a weekday. The dark Saturdays in the fall are the seven home football games; the pale bands are Thanksgiving, winter break and spring break."
+days = cal.copy()
+days["week"] = ((days["date"] - days["date"].min()).dt.days + days["date"].min().dayofweek) // 7
+days["dow"] = days["date"].dt.dayofweek
+
+fig, ax = plt.subplots(figsize=(9, 2.4))
+for _, d in days.iterrows():
+    ax.add_patch(mpatches.Rectangle(
+        (d["week"], 6 - d["dow"]), 0.88, 0.88,
+        facecolor=c.CROWD_COLORS[d["expected_crowd"]], edgecolor="none",
+    ))
+ax.set_xlim(-0.5, days["week"].max() + 1.5)
+ax.set_ylim(-0.3, 7.2)
+ax.set_yticks([6.44, 4.44, 0.44], ["Mon", "Wed", "Sun"], fontsize=8)
+months = days[days["date"].dt.day == 1]
+ax.set_xticks(months["week"] + 0.44, months["date"].dt.strftime("%b"), fontsize=8)
+ax.grid(False)
+for side in ("left", "bottom"):
+    ax.spines[side].set_visible(False)
+handles = [mpatches.Patch(facecolor=c.CROWD_COLORS[k], label=f"{k} {v}") for k, v in c.CROWD_LABELS.items()]
+ax.legend(handles=handles, ncol=5, loc="upper center", bbox_to_anchor=(0.5, -0.18),
+          frameon=False, fontsize=8, handlelength=1, handleheight=1, columnspacing=1.2)
+plt.tight_layout()
+plt.show()
+```
+
+The levels are a stated, rule-based estimate rather than a measurement: breaks are *very quiet*, regular semester days are *normal*, the Friday before a home game is *busy*, and home games, spring commencement and Arts Fest are *packed*. The full rules are listed under [Data & methods](data.qmd).
+
+### The restaurants
+
+The restaurant data covers `{python} n_total` places found by searching five overlapping areas of State College through the Google Places API in March 2026. Of these, `{python} n_open` were open and `{python} n_total - n_open` were temporarily closed. Each was tagged with one of `{python} n_cuisines` cuisine types using a keyword taxonomy matched against its name.
+
+```{python}
+#| label: fig-cuisines
+#| fig-cap: "The twelve most common cuisine types among open restaurants. American, pizza and Chinese account for roughly a third of the town."
+counts = r["cuisine_type"].value_counts().head(12).sort_values()
+fig, ax = plt.subplots(figsize=(6.4, 3.6))
+bars = ax.barh(counts.index, counts.values, color=c.SERIES, height=0.62)
+ax.bar_label(bars, padding=3, fontsize=8, color=c.INK)
+ax.set_xticks([])
+ax.grid(False)
+ax.spines["bottom"].set_visible(False)
+ax.tick_params(axis="y", labelsize=9)
+ax.set_xlim(0, counts.max() * 1.15)
+plt.tight_layout()
+plt.show()
+```
+
+## Findings
+
+### Half the town eats within ten minutes of College and Allen
+
+`{python} n_downtown` of the `{python} n_open` open restaurants are within a ten-minute walk of the corner of College Avenue and Allen Street, and they hold `{python} share_downtown_reviews` of all Google reviews. On a packed day, nearly all visitor demand lands on that one small grid. Only `{python} n_walk_stadium` restaurants are within a 30-minute walk of Beaver Stadium, and almost all of them are downtown places at the far edge of that walk.
+
+```{python}
+#| label: fig-map
+#| fig-cap: "Restaurant locations relative to downtown (College Ave & Allen St) and Beaver Stadium. The dashed outline marks roughly a 30-minute walk from the stadium. Restaurants along North and South Atherton Street are a drive or bus ride from both."
+lat0 = 40.80
+import math
+k = 1 / math.cos(math.radians(lat0))
+fig, ax = plt.subplots(figsize=(6.4, 5.2))
+ax.scatter(r["lng"], r["lat"], s=16, color=c.SERIES, alpha=0.75, edgecolor="white", linewidth=0.6, zorder=3)
+stadium, downtown = (40.8122, -77.8561), (40.7943, -77.8607)
+radius_km = 30 / 60 * 5 / 1.3
+ax.add_patch(mpatches.Ellipse(
+    (stadium[1], stadium[0]), 2 * radius_km / 111 * k, 2 * radius_km / 111,
+    fill=False, linestyle="--", edgecolor=c.MUTED, linewidth=1, zorder=2,
+))
+for (lat, lng), label, dx in [(stadium, "Beaver Stadium", 0.004), (downtown, "Downtown", 0.004)]:
+    ax.scatter(lng, lat, marker="*", s=180, color=c.INK, zorder=4)
+    ax.annotate(label, (lng, lat), xytext=(lng + dx, lat + 0.0015), fontsize=9, color=c.INK, zorder=5)
+ax.set_aspect(k)
+ax.set_xlim(r["lng"].min() - 0.005, r["lng"].max() + 0.012)
+ax.set_ylim(r["lat"].min() - 0.004, r["lat"].max() + 0.006)
+ax.set_xticks([]); ax.set_yticks([])
+ax.grid(False)
+for s in ax.spines.values():
+    s.set_visible(True); s.set_color(c.RULE)
+ax.annotate("1 km", xy=(0, 0), xycoords="axes fraction", xytext=(0.03, 0.03), fontsize=8, color=c.MUTED)
+x0 = ax.get_xlim()[0] + 0.0015
+y0 = ax.get_ylim()[0] + 0.004
+ax.plot([x0, x0 + 1 / 111 * k], [y0, y0], color=c.MUTED, linewidth=1.5)
+plt.tight_layout()
+plt.show()
+```
+
+### Paying more barely buys better food
+
+There are no \$\$\$ or \$\$\$\$ restaurants in the data at all: State College is entirely \$ and \$\$. The `{python} int(mid['count'])` mid-priced (\$\$) places average `{python} f"{mid['mean']:.2f}"` stars, against `{python} f"{cheap['mean']:.2f}"` for the `{python} int(cheap['count'])` budget (\$) places, a gap of about a tenth of a star. (`{python} n_no_price` restaurants have no price listed.)
+
+```{python}
+#| output: asis
+tbl = r[r["price"] != ""].groupby("price").agg(
+    Restaurants=("name", "size"),
+    **{"Average rating": ("rating", "mean")},
+    **{"Median reviews": ("review_count", "median")},
+).reset_index().rename(columns={"price": "Price"})
+tbl["Average rating"] = tbl["Average rating"].map(lambda x: f"{x:.2f}")
+tbl["Median reviews"] = tbl["Median reviews"].map(lambda x: f"{x:,.0f}")
+print(c.html_table(tbl, numeric=("Restaurants", "Average rating", "Median reviews")))
+```
+
+### The best-kept secret is Middle Eastern food
+
+Ratings on Google drift upward everywhere, so a high rating alone says little. A more useful signal is a high rating that few people have found yet. Here a *hidden gem* is a place rated 4.5 or higher with between 20 and 150 reviews. The lower bound filters out places with too few reviews to trust, such as a new location with two five-star reviews.
+
+Of the `{python} n_gems` hidden gems, `{python} n_gems_me` are Middle Eastern. Taken together, the town's `{python} n_me` Middle Eastern and halal restaurants average `{python} me_rating` stars against `{python} avg_rating` for the town as a whole, yet `{python} n_me_small` of them have fewer than 150 reviews. They are the clearest case of quality that hasn't been discovered yet.
+
+```{python}
+#| output: asis
+gems = r[(r["rating"] >= 4.5) & r["review_count"].between(20, 150)].sort_values(
+    ["rating", "review_count"], ascending=[False, False]
+)
+print(listing_table(gems, ["Restaurant", "Cuisine", "Rating", "Reviews", "Walk to downtown"]))
+```
+
+## Planning by occasion
+
+::: {.hatnote}
+Each of these questions can be asked for any date and time in [Plan a meal](planner.qmd).
+:::
+
+### Home football Saturdays
+
+On the `{python} n_home` home-game Saturdays, downtown fills from the morning and stays full after the game. For a 7:30 p.m. kickoff like the USC White Out on October 10, these are the best-rated places open at 5 p.m. that are within a 30-minute walk of the stadium (at least 50 reviews):
+
+```{python}
+#| output: asis
+pregame = c.open_at("Saturday", 17 * 60)
+pre = r[r["place_id"].isin(pregame) & r["walkable_to_stadium"] & (r["review_count"] >= 50)]
+pre = pre.sort_values(["rating", "review_count"], ascending=False).head(8)
+print(listing_table(pre, ["Restaurant", "Cuisine", "Rating", "Reviews", "Walk to stadium"]))
+```
+
+### The morning after
+
+Families who stay the night look for breakfast on Sunday. Only `{python} n_sunday_10` open restaurants are open at 10 a.m. on a Sunday, and `{python} n_closed_sunday` are closed all day. The best-rated Sunday-morning options downtown:
+
+```{python}
+#| output: asis
+sun = r[r["place_id"].isin(sunday_10) & (r["area"] == "Downtown") & (r["review_count"] >= 50)]
+sun = sun.sort_values(["rating", "review_count"], ascending=False).head(6)
+print(listing_table(sun, ["Restaurant", "Cuisine", "Rating", "Reviews", "Walk to downtown"]))
+```
+
+### Late nights and finals
+
+`{python} n_late_sat` open restaurants serve past midnight on a Saturday. During finals (December 14–18 and May 3–7), the regular hours still apply, but campus dining and study spaces drive late demand. Late-night options by category:
+
+```{python}
+#| output: asis
+late = r[r["place_id"].isin(late_sat)]
+tbl = late.groupby("category").agg(Restaurants=("name", "size"), Examples=("name", lambda s: ", ".join(sorted(s)[:4]))).reset_index()
+tbl = tbl.rename(columns={"category": "Category"}).sort_values("Restaurants", ascending=False)
+print(c.html_table(tbl, numeric=("Restaurants",)))
+```
+
+### Breaks
+
+Thanksgiving (November 22–28), winter break (December 21 – January 10) and spring break (March 7–13) are the quietest stretches of the year, `{python} n_quiet` days in total. These are the easiest times to get a table, but also the most likely times for reduced holiday hours, which the regular hours in this data do not capture.
+
+### Commencement weekends
+
+Spring commencement (May 7–9, 2027) is the one packed weekend that is not about football. Graduating families concentrate on sit-down dinners rather than tailgates, so the busiest places are the established downtown restaurants with the most reviews.
+
+```{python}
+#| output: asis
+grad = r[(r["price"] == "$$") & (r["area"] == "Downtown") & (r["category"] == "Food")]
+grad = grad.sort_values("review_count", ascending=False).head(6)
+print(listing_table(grad, ["Restaurant", "Cuisine", "Rating", "Reviews", "Walk to downtown"]))
+```
+
+## Word of mouth
+
+Posts in r/StateCollege and r/PennStateUniversity were searched for restaurant names. Mentions are rare: no restaurant is named in more than a couple of posts, so Reddit works as a qualitative check rather than a ranking signal. One recurring thread is the question *"Why is the State College restaurant scene so bad?"*, which the ratings data does not support.
+
+## Methodology
+
+1. **Collection.** Restaurants were pulled from the Google Places API (five search points, 1.5 km radius each, deduplicated by place ID), with details and up to five reviews per place. Reddit posts came from the public search endpoint.
+2. **Cleaning.** Fields were flattened into tables; late-night and Sunday flags were derived from opening hours; opening hours were reshaped into one row per opening window so that "open at 11 p.m.?" is a simple comparison.
+3. **Classification.** Cuisine types come from a priority-ordered keyword map against the restaurant name, with a short list of hand-checked overrides.
+4. **Geography.** Walking times are straight-line distance × 1.3 at 5 km/h.
+5. **Calendar.** Thirty-four events were curated by hand, each with an official source, and expanded to one row per day with a rule-based crowd level.
+
+Every table is documented column by column under [Data & methods](data.qmd).
+
+## Limitations
+
+- **One snapshot.** Ratings, review counts and hours are from March 2026. Some places will have closed or changed hours since.
+- **Crowd levels are assumptions.** They are rule-based, not measured. Measuring them would mean pulling review counts repeatedly across a semester and comparing game weeks with breaks.
+- **Thin reviews.** Google returns at most five reviews per place.
+- **Holiday hours are missing.** Breaks are when hours are most likely to differ from the regular schedule.
+
+## See also
+
+- [Plan a meal](planner.qmd): pick a date and time and see what's open
+- [The calendar](calendar.qmd): every day of 2026–27 with its expected crowd
+- [Directory](directory.qmd): every restaurant, listed by cuisine
+- [Data & methods](data.qmd): the data dictionary and pipeline
+- [Source code on GitHub](https://github.com/MedhaDev/state-college-food)
+
+[^stadium]: Penn State Athletics, Beaver Stadium. Capacity figures are published by Penn State Athletics at [gopsusports.com](https://gopsusports.com).
+[^registrar]: Penn State Office of the University Registrar, ["2026–27 Academic Calendar"](https://www.registrar.psu.edu/academic-calendars/2026-27.cfm). Retrieved October 2026.
+[^football]: Penn State Athletics, ["2026 Football Schedule"](https://gopsusports.com/sports/football/schedule). Retrieved October 2026.
+[^thon]: Penn State News, ["THON Weekend 2027 to be held Feb. 19–21"](https://www.psu.edu/news/campus-life/story/thon-weekend-2027-be-held-feb-19-21).
+[^artsfest]: Central Pennsylvania Festival of the Arts, ["Plan Your Visit"](https://arts-festival.com/plan-your-visit/).

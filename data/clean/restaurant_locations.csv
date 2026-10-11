@@ -1,0 +1,146 @@
+place_id,name,lat,lng,walk_km_to_stadium,walk_min_to_stadium,walk_km_to_downtown,walk_min_to_downtown,area,walkable_to_stadium
+ChIJc4r7zZiozokRsADin-_eEOY,Allen Street Grill,40.7941163,-77.86158089999999,2.68,32,0.1,1,Downtown,False
+ChIJc4r7zZiozokR-NiM1lWNeLg,The Corner Room,40.7942719,-77.86160670000001,2.66,32,0.1,1,Downtown,False
+ChIJbQM7Yp-ozokR-EbPyeCnEc4,The Tavern,40.7956076,-77.8597492,2.43,29,0.22,3,Downtown,True
+ChIJDUScs76ozokRAqouIMfnkSQ,Wings Over Happy Valley,40.7873806,-77.8564682,3.59,43,1.1,13,Walkable from downtown,False
+ChIJp1jQcpmozokR9Dx1diMnJes,Subway,40.7924503,-77.86385299999999,2.98,36,0.44,5,Downtown,False
+ChIJs8cWGJmozokRX0F60SEiOE8,Cafe 210 West,40.7931671,-77.8629167,2.85,34,0.29,4,Downtown,False
+ChIJ_Sl6XaCozokRaD0f2mOZNFw,The Waffle Shop Downtown,40.7977069,-77.8569098,2.1,25,0.64,8,Downtown,True
+ChIJz-QkUaCozokR8i2kntVPcsI,Chipotle Mexican Grill,40.7968158,-77.857086,2.23,27,0.54,6,Downtown,True
+ChIJl7mOn5iozokRwTh6uDBizCA,Cozy Thai Bistro,40.7926971,-77.8594361,2.84,34,0.27,3,Downtown,False
+ChIJ-3YT6ZiozokRj5SrciTLbKM,Green Bowl,40.7928414,-77.8613294,2.86,34,0.22,3,Downtown,False
+ChIJc8UbpZiozokRXReoAANZT7g,Phyrst,40.7937165,-77.8601073,2.71,32,0.11,1,Downtown,False
+ChIJVefJt5iozokRfQ87wxVsMz0,Webster's Bookstore Cafe,40.794121,-77.859668,2.64,32,0.12,1,Downtown,False
+ChIJWVdV4KGozokRyIZhg7lq7Ls,India Pavilion,40.7953639,-77.85907300000001,2.46,29,0.24,3,Downtown,True
+ChIJNWObIZmozokR73rQqOOvCPA,Dunkin',40.7934116,-77.8627065,2.81,34,0.25,3,Downtown,False
+ChIJ087mu5iozokRu9l41RRw5g0,Panera Bread,40.7933806,-77.86061839999999,2.76,33,0.13,2,Downtown,False
+ChIJPXgkIR6mzokR7Axa9TL_nIY,Subway,40.798972,-77.85539299999999,1.91,23,0.89,11,Walkable from downtown,True
+ChIJF1mw5aCozokRt_hZm_BVlV4,D.P. Dough,40.79707399999999,-77.8558432,2.19,26,0.67,8,Downtown,True
+ChIJN77YDZmozokRPfIyCOGv6dM,Starbucks Coffee Company,40.79267000000001,-77.86353,2.94,35,0.39,5,Downtown,False
+ChIJ8YG-kLCozokRP4bd29BTs2c,Faccia Luna Pizzeria,40.784782,-77.847396,4.08,49,2.0,24,Walkable from downtown,False
+ChIJK8HAyQKmzokRBIzXa9W7MYk,Monte Pizza & Wings,40.7895214,-77.8679247,3.52,42,1.05,13,Walkable from downtown,False
+ChIJ9592LpqozokRA5ZcdcddoOw,Pho 11 Vietnamese Restaurant,40.7922862,-77.8670259,3.12,37,0.75,9,Downtown,False
+ChIJuwJ5r5iozokRkBDMex98ww0,Local Whiskey,40.7937297,-77.8601448,2.71,32,0.1,1,Downtown,False
+ChIJEesCsZiozokRZis9bSTBHtU,Champs Downtown,40.793845,-77.8604948,2.7,32,0.07,1,Downtown,False
+ChIJhZxiuJiozokRhJJEB307MJM,Kondu,40.7935977,-77.8609729,2.74,33,0.11,1,Downtown,False
+ChIJY3NE6ZiozokREObS4zOEO-g,Irvings Bagels,40.7944859,-77.8611214,2.62,31,0.05,1,Downtown,False
+ChIJITis-piozokRcMQaubQhbm4,Federal Taphouse,40.79278559999999,-77.86215200000001,2.88,35,0.27,3,Downtown,False
+ChIJR2DUoqGozokRgjeHrpEolVU,Canyon Pizza,40.7949346,-77.85851699999999,2.51,30,0.26,3,Downtown,True
+ChIJkdufGJmozokRcGiU9ScCiVA,Tadashi Japanese Restaurant,40.7933203,-77.86288239999999,2.83,34,0.28,3,Downtown,False
+ChIJLzedEpmozokR1WZFWkCn5-E,Little Szechuan,40.79275639999999,-77.8632781,2.92,35,0.36,4,Downtown,False
+ChIJi53GwnBoSogR34J5rnskSFk,Primanti Bros. Restaurant and Bar,40.7966835,-77.8569364,2.24,27,0.54,6,Downtown,True
+ChIJV87IuZ-ozokR6UojuRZud6M,Sbarro,40.79796169999999,-77.8616882,2.15,26,0.54,6,Downtown,True
+ChIJS9MfwJ-ozokR3j9L8Z7Aegw,Hibachi-San,40.7981929,-77.8610271,2.1,25,0.56,7,Downtown,True
+ChIJh0Bkx5-ozokRgb9W_zKRMAk,McAlister's Deli,40.7982,-77.86149999999999,2.11,25,0.57,7,Downtown,True
+ChIJ_____6CozokRH0s6TRxxsYI,Big Bowl Noodle House,40.7980525,-77.85643400000001,2.05,25,0.72,9,Downtown,True
+ChIJuQ93hqCozokRFByYLZQn4As,Tokyo Sushi & Hibachi,40.7980777,-77.8563989,2.04,25,0.72,9,Downtown,True
+ChIJW9JL-x6mzokRLeOyNn9vIyU,Pollock Commons,40.8019445,-77.8563984,1.48,18,1.2,14,Near the stadium,True
+ChIJuw9nEpmozokRhw3lP0VS4LQ,Five Guys,40.792731,-77.863182,2.92,35,0.35,4,Downtown,False
+ChIJRSI7qJiozokRkEyNfzh5ud4,Masala Palace,40.7937658,-77.8596853,2.69,32,0.14,2,Downtown,False
+ChIJvYWt8qCozokRqNAhkLOkMEo,Uncle Chen's,40.7975901,-77.8551835,2.11,25,0.77,9,Downtown,True
+ChIJm2-Fs76ozokRGBciv9qcIkE,Domino's Pizza,40.7819239,-77.85296699999999,4.39,53,1.98,24,Walkable from downtown,False
+ChIJGej6tKGozokRBCNn-iA5GJk,Yummy Cafe,40.7965482,-77.8573856,2.27,27,0.49,6,Downtown,True
+ChIJZer94xymzokRRz-fbddQkbY,Burger King,40.7982204,-77.8616322,2.11,25,0.58,7,Downtown,True
+ChIJpwPoIB6mzokRBLPM8-t344w,Beijing Restaurant,40.798848,-77.85555029999999,1.93,23,0.87,10,Downtown,True
+ChIJWVog37yozokRVgDMrlbRA4g,Brother's Pizza,40.7874516,-77.85634120000002,3.58,43,1.1,13,Walkable from downtown,False
+ChIJfbRwhqCozokR2OtQRSTVYmk,Pita Cabana Grill,40.7967536,-77.8571176,2.24,27,0.53,6,Downtown,True
+ChIJi4zEDKCozokRjCTx6EHrpKo,Panda Express,40.7982,-77.86149999999999,2.11,25,0.57,7,Downtown,True
+ChIJffukuKCozokRBg_OwligzQk,Zen Wings and Things,40.7975414,-77.855081,2.12,25,0.77,9,Downtown,True
+ChIJb3Uc86CozokRaFlYdgkgKJU,Sharkies Bar & Thrifty Bottle,40.798078,-77.85571449999999,2.04,25,0.77,9,Downtown,True
+ChIJ6_gXJ5mozokRC0wg4AKM-ns,Fiddlehead,40.79358,-77.8624699,2.78,33,0.22,3,Downtown,False
+ChIJ8_Qb-ZiozokRD7F9pX03yyo,Margarita's Pizzeria,40.7919933,-77.8620646,2.99,36,0.37,4,Downtown,False
+ChIJJbvniKCozokR4daSh2dRIUA,Penn Kebab,40.7980525,-77.85643400000001,2.05,25,0.72,9,Downtown,True
+ChIJPXgkIR6mzokRkC7xFmBtXyc,Subway,40.8066749,-77.85694649999999,0.8,10,1.84,22,Near the stadium,True
+ChIJY0vT1IKozokRqAsEESSjauU,Triplett's,40.7968778,-77.87088059999999,2.74,33,1.17,14,Walkable from downtown,False
+ChIJ-XE4Jx6mzokRv3NophvUGns,Osaka,40.7988063,-77.855582,1.94,23,0.86,10,Downtown,True
+ChIJc8UbpZiozokRjK7d6eaAw2Q,Famous Ernie's Steaks,40.7937328,-77.86012939999999,2.71,32,0.1,1,Downtown,False
+ChIJY0vT1IKozokRxl4HzBdnTxY,Lionne & 1855 Lounge,40.7969582,-77.87082099999999,2.73,33,1.17,14,Walkable from downtown,False
+ChIJmYdO8C6pzokRJn1Jvg8IdWs,Sichuan House,40.7937297,-77.8602997,2.71,33,0.09,1,Downtown,False
+ChIJf9NQmeepzokRiiQ19clOBx8,Sher Hot Chicken,40.7937867,-77.8603778,2.7,32,0.08,1,Downtown,False
+ChIJ9ZdAqZiozokRlXff-abZryI,OLD GOLD PIZZA,40.7938727,-77.8598806,2.68,32,0.11,1,Downtown,False
+ChIJSxorcgCpzokRDL_JdfMrvgM,Brothers Bar & Grill,40.7934808,-77.86092769999999,2.76,33,0.12,1,Downtown,False
+ChIJ_W__DE2vzokRVE4oebDtk7Y,Subway,40.7845957,-77.8347351,4.62,55,3.17,38,Drive or bus,False
+ChIJDcBcerGozokR5vOAUuQAJ10,Papa Johns Pizza,40.7850606,-77.8426223,4.19,50,2.39,29,Drive or bus,False
+ChIJ15xV77KozokRQAqGmZifsas,Sakura,40.7855707,-77.83777789999999,4.34,52,2.81,34,Drive or bus,False
+ChIJI4e2nKCozokRKzF2tXX4z_8,McDonald's,40.785236,-77.8300063,4.83,58,3.61,43,Drive or bus,False
+ChIJfXA12rKozokRgGofwbWvSuU,Plaza Mexican Bar & Grill,40.7847901,-77.83761249999999,4.45,53,2.88,35,Drive or bus,False
+ChIJ4UpLLU2vzokRvWl3DsTHCY8,The Bistro - Eat. Drink. Connect.®,40.78441730000001,-77.83733749999999,4.51,54,2.93,35,Drive or bus,False
+ChIJT555DE2vzokR839zF6otg6w,The Honey Baked Ham Company,40.7845683,-77.8346845,4.63,56,3.18,38,Drive or bus,False
+ChIJnYyUBE2vzokRl7ZNWPRN3eI,Rothrock Coffee,40.78445749999999,-77.8346017,4.65,56,3.19,38,Drive or bus,False
+ChIJxTGidLGozokRogdtRvkQDzg,Dunkin',40.7847731,-77.8438092,4.19,50,2.31,28,Drive or bus,False
+ChIJxyZWQE6vzokR7ortuO-Wu_k,Taco Bell,40.7849386,-77.82897729999999,4.93,59,3.73,45,Drive or bus,False
+ChIJ7eDJt5iozokRESlT9wfgbjM,Jersey Mike's Subs,40.785789,-77.83031799999999,4.75,57,3.55,43,Drive or bus,False
+ChIJM80XGwKpzokRSE1IyRVlQaw,Celebrities,40.7843394,-77.83994430000001,4.4,53,2.69,32,Drive or bus,False
+ChIJu3-dGyevzokR5Rq0t1Fkj-c,KFC,40.784567,-77.833998,4.67,56,3.24,39,Drive or bus,False
+ChIJ951gerGozokRcpwrFiOSCj8,Lychee Chinese Restaurant,40.7849856,-77.84289369999999,4.19,50,2.37,28,Drive or bus,False
+ChIJxXBXPCKvzokRn_LaARTeaXw,Sheetz,40.7844937,-77.8317491,4.81,58,3.47,42,Drive or bus,False
+ChIJ65BfdgivzokRx9O_r20n3iE,Chipotle Mexican Grill,40.7841657,-77.830452,4.93,59,3.62,43,Drive or bus,False
+ChIJ4xWMQACvzokRe2Fa_2nbws4,Kitchen Garden,40.7857107,-77.8302286,4.76,57,3.56,43,Drive or bus,False
+ChIJKzjvq1yvzokRt93pqEeFNEY,Pizza Hut,40.7857705,-77.83010159999999,4.76,57,3.57,43,Drive or bus,False
+ChIJg7sbWbmozokR_uWQU_PI3Pk,Toasted Bagel Café,40.7833317,-77.852932,4.19,50,1.8,22,Walkable from downtown,False
+ChIJ1xxcniCpzokRfVpM3wyIvjk,Fatoum Bistro,40.7818775,-77.85338329999999,4.39,53,1.97,24,Walkable from downtown,False
+ChIJZ4ASbwCpzokRxrKXXfJT2zc,Manna BBQ and Hotpot,40.7818646,-77.8533999,4.4,53,1.97,24,Walkable from downtown,False
+ChIJN2d5kgKpzokR_NWKlNG47UI,CLUCK & CATCH,40.7818511,-77.85345339999999,4.4,53,1.97,24,Walkable from downtown,False
+ChIJyel8NdqnzokRDEE67ucopvg,Subway,40.8100706,-77.8974375,4.53,54,4.62,55,Drive or bus,False
+ChIJ3zrqLdenzokRowXv1F7ZeFY,Champs Sports Grill,40.8079223,-77.8929138,4.07,49,4.04,48,Drive or bus,False
+ChIJIxe76buozokRIH0rqC82eQY,Fuji Jade Garden & My Thai,40.8035138,-77.8881707,3.73,45,3.29,39,Drive or bus,False
+ChIJNQejOdWnzokR5mhZSP9FjW0,The Original Waffle Shop North,40.8033539,-77.8830602,3.22,39,2.77,33,Drive or bus,False
+ChIJ227jINynzokRg5AB6ewbCQ0,Sheetz,40.8091144,-77.90080859999999,4.91,59,4.88,59,Drive or bus,False
+ChIJo78no9WnzokRfgse8sOLwqs,Subway,40.803448,-77.8879649,3.71,45,3.26,39,Drive or bus,False
+ChIJJXRggiqmzokRs-PVkkMphjE,Domino's Pizza,40.8012556,-77.8805048,3.1,37,2.39,29,Drive or bus,False
+ChIJhwZW6LuozokRIL0n_VlWqbU,My Thai,40.8035983,-77.88817639999999,3.72,45,3.29,40,Drive or bus,False
+ChIJyfbDgtanzokRdlIBzpjpH0o,Dunkin',40.8054957,-77.8882935,3.65,44,3.43,41,Drive or bus,False
+ChIJ_6f0A9enzokRFc2lilYT1GQ,Arena Bar & Grill,40.8054556,-77.8914867,3.99,48,3.73,45,Drive or bus,False
+ChIJAcw3qZiozokRADktxzEgEgw,Rita's Italian Ice & Frozen Custard,40.8078412,-77.8926572,4.05,49,4.01,48,Drive or bus,False
+ChIJOcg0J9SnzokRCHePt__4fTY,Hoss's Steak & Sea House,40.8059401,-77.88946589999999,3.76,45,3.57,43,Drive or bus,False
+ChIJMTGlNdenzokR35sHOTjCUF8,Panera Bread,40.8081798,-77.8938261,4.17,50,4.14,50,Drive or bus,False
+ChIJYcqVUtenzokRTV7LoUK7h9A,Red Lobster,40.80751,-77.89600399999999,4.42,53,4.31,52,Drive or bus,False
+ChIJCd8IpPylzokRAVv9Di3dDXo,Dairy Queen Grill & Chill,40.806042,-77.8921317,4.04,48,3.84,46,Drive or bus,False
+ChIJQ5NLv92nzokRJmpHsuRieFM,Moe's Southwest Grill,40.8100281,-77.9020793,5.04,60,5.07,61,Drive or bus,False
+ChIJW9Z0MtenzokRA60J8Onj0-4,McDonald's,40.808498,-77.89572700000001,4.37,52,4.35,52,Drive or bus,False
+ChIJo78no9WnzokRatst01eBReo,Brothers Pizza,40.8026074,-77.8860603,3.56,43,3.02,36,Drive or bus,False
+ChIJDX_eLdenzokRyaFWkTh7z8c,Wendy's,40.8072936,-77.8929332,4.09,49,4.0,48,Drive or bus,False
+ChIJBQtU1tSnzokRAoCa9kLih9Y,The Greek,40.8041872,-77.8829246,3.16,38,2.82,34,Drive or bus,False
+ChIJ4WejM9enzokRDKJMk_WAWrg,CC Peppers,40.810267,-77.8949105,4.26,51,4.4,53,Drive or bus,False
+ChIJ56CsvCqmzokRpMgp9M5Vf4o,Penang Asian Fusion Cuisine,40.8030221,-77.88205710000001,3.13,38,2.66,32,Drive or bus,False
+ChIJifwGeQCnzokRt0D-Oa6ivo4,Hibachi at MY THIA,40.8036757,-77.88826809999999,3.73,45,3.31,40,Drive or bus,False
+ChIJRyJVLtenzokRRwuNlagXfSs,Suzie Wong's Egg Roll & More,40.8069122,-77.8929617,4.1,49,3.97,48,Drive or bus,False
+ChIJS45lWp2nzokRG1CHQeG-Z9E,Marzoni’s Brick Oven & Brewing Co.,40.8027444,-77.88133619999999,3.08,37,2.57,31,Drive or bus,False
+ChIJTdppRFulzokRJ9wRPsZhdZE,GuDong Hot Pot Delivery,40.8018757,-77.88144869999999,3.15,38,2.52,30,Drive or bus,False
+ChIJJbB5LFipzokRLqvMJVcLgD4,Fire & Fig Grill,40.8013295,-77.88053959999999,3.1,37,2.4,29,Drive or bus,False
+ChIJC61ONqOnzokR-6g_fIq8vgg,700 Degree Pizza,40.8084417,-77.8966798,4.47,54,4.44,53,Drive or bus,False
+ChIJ3yCCneunzokREB_SeUnDEt0,College Buffet,40.8102367,-77.89501229999999,4.27,51,4.4,53,Drive or bus,False
+ChIJafr7Yr2nzokRJN36dg0ar-s,Chipotle Mexican Grill,40.8086358,-77.903763,5.24,63,5.15,62,Drive or bus,False
+ChIJ-c_Uad6nzokRe0dNYsOL9zU,Panda Express,40.8086064,-77.9042303,5.29,63,5.19,62,Drive or bus,False
+ChIJwVWm2_SozokR9UQ8F53pcZY,The Original Waffle Shop West,40.77962,-77.8794533,5.36,64,2.95,35,Drive or bus,False
+ChIJnygvaIyozokRdMO-LNqDGes,HiWay Pizza Pub,40.784262,-77.8752916,4.55,55,2.16,26,Drive or bus,False
+ChIJl2fWJQClzokRLXfMVPQFuGg,Fatema's Kitchen,40.78247959999999,-77.8759386,4.81,58,2.39,29,Drive or bus,False
+ChIJpeRe5iupzokRHlXGQp4yhNE,Tadashi Japanese Restaurant,40.791537,-77.8651981,3.15,38,0.63,8,Downtown,False
+ChIJJ3oZQ0KpzokRq6birKXoUr8,Trophy Room,40.7915175,-77.86415149999999,3.12,37,0.55,7,Downtown,False
+ChIJ65yEU16pzokR72CHVnNM63g,POKE & NOODLE BOWL,40.7912101,-77.86307510000002,3.13,38,0.52,6,Downtown,False
+ChIJyVU_oF6pzokRcfD0_Bv-yFc,Panera Bread,40.79733969999999,-77.8686931,2.55,31,0.98,12,Walkable from downtown,False
+ChIJY4aUUMypzokRue1uFTNCFio,Lupitas Authentic Mexican Food,40.7913436,-77.8628885,3.11,37,0.49,6,Downtown,False
+ChIJZ3nfQCKpzokR4j4tdWYjHvY,Chill Out Hookah Lounge,40.79277,-77.86315499999999,2.91,35,0.35,4,Downtown,False
+ChIJvXSXt--pzokRIqQPTIDpdz4,Cafe Laura,40.7986905,-77.87020640000001,2.49,30,1.22,15,Walkable from downtown,True
+ChIJtT99xzupzokRbQkw72lMjS8,Big Dean's Hot Chicken,40.7932396,-77.86285099999999,2.84,34,0.28,3,Downtown,False
+ChIJHfdTzoapzokR2d0etyYT8u0,Susie's Tacos,40.7921539,-77.8622535,2.97,36,0.35,4,Downtown,False
+ChIJn5_eDRCpzokRj6M_f8B4jAM,Bagel Crust,40.7921929,-77.8622535,2.97,36,0.35,4,Downtown,False
+ChIJ4Y3sI5SpzokRcln_Qk_3HqA,Fuego Grill,40.7902242,-77.86165249999999,3.23,39,0.6,7,Downtown,False
+ChIJH_4JGZepzokRtZTgKp-ZH-Q,Coffee Hemp & Tea,40.7902242,-77.86165249999999,3.23,39,0.6,7,Downtown,False
+ChIJ25uo2GSpzokRZj-upQZQPtw,Benny Leone's Pizza,40.7934118,-77.86234639999999,2.8,34,0.22,3,Downtown,False
+ChIJI2ESi1OpzokRhHMTu--0VMI,Snap Custom Pizza,40.7936223,-77.8623811,2.77,33,0.21,3,Downtown,False
+ChIJjSgJYbKpzokRYWfraesgRz0,Juana's Venezuelan Cuisine,40.7933509,-77.8615502,2.79,33,0.17,2,Downtown,False
+ChIJJYdc65iozokR_63CFyOK-eA,Penn Pide Halal Brothers,40.7929145,-77.86115869999999,2.84,34,0.21,2,Downtown,False
+ChIJRV_HftKpzokRn9SynT9N_eM,Allen Street Pizza,40.7936036,-77.8611567,2.74,33,0.11,1,Downtown,False
+ChIJoY_jt5iozokRIGvGoVUeliw,Sauly Boy's,40.7938317,-77.86102199999999,2.71,33,0.08,1,Downtown,False
+ChIJPf0064mpzokRsTYJn-I5_OE,Chick 2,40.7948827,-77.8606886,2.55,31,0.08,1,Downtown,False
+ChIJmWtlw4epzokRaoGti1MzJbU,Dagu Rice Noodle 大鼓米线,40.7950285,-77.8606221,2.53,30,0.11,1,Downtown,True
+ChIJ1wxEiVWnzokR4y1xJmo8WCE,Playa Bowls,40.798756,-77.85433499999999,1.95,23,0.95,11,Walkable from downtown,True
+ChIJ7_mN5HenzokRDrE-kl9NWc0,Big Chicken,40.7992558,-77.8549598,1.88,23,0.95,11,Walkable from downtown,True
+ChIJxfRuH26nzokRrw2tuQGqwxM,Pho Mi Now,40.7988796,-77.8554804,1.93,23,0.87,10,Downtown,True
+ChIJzUeky-CnzokRUJNhoMKfPD8,Teadori,40.7988796,-77.8554804,1.93,23,0.87,10,Downtown,True
+ChIJf_RhRb2pzokRN0Nrim_ZEks,Cafe Alina,40.7979897,-77.8559118,2.05,25,0.75,9,Downtown,True
+ChIJlZ9sPACpzokRZHVi08rrpC0,Mosul Grill,40.7983,-77.856109,2.01,24,0.77,9,Downtown,True
+ChIJJx-yTGCpzokRwCsVey0scRo,Penn State Halal Guys,40.7980869,-77.8560806,2.04,24,0.75,9,Downtown,True
+ChIJg9l96aCozokRmNprRLK1F5Y,Sowers Harvest Café,40.7972698,-77.8556759,2.16,26,0.7,8,Downtown,True
+ChIJx2YPDv-pzokRMlh0Z_WYyHU,Bistrozine,40.797825,-77.85602279999999,2.08,25,0.72,9,Downtown,True

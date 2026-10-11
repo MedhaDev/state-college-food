@@ -2,8 +2,10 @@ import json
 import csv
 import os
 
-INPUT_FILE  = "/Users/medhasharma/state-college-food/data/raw/restaurants_detailed.json"
-OUTPUT_FILE = "/Users/medhasharma/state-college-food/data/clean/restaurants_clean.csv"
+from config import RAW, CLEAN
+
+INPUT_FILE  = RAW / "restaurants_detailed.json"
+OUTPUT_FILE = CLEAN / "restaurants_clean.csv"
 
 # Make sure output folder exists
 os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)

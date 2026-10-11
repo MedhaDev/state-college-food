@@ -1,0 +1,35 @@
+---
+title: "Data & methods"
+toc: true
+---
+
+::: {.tagline}
+How the data was collected, cleaned and documented. Everything here is reproducible from the [GitHub repository](https://github.com/MedhaDev/state-college-food).
+:::
+
+## Downloads
+
+| Table | One row is | File |
+|---|---|---|
+| Restaurants | a restaurant | [restaurants_tagged.csv](https://github.com/MedhaDev/state-college-food/blob/main/data/clean/restaurants_tagged.csv) |
+| Opening hours | an opening window on one day | [restaurant_hours.csv](https://github.com/MedhaDev/state-college-food/blob/main/data/clean/restaurant_hours.csv) |
+| Locations | a restaurant | [restaurant_locations.csv](https://github.com/MedhaDev/state-college-food/blob/main/data/clean/restaurant_locations.csv) |
+| Calendar | a day | [calendar_days.csv](https://github.com/MedhaDev/state-college-food/blob/main/data/clean/calendar_days.csv) |
+| Penn State events | an event, with its source | [psu_events_2026_27.csv](https://github.com/MedhaDev/state-college-food/blob/main/data/reference/psu_events_2026_27.csv) |
+| Reddit mentions | a restaurant | [reddit_mentions.csv](https://github.com/MedhaDev/state-college-food/blob/main/data/clean/reddit_mentions.csv) |
+
+## Data dictionary
+
+```{python}
+#| output: asis
+# The dictionary lives in docs/data_dictionary.md so it also reads well on GitHub.
+# Here it is shown one heading level down, with $ signs escaped so they aren't read as math.
+import re
+from pathlib import Path
+
+text = (Path("..") / "docs" / "data_dictionary.md").read_text(encoding="utf-8")
+text = text.split("\n", 1)[1]                      # drop the "# Data Dictionary" title
+text = re.sub(r"^(#+) ", lambda m: "#" + m.group(1) + " ", text, flags=re.M)
+text = text.replace("$", r"\$")
+print(text)
+```

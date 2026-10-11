@@ -1,0 +1,35 @@
+event_id,event_name,event_type,start_date,end_date,location,expected_crowd,notes,source_url
+fa26-early-arrival,Fall 2026 early move-in,move_in,2026-08-17,2026-08-19,Residence halls,4,Early arrival (extra fee),https://liveon.psu.edu/university-park/news/university-park-important-dates-2026-27-academic-year
+fa26-arrival,Fall 2026 move-in,move_in,2026-08-20,2026-08-22,Residence halls,4,Official arrival days,https://liveon.psu.edu/university-park/news/university-park-important-dates-2026-27-academic-year
+fa26-late-arrival,Fall 2026 late move-in,move_in,2026-08-23,2026-08-23,Residence halls,4,Late arrival day,https://liveon.psu.edu/university-park/news/university-park-important-dates-2026-27-academic-year
+fa26-classes-begin,Fall 2026 classes begin,academic,2026-08-24,2026-08-24,Campus,3,,https://www.registrar.psu.edu/academic-calendars/2026-27.cfm
+fb26-marshall,Football vs Marshall (Stripe Out),football_home,2026-09-05,2026-09-05,Beaver Stadium,5,Result: W 45-0,https://gopsusports.com/sports/football/schedule
+labor-day-26,Labor Day (no classes),holiday,2026-09-07,2026-09-07,Campus,3,Housing stays open,https://www.registrar.psu.edu/academic-calendars/2026-27.cfm
+fb26-temple,Football at Temple,football_away,2026-09-12,2026-09-12,"Philadelphia, Pa.",3,Away game; result: W 27-9,https://gopsusports.com/sports/football/schedule
+fb26-buffalo,Football vs Buffalo (THON Game),football_home,2026-09-19,2026-09-19,Beaver Stadium,5,Result: W 55-13,https://gopsusports.com/sports/football/schedule
+fb26-wisconsin,Football vs Wisconsin (Homecoming),football_home,2026-09-26,2026-09-26,Beaver Stadium,5,Homecoming; result: L 20-24,https://gopsusports.com/sports/football/schedule
+fb26-northwestern,Football at Northwestern,football_away,2026-10-02,2026-10-02,"Evanston, Ill.",3,Away game (Friday); result: L 13-34,https://gopsusports.com/sports/football/schedule
+fb26-usc,Football vs USC (White Out),football_home,2026-10-10,2026-10-10,Beaver Stadium,5,7:30 PM kickoff,https://gopsusports.com/sports/football/schedule
+fb26-michigan,Football at Michigan,football_away,2026-10-17,2026-10-17,"Ann Arbor, Mich.",3,Away game; 3:30 PM kickoff,https://gopsusports.com/sports/football/schedule
+fb26-purdue,Football vs Purdue (All-U Day),football_home,2026-10-31,2026-10-31,Beaver Stadium,5,Halloween; kickoff time TBD,https://gopsusports.com/sports/football/schedule
+fb26-washington,Football at Washington,football_away,2026-11-07,2026-11-07,"Seattle, Wash.",3,Away game; kickoff time TBD,https://gopsusports.com/sports/football/schedule
+fb26-minnesota,Football vs Minnesota (Military Appreciation),football_home,2026-11-14,2026-11-14,Beaver Stadium,5,Kickoff time TBD,https://gopsusports.com/sports/football/schedule
+fb26-rutgers,Football vs Rutgers (Senior Day),football_home,2026-11-21,2026-11-21,Beaver Stadium,5,Last home game; kickoff time TBD,https://gopsusports.com/sports/football/schedule
+thanksgiving-26,Thanksgiving break (no classes),break,2026-11-22,2026-11-28,Campus,1,,https://www.registrar.psu.edu/academic-calendars/2026-27.cfm
+fb26-maryland,Football at Maryland,football_away,2026-11-28,2026-11-28,"College Park, Md.",1,Away game during Thanksgiving break,https://gopsusports.com/sports/football/schedule
+fa26-classes-end,Fall 2026 classes end,academic,2026-12-11,2026-12-11,Campus,3,,https://www.registrar.psu.edu/academic-calendars/2026-27.cfm
+fa26-study-days,Fall 2026 study days,finals,2026-12-12,2026-12-13,Campus,3,,https://www.registrar.psu.edu/academic-calendars/2026-27.cfm
+fa26-finals,Fall 2026 final exams,finals,2026-12-14,2026-12-18,Campus,3,,https://www.registrar.psu.edu/academic-calendars/2026-27.cfm
+fa26-commencement,Fall 2026 commencement,commencement,2026-12-20,2026-12-20,Campus,4,Housing closes 4 p.m. the same day,https://www.registrar.psu.edu/academic-calendars/2026-27.cfm
+winter-break-26,Winter break,break,2026-12-21,2027-01-10,Campus,1,Derived: day after fall commencement through day before spring classes,https://www.registrar.psu.edu/academic-calendars/2026-27.cfm
+sp27-classes-begin,Spring 2027 classes begin,academic,2027-01-11,2027-01-11,Campus,3,,https://www.registrar.psu.edu/academic-calendars/2026-27.cfm
+mlk-27,Martin Luther King Jr. Day (no classes),holiday,2027-01-18,2027-01-18,Campus,3,,https://www.registrar.psu.edu/academic-calendars/2026-27.cfm
+thon-27,THON Weekend 2027,campus_event,2027-02-19,2027-02-21,Bryce Jordan Center,4,46-hour dance marathon,https://www.psu.edu/news/campus-life/story/thon-weekend-2027-be-held-feb-19-21
+spring-break-27,Spring break (no classes),break,2027-03-07,2027-03-13,Campus,1,,https://www.registrar.psu.edu/academic-calendars/2026-27.cfm
+sp27-classes-end,Spring 2027 classes end,academic,2027-04-30,2027-04-30,Campus,3,,https://www.registrar.psu.edu/academic-calendars/2026-27.cfm
+sp27-study-days,Spring 2027 study days,finals,2027-05-01,2027-05-02,Campus,3,,https://www.registrar.psu.edu/academic-calendars/2026-27.cfm
+sp27-finals,Spring 2027 final exams,finals,2027-05-03,2027-05-07,Campus,3,,https://www.registrar.psu.edu/academic-calendars/2026-27.cfm
+sp27-commencement,Spring 2027 commencement,commencement,2027-05-07,2027-05-09,Campus,5,Largest graduation weekend of the year,https://www.registrar.psu.edu/academic-calendars/2026-27.cfm
+summer-27,Summer 2027 sessions,summer,2027-05-10,2027-08-11,Campus,2,Maymester starts May 10; regular session May 17 - Aug 11,https://www.registrar.psu.edu/academic-calendars/2026-27.cfm
+arts-fest-27,Central PA Festival of the Arts,community_event,2027-07-07,2027-07-11,Downtown State College,5,Arts Fest,https://arts-festival.com/plan-your-visit/
+su27-commencement,Summer 2027 commencement,commencement,2027-08-14,2027-08-14,Campus,3,,https://www.registrar.psu.edu/academic-calendars/2026-27.cfm

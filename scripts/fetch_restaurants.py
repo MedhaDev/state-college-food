@@ -2,10 +2,11 @@ import requests
 import json
 import time
 
-API_KEY = "YOUR_GOOGLE_API_KEY_HERE"
+from config import RAW, google_api_key
 
-OUTPUT_RAW      = "/Users/medhasharma/state-college-food/data/raw/restaurants_raw.json"
-OUTPUT_DETAILED = "/Users/medhasharma/state-college-food/data/raw/restaurants_detailed.json"
+
+OUTPUT_RAW      = RAW / "restaurants_raw.json"
+OUTPUT_DETAILED = RAW / "restaurants_detailed.json"
 
 # Multiple search points covering all of State College
 SEARCH_POINTS = [
@@ -53,6 +54,8 @@ def fetch_details(place_id, api_key):
 
 
 def main():
+    api_key = google_api_key()
+
     # Step 1 — fetch from all search points, deduplicate by place_id
     print("🔍 Fetching restaurants from multiple locations...\n")
     seen_ids = set()
@@ -60,7 +63,7 @@ def main():
 
     for point in SEARCH_POINTS:
         print(f"  Searching: {point['name']}...")
-        results = fetch_nearby(point["lat"], point["lng"], RADIUS, API_KEY)
+        results = fetch_nearby(point["lat"], point["lng"], RADIUS, api_key)
         new = 0
         for r in results:
             pid = r.get("place_id")
@@ -85,7 +88,7 @@ def main():
         pid  = r.get("place_id")
         name = r.get("name", "Unknown")
         print(f"  [{i+1}/{len(all_results)}] {name}")
-        details = fetch_details(pid, API_KEY)
+        details = fetch_details(pid, api_key)
         detailed.append(details)
         time.sleep(0.3)
 

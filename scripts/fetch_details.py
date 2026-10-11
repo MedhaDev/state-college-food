@@ -2,10 +2,11 @@ import requests
 import json
 import time
 
-API_KEY = "AIzaSyBTtQGZtGJsXlcm5W2fHgTOE739N2WHz6o"
+from config import RAW, google_api_key
 
-INPUT_FILE  = "/Users/medhasharma/state-college-food/data/raw/restaurants_raw.json"
-OUTPUT_FILE = "/Users/medhasharma/state-college-food/data/raw/restaurants_detailed.json"
+
+INPUT_FILE  = RAW / "restaurants_raw.json"
+OUTPUT_FILE = RAW / "restaurants_detailed.json"
 
 FIELDS = ",".join([
     "place_id",
@@ -35,6 +36,8 @@ def fetch_details(place_id, api_key):
     return data.get("result", {})
 
 def main():
+    api_key = google_api_key()
+
     # Load the raw restaurant list
     with open(INPUT_FILE, "r") as f:
         restaurants = json.load(f)
@@ -52,7 +55,7 @@ def main():
             continue
 
         print(f"  [{i+1}/{len(restaurants)}] Fetching details for: {name}")
-        details = fetch_details(place_id, API_KEY)
+        details = fetch_details(place_id, api_key)
         detailed.append(details)
 
         # Be polite to the API — don't hammer it

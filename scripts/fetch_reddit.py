@@ -3,7 +3,9 @@ import json
 import time
 import os
 
-OUTPUT_FILE = "/Users/medhasharma/state-college-food/data/raw/reddit_posts.json"
+from config import RAW
+
+OUTPUT_FILE = RAW / "reddit_posts.json"
 os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
 HEADERS = {"User-Agent": "state-college-food-research/1.0"}

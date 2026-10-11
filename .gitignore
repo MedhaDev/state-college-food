@@ -2,3 +2,10 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Quarto build output (the site is built by GitHub Actions)
+site/_site/
+site/.quarto/
+site/index_files/
+
+__pycache__/

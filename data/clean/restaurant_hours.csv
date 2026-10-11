@@ -1,0 +1,940 @@
+place_id,name,day_of_week,opens,closes,open_minute,close_minute,closes_after_midnight,open_24_hours
+ChIJc4r7zZiozokRsADin-_eEOY,Allen Street Grill,Monday,17:00,21:00,1020,1260,False,False
+ChIJc4r7zZiozokRsADin-_eEOY,Allen Street Grill,Tuesday,17:00,21:00,1020,1260,False,False
+ChIJc4r7zZiozokRsADin-_eEOY,Allen Street Grill,Wednesday,17:00,21:00,1020,1260,False,False
+ChIJc4r7zZiozokRsADin-_eEOY,Allen Street Grill,Thursday,17:00,21:00,1020,1260,False,False
+ChIJc4r7zZiozokRsADin-_eEOY,Allen Street Grill,Friday,17:00,21:00,1020,1260,False,False
+ChIJc4r7zZiozokRsADin-_eEOY,Allen Street Grill,Saturday,17:00,21:00,1020,1260,False,False
+ChIJc4r7zZiozokR-NiM1lWNeLg,The Corner Room,Sunday,08:00,21:00,480,1260,False,False
+ChIJc4r7zZiozokR-NiM1lWNeLg,The Corner Room,Monday,11:00,21:00,660,1260,False,False
+ChIJc4r7zZiozokR-NiM1lWNeLg,The Corner Room,Tuesday,11:00,21:00,660,1260,False,False
+ChIJc4r7zZiozokR-NiM1lWNeLg,The Corner Room,Wednesday,11:00,21:00,660,1260,False,False
+ChIJc4r7zZiozokR-NiM1lWNeLg,The Corner Room,Thursday,11:00,21:00,660,1260,False,False
+ChIJc4r7zZiozokR-NiM1lWNeLg,The Corner Room,Friday,08:00,21:00,480,1260,False,False
+ChIJc4r7zZiozokR-NiM1lWNeLg,The Corner Room,Saturday,08:00,21:00,480,1260,False,False
+ChIJbQM7Yp-ozokR-EbPyeCnEc4,The Tavern,Sunday,17:00,21:00,1020,1260,False,False
+ChIJbQM7Yp-ozokR-EbPyeCnEc4,The Tavern,Tuesday,17:00,21:00,1020,1260,False,False
+ChIJbQM7Yp-ozokR-EbPyeCnEc4,The Tavern,Wednesday,17:00,21:00,1020,1260,False,False
+ChIJbQM7Yp-ozokR-EbPyeCnEc4,The Tavern,Thursday,17:00,21:00,1020,1260,False,False
+ChIJbQM7Yp-ozokR-EbPyeCnEc4,The Tavern,Friday,12:00,22:00,720,1320,False,False
+ChIJbQM7Yp-ozokR-EbPyeCnEc4,The Tavern,Saturday,12:00,22:00,720,1320,False,False
+ChIJDUScs76ozokRAqouIMfnkSQ,Wings Over Happy Valley,Sunday,11:00,00:00,660,1440,False,False
+ChIJDUScs76ozokRAqouIMfnkSQ,Wings Over Happy Valley,Monday,11:00,01:00,660,1500,True,False
+ChIJDUScs76ozokRAqouIMfnkSQ,Wings Over Happy Valley,Tuesday,11:00,01:00,660,1500,True,False
+ChIJDUScs76ozokRAqouIMfnkSQ,Wings Over Happy Valley,Wednesday,11:00,01:00,660,1500,True,False
+ChIJDUScs76ozokRAqouIMfnkSQ,Wings Over Happy Valley,Thursday,11:00,01:00,660,1500,True,False
+ChIJDUScs76ozokRAqouIMfnkSQ,Wings Over Happy Valley,Friday,11:00,02:00,660,1560,True,False
+ChIJDUScs76ozokRAqouIMfnkSQ,Wings Over Happy Valley,Saturday,11:00,02:00,660,1560,True,False
+ChIJp1jQcpmozokR9Dx1diMnJes,Subway,Sunday,10:00,00:00,600,1440,False,False
+ChIJp1jQcpmozokR9Dx1diMnJes,Subway,Monday,09:00,00:00,540,1440,False,False
+ChIJp1jQcpmozokR9Dx1diMnJes,Subway,Tuesday,09:00,00:00,540,1440,False,False
+ChIJp1jQcpmozokR9Dx1diMnJes,Subway,Wednesday,09:00,00:00,540,1440,False,False
+ChIJp1jQcpmozokR9Dx1diMnJes,Subway,Thursday,09:00,00:00,540,1440,False,False
+ChIJp1jQcpmozokR9Dx1diMnJes,Subway,Friday,09:00,00:00,540,1440,False,False
+ChIJp1jQcpmozokR9Dx1diMnJes,Subway,Saturday,09:00,03:00,540,1620,True,False
+ChIJs8cWGJmozokRX0F60SEiOE8,Cafe 210 West,Sunday,12:00,22:00,720,1320,False,False
+ChIJs8cWGJmozokRX0F60SEiOE8,Cafe 210 West,Monday,11:00,02:00,660,1560,True,False
+ChIJs8cWGJmozokRX0F60SEiOE8,Cafe 210 West,Tuesday,11:00,02:00,660,1560,True,False
+ChIJs8cWGJmozokRX0F60SEiOE8,Cafe 210 West,Wednesday,11:00,02:00,660,1560,True,False
+ChIJs8cWGJmozokRX0F60SEiOE8,Cafe 210 West,Thursday,11:00,02:00,660,1560,True,False
+ChIJs8cWGJmozokRX0F60SEiOE8,Cafe 210 West,Friday,11:00,02:00,660,1560,True,False
+ChIJs8cWGJmozokRX0F60SEiOE8,Cafe 210 West,Saturday,11:00,02:00,660,1560,True,False
+ChIJ_Sl6XaCozokRaD0f2mOZNFw,The Waffle Shop Downtown,Sunday,07:00,14:00,420,840,False,False
+ChIJ_Sl6XaCozokRaD0f2mOZNFw,The Waffle Shop Downtown,Monday,07:00,14:00,420,840,False,False
+ChIJ_Sl6XaCozokRaD0f2mOZNFw,The Waffle Shop Downtown,Tuesday,07:00,14:00,420,840,False,False
+ChIJ_Sl6XaCozokRaD0f2mOZNFw,The Waffle Shop Downtown,Wednesday,07:00,14:00,420,840,False,False
+ChIJ_Sl6XaCozokRaD0f2mOZNFw,The Waffle Shop Downtown,Thursday,07:00,14:00,420,840,False,False
+ChIJ_Sl6XaCozokRaD0f2mOZNFw,The Waffle Shop Downtown,Friday,07:00,14:00,420,840,False,False
+ChIJ_Sl6XaCozokRaD0f2mOZNFw,The Waffle Shop Downtown,Saturday,07:00,14:00,420,840,False,False
+ChIJz-QkUaCozokR8i2kntVPcsI,Chipotle Mexican Grill,Sunday,10:45,23:00,645,1380,False,False
+ChIJz-QkUaCozokR8i2kntVPcsI,Chipotle Mexican Grill,Monday,10:45,23:00,645,1380,False,False
+ChIJz-QkUaCozokR8i2kntVPcsI,Chipotle Mexican Grill,Tuesday,10:45,23:00,645,1380,False,False
+ChIJz-QkUaCozokR8i2kntVPcsI,Chipotle Mexican Grill,Wednesday,10:45,23:00,645,1380,False,False
+ChIJz-QkUaCozokR8i2kntVPcsI,Chipotle Mexican Grill,Thursday,10:45,23:00,645,1380,False,False
+ChIJz-QkUaCozokR8i2kntVPcsI,Chipotle Mexican Grill,Friday,10:45,23:00,645,1380,False,False
+ChIJz-QkUaCozokR8i2kntVPcsI,Chipotle Mexican Grill,Saturday,10:45,23:00,645,1380,False,False
+ChIJl7mOn5iozokRwTh6uDBizCA,Cozy Thai Bistro,Monday,11:00,14:00,660,840,False,False
+ChIJl7mOn5iozokRwTh6uDBizCA,Cozy Thai Bistro,Monday,17:00,20:30,1020,1230,False,False
+ChIJl7mOn5iozokRwTh6uDBizCA,Cozy Thai Bistro,Tuesday,11:00,14:00,660,840,False,False
+ChIJl7mOn5iozokRwTh6uDBizCA,Cozy Thai Bistro,Tuesday,17:00,20:30,1020,1230,False,False
+ChIJl7mOn5iozokRwTh6uDBizCA,Cozy Thai Bistro,Wednesday,11:00,14:00,660,840,False,False
+ChIJl7mOn5iozokRwTh6uDBizCA,Cozy Thai Bistro,Wednesday,17:00,20:30,1020,1230,False,False
+ChIJl7mOn5iozokRwTh6uDBizCA,Cozy Thai Bistro,Thursday,11:00,14:00,660,840,False,False
+ChIJl7mOn5iozokRwTh6uDBizCA,Cozy Thai Bistro,Thursday,17:00,20:30,1020,1230,False,False
+ChIJl7mOn5iozokRwTh6uDBizCA,Cozy Thai Bistro,Friday,11:00,14:00,660,840,False,False
+ChIJl7mOn5iozokRwTh6uDBizCA,Cozy Thai Bistro,Friday,17:00,20:30,1020,1230,False,False
+ChIJl7mOn5iozokRwTh6uDBizCA,Cozy Thai Bistro,Saturday,12:00,20:30,720,1230,False,False
+ChIJ-3YT6ZiozokRj5SrciTLbKM,Green Bowl,Sunday,11:00,20:30,660,1230,False,False
+ChIJ-3YT6ZiozokRj5SrciTLbKM,Green Bowl,Monday,11:00,20:30,660,1230,False,False
+ChIJ-3YT6ZiozokRj5SrciTLbKM,Green Bowl,Tuesday,11:00,20:30,660,1230,False,False
+ChIJ-3YT6ZiozokRj5SrciTLbKM,Green Bowl,Wednesday,11:00,20:30,660,1230,False,False
+ChIJ-3YT6ZiozokRj5SrciTLbKM,Green Bowl,Thursday,11:00,20:30,660,1230,False,False
+ChIJ-3YT6ZiozokRj5SrciTLbKM,Green Bowl,Friday,11:00,20:30,660,1230,False,False
+ChIJ-3YT6ZiozokRj5SrciTLbKM,Green Bowl,Saturday,11:00,20:30,660,1230,False,False
+ChIJc8UbpZiozokRXReoAANZT7g,Phyrst,Sunday,19:00,02:00,1140,1560,True,False
+ChIJc8UbpZiozokRXReoAANZT7g,Phyrst,Monday,17:00,02:00,1020,1560,True,False
+ChIJc8UbpZiozokRXReoAANZT7g,Phyrst,Tuesday,17:00,02:00,1020,1560,True,False
+ChIJc8UbpZiozokRXReoAANZT7g,Phyrst,Wednesday,17:00,02:00,1020,1560,True,False
+ChIJc8UbpZiozokRXReoAANZT7g,Phyrst,Thursday,17:00,02:00,1020,1560,True,False
+ChIJc8UbpZiozokRXReoAANZT7g,Phyrst,Friday,17:00,02:00,1020,1560,True,False
+ChIJc8UbpZiozokRXReoAANZT7g,Phyrst,Saturday,17:00,02:00,1020,1560,True,False
+ChIJVefJt5iozokRfQ87wxVsMz0,Webster's Bookstore Cafe,Sunday,09:00,16:00,540,960,False,False
+ChIJVefJt5iozokRfQ87wxVsMz0,Webster's Bookstore Cafe,Monday,07:30,20:30,450,1230,False,False
+ChIJVefJt5iozokRfQ87wxVsMz0,Webster's Bookstore Cafe,Tuesday,07:30,20:30,450,1230,False,False
+ChIJVefJt5iozokRfQ87wxVsMz0,Webster's Bookstore Cafe,Wednesday,07:30,20:30,450,1230,False,False
+ChIJVefJt5iozokRfQ87wxVsMz0,Webster's Bookstore Cafe,Thursday,07:30,20:30,450,1230,False,False
+ChIJVefJt5iozokRfQ87wxVsMz0,Webster's Bookstore Cafe,Friday,07:30,20:30,450,1230,False,False
+ChIJVefJt5iozokRfQ87wxVsMz0,Webster's Bookstore Cafe,Saturday,08:00,17:00,480,1020,False,False
+ChIJWVdV4KGozokRyIZhg7lq7Ls,India Pavilion,Sunday,11:30,14:30,690,870,False,False
+ChIJWVdV4KGozokRyIZhg7lq7Ls,India Pavilion,Sunday,17:00,22:00,1020,1320,False,False
+ChIJWVdV4KGozokRyIZhg7lq7Ls,India Pavilion,Monday,11:30,14:30,690,870,False,False
+ChIJWVdV4KGozokRyIZhg7lq7Ls,India Pavilion,Monday,17:00,22:00,1020,1320,False,False
+ChIJWVdV4KGozokRyIZhg7lq7Ls,India Pavilion,Wednesday,11:30,14:30,690,870,False,False
+ChIJWVdV4KGozokRyIZhg7lq7Ls,India Pavilion,Wednesday,17:00,22:00,1020,1320,False,False
+ChIJWVdV4KGozokRyIZhg7lq7Ls,India Pavilion,Thursday,11:30,14:30,690,870,False,False
+ChIJWVdV4KGozokRyIZhg7lq7Ls,India Pavilion,Thursday,17:00,22:00,1020,1320,False,False
+ChIJWVdV4KGozokRyIZhg7lq7Ls,India Pavilion,Friday,11:30,14:30,690,870,False,False
+ChIJWVdV4KGozokRyIZhg7lq7Ls,India Pavilion,Friday,17:00,22:00,1020,1320,False,False
+ChIJWVdV4KGozokRyIZhg7lq7Ls,India Pavilion,Saturday,11:30,14:30,690,870,False,False
+ChIJWVdV4KGozokRyIZhg7lq7Ls,India Pavilion,Saturday,17:00,22:00,1020,1320,False,False
+ChIJNWObIZmozokR73rQqOOvCPA,Dunkin',Sunday,05:00,21:00,300,1260,False,False
+ChIJNWObIZmozokR73rQqOOvCPA,Dunkin',Monday,05:00,21:00,300,1260,False,False
+ChIJNWObIZmozokR73rQqOOvCPA,Dunkin',Tuesday,05:00,21:00,300,1260,False,False
+ChIJNWObIZmozokR73rQqOOvCPA,Dunkin',Wednesday,05:00,21:00,300,1260,False,False
+ChIJNWObIZmozokR73rQqOOvCPA,Dunkin',Thursday,05:00,21:00,300,1260,False,False
+ChIJNWObIZmozokR73rQqOOvCPA,Dunkin',Friday,05:00,21:00,300,1260,False,False
+ChIJNWObIZmozokR73rQqOOvCPA,Dunkin',Saturday,05:00,21:00,300,1260,False,False
+ChIJ087mu5iozokRu9l41RRw5g0,Panera Bread,Sunday,07:00,21:00,420,1260,False,False
+ChIJ087mu5iozokRu9l41RRw5g0,Panera Bread,Monday,07:00,21:00,420,1260,False,False
+ChIJ087mu5iozokRu9l41RRw5g0,Panera Bread,Tuesday,07:00,21:00,420,1260,False,False
+ChIJ087mu5iozokRu9l41RRw5g0,Panera Bread,Wednesday,07:00,21:00,420,1260,False,False
+ChIJ087mu5iozokRu9l41RRw5g0,Panera Bread,Thursday,07:00,21:00,420,1260,False,False
+ChIJ087mu5iozokRu9l41RRw5g0,Panera Bread,Friday,07:00,21:00,420,1260,False,False
+ChIJ087mu5iozokRu9l41RRw5g0,Panera Bread,Saturday,07:00,21:00,420,1260,False,False
+ChIJPXgkIR6mzokR7Axa9TL_nIY,Subway,Sunday,09:00,00:00,540,1440,False,False
+ChIJPXgkIR6mzokR7Axa9TL_nIY,Subway,Monday,09:00,00:00,540,1440,False,False
+ChIJPXgkIR6mzokR7Axa9TL_nIY,Subway,Tuesday,09:00,00:00,540,1440,False,False
+ChIJPXgkIR6mzokR7Axa9TL_nIY,Subway,Wednesday,09:00,00:00,540,1440,False,False
+ChIJPXgkIR6mzokR7Axa9TL_nIY,Subway,Thursday,09:00,00:00,540,1440,False,False
+ChIJPXgkIR6mzokR7Axa9TL_nIY,Subway,Friday,09:00,00:00,540,1440,False,False
+ChIJPXgkIR6mzokR7Axa9TL_nIY,Subway,Saturday,09:00,03:00,540,1620,True,False
+ChIJF1mw5aCozokRt_hZm_BVlV4,D.P. Dough,Sunday,11:00,04:00,660,1680,True,False
+ChIJF1mw5aCozokRt_hZm_BVlV4,D.P. Dough,Monday,16:00,04:00,960,1680,True,False
+ChIJF1mw5aCozokRt_hZm_BVlV4,D.P. Dough,Tuesday,16:00,04:00,960,1680,True,False
+ChIJF1mw5aCozokRt_hZm_BVlV4,D.P. Dough,Wednesday,16:00,04:00,960,1680,True,False
+ChIJF1mw5aCozokRt_hZm_BVlV4,D.P. Dough,Thursday,16:00,04:00,960,1680,True,False
+ChIJF1mw5aCozokRt_hZm_BVlV4,D.P. Dough,Friday,16:00,04:00,960,1680,True,False
+ChIJF1mw5aCozokRt_hZm_BVlV4,D.P. Dough,Saturday,11:00,04:00,660,1680,True,False
+ChIJN77YDZmozokRPfIyCOGv6dM,Starbucks Coffee Company,Sunday,05:00,21:00,300,1260,False,False
+ChIJN77YDZmozokRPfIyCOGv6dM,Starbucks Coffee Company,Monday,05:00,21:00,300,1260,False,False
+ChIJN77YDZmozokRPfIyCOGv6dM,Starbucks Coffee Company,Tuesday,05:00,21:00,300,1260,False,False
+ChIJN77YDZmozokRPfIyCOGv6dM,Starbucks Coffee Company,Wednesday,05:00,21:00,300,1260,False,False
+ChIJN77YDZmozokRPfIyCOGv6dM,Starbucks Coffee Company,Thursday,05:00,21:00,300,1260,False,False
+ChIJN77YDZmozokRPfIyCOGv6dM,Starbucks Coffee Company,Friday,05:00,21:00,300,1260,False,False
+ChIJN77YDZmozokRPfIyCOGv6dM,Starbucks Coffee Company,Saturday,05:00,21:00,300,1260,False,False
+ChIJ8YG-kLCozokRP4bd29BTs2c,Faccia Luna Pizzeria,Monday,16:00,21:00,960,1260,False,False
+ChIJ8YG-kLCozokRP4bd29BTs2c,Faccia Luna Pizzeria,Tuesday,16:00,21:00,960,1260,False,False
+ChIJ8YG-kLCozokRP4bd29BTs2c,Faccia Luna Pizzeria,Wednesday,16:00,21:00,960,1260,False,False
+ChIJ8YG-kLCozokRP4bd29BTs2c,Faccia Luna Pizzeria,Thursday,16:00,21:00,960,1260,False,False
+ChIJ8YG-kLCozokRP4bd29BTs2c,Faccia Luna Pizzeria,Friday,16:00,21:00,960,1260,False,False
+ChIJ8YG-kLCozokRP4bd29BTs2c,Faccia Luna Pizzeria,Saturday,16:00,21:00,960,1260,False,False
+ChIJK8HAyQKmzokRBIzXa9W7MYk,Monte Pizza & Wings,Sunday,11:00,02:30,660,1590,True,False
+ChIJK8HAyQKmzokRBIzXa9W7MYk,Monte Pizza & Wings,Monday,11:00,02:30,660,1590,True,False
+ChIJK8HAyQKmzokRBIzXa9W7MYk,Monte Pizza & Wings,Tuesday,11:00,02:30,660,1590,True,False
+ChIJK8HAyQKmzokRBIzXa9W7MYk,Monte Pizza & Wings,Wednesday,11:00,02:30,660,1590,True,False
+ChIJK8HAyQKmzokRBIzXa9W7MYk,Monte Pizza & Wings,Thursday,11:00,02:30,660,1590,True,False
+ChIJK8HAyQKmzokRBIzXa9W7MYk,Monte Pizza & Wings,Friday,11:00,02:30,660,1590,True,False
+ChIJK8HAyQKmzokRBIzXa9W7MYk,Monte Pizza & Wings,Saturday,11:00,02:30,660,1590,True,False
+ChIJ9592LpqozokRA5ZcdcddoOw,Pho 11 Vietnamese Restaurant,Sunday,11:00,20:00,660,1200,False,False
+ChIJ9592LpqozokRA5ZcdcddoOw,Pho 11 Vietnamese Restaurant,Monday,11:00,20:00,660,1200,False,False
+ChIJ9592LpqozokRA5ZcdcddoOw,Pho 11 Vietnamese Restaurant,Wednesday,11:00,20:00,660,1200,False,False
+ChIJ9592LpqozokRA5ZcdcddoOw,Pho 11 Vietnamese Restaurant,Thursday,11:00,20:00,660,1200,False,False
+ChIJ9592LpqozokRA5ZcdcddoOw,Pho 11 Vietnamese Restaurant,Friday,11:00,20:00,660,1200,False,False
+ChIJ9592LpqozokRA5ZcdcddoOw,Pho 11 Vietnamese Restaurant,Saturday,11:00,20:00,660,1200,False,False
+ChIJuwJ5r5iozokRkBDMex98ww0,Local Whiskey,Sunday,11:00,02:00,660,1560,True,False
+ChIJuwJ5r5iozokRkBDMex98ww0,Local Whiskey,Monday,11:00,02:00,660,1560,True,False
+ChIJuwJ5r5iozokRkBDMex98ww0,Local Whiskey,Tuesday,11:00,02:00,660,1560,True,False
+ChIJuwJ5r5iozokRkBDMex98ww0,Local Whiskey,Wednesday,11:00,02:00,660,1560,True,False
+ChIJuwJ5r5iozokRkBDMex98ww0,Local Whiskey,Thursday,11:00,02:00,660,1560,True,False
+ChIJuwJ5r5iozokRkBDMex98ww0,Local Whiskey,Friday,11:00,02:00,660,1560,True,False
+ChIJuwJ5r5iozokRkBDMex98ww0,Local Whiskey,Saturday,11:00,02:00,660,1560,True,False
+ChIJEesCsZiozokRZis9bSTBHtU,Champs Downtown,Sunday,12:00,02:00,720,1560,True,False
+ChIJEesCsZiozokRZis9bSTBHtU,Champs Downtown,Monday,16:00,02:00,960,1560,True,False
+ChIJEesCsZiozokRZis9bSTBHtU,Champs Downtown,Tuesday,16:00,02:00,960,1560,True,False
+ChIJEesCsZiozokRZis9bSTBHtU,Champs Downtown,Wednesday,16:00,02:00,960,1560,True,False
+ChIJEesCsZiozokRZis9bSTBHtU,Champs Downtown,Thursday,16:00,02:00,960,1560,True,False
+ChIJEesCsZiozokRZis9bSTBHtU,Champs Downtown,Friday,16:00,02:00,960,1560,True,False
+ChIJEesCsZiozokRZis9bSTBHtU,Champs Downtown,Saturday,12:00,02:00,720,1560,True,False
+ChIJhZxiuJiozokRhJJEB307MJM,Kondu,Sunday,11:00,21:30,660,1290,False,False
+ChIJhZxiuJiozokRhJJEB307MJM,Kondu,Monday,11:00,21:30,660,1290,False,False
+ChIJhZxiuJiozokRhJJEB307MJM,Kondu,Tuesday,11:00,21:30,660,1290,False,False
+ChIJhZxiuJiozokRhJJEB307MJM,Kondu,Wednesday,11:00,21:30,660,1290,False,False
+ChIJhZxiuJiozokRhJJEB307MJM,Kondu,Thursday,11:00,21:30,660,1290,False,False
+ChIJhZxiuJiozokRhJJEB307MJM,Kondu,Friday,11:00,22:00,660,1320,False,False
+ChIJhZxiuJiozokRhJJEB307MJM,Kondu,Saturday,11:00,22:00,660,1320,False,False
+ChIJY3NE6ZiozokREObS4zOEO-g,Irvings Bagels,Sunday,07:00,18:00,420,1080,False,False
+ChIJY3NE6ZiozokREObS4zOEO-g,Irvings Bagels,Monday,07:00,18:00,420,1080,False,False
+ChIJY3NE6ZiozokREObS4zOEO-g,Irvings Bagels,Tuesday,07:00,18:00,420,1080,False,False
+ChIJY3NE6ZiozokREObS4zOEO-g,Irvings Bagels,Wednesday,07:00,18:00,420,1080,False,False
+ChIJY3NE6ZiozokREObS4zOEO-g,Irvings Bagels,Thursday,07:00,18:00,420,1080,False,False
+ChIJY3NE6ZiozokREObS4zOEO-g,Irvings Bagels,Friday,07:00,18:00,420,1080,False,False
+ChIJY3NE6ZiozokREObS4zOEO-g,Irvings Bagels,Saturday,07:00,18:00,420,1080,False,False
+ChIJITis-piozokRcMQaubQhbm4,Federal Taphouse,Sunday,11:30,22:00,690,1320,False,False
+ChIJITis-piozokRcMQaubQhbm4,Federal Taphouse,Monday,11:30,22:00,690,1320,False,False
+ChIJITis-piozokRcMQaubQhbm4,Federal Taphouse,Tuesday,11:30,22:00,690,1320,False,False
+ChIJITis-piozokRcMQaubQhbm4,Federal Taphouse,Wednesday,11:30,22:00,690,1320,False,False
+ChIJITis-piozokRcMQaubQhbm4,Federal Taphouse,Thursday,11:30,22:00,690,1320,False,False
+ChIJITis-piozokRcMQaubQhbm4,Federal Taphouse,Friday,11:30,23:00,690,1380,False,False
+ChIJITis-piozokRcMQaubQhbm4,Federal Taphouse,Saturday,11:30,23:00,690,1380,False,False
+ChIJR2DUoqGozokRgjeHrpEolVU,Canyon Pizza,Sunday,20:00,02:00,1200,1560,True,False
+ChIJR2DUoqGozokRgjeHrpEolVU,Canyon Pizza,Monday,11:00,13:00,660,780,False,False
+ChIJR2DUoqGozokRgjeHrpEolVU,Canyon Pizza,Tuesday,00:00,02:00,0,120,False,False
+ChIJR2DUoqGozokRgjeHrpEolVU,Canyon Pizza,Tuesday,11:00,13:00,660,780,False,False
+ChIJR2DUoqGozokRgjeHrpEolVU,Canyon Pizza,Tuesday,20:00,02:00,1200,1560,True,False
+ChIJR2DUoqGozokRgjeHrpEolVU,Canyon Pizza,Wednesday,11:00,13:00,660,780,False,False
+ChIJR2DUoqGozokRgjeHrpEolVU,Canyon Pizza,Wednesday,20:00,02:00,1200,1560,True,False
+ChIJR2DUoqGozokRgjeHrpEolVU,Canyon Pizza,Thursday,11:00,13:00,660,780,False,False
+ChIJR2DUoqGozokRgjeHrpEolVU,Canyon Pizza,Thursday,20:00,02:00,1200,1560,True,False
+ChIJR2DUoqGozokRgjeHrpEolVU,Canyon Pizza,Friday,11:00,15:00,660,900,False,False
+ChIJR2DUoqGozokRgjeHrpEolVU,Canyon Pizza,Friday,20:00,02:30,1200,1590,True,False
+ChIJR2DUoqGozokRgjeHrpEolVU,Canyon Pizza,Saturday,20:00,03:00,1200,1620,True,False
+ChIJkdufGJmozokRcGiU9ScCiVA,Tadashi Japanese Restaurant,Sunday,11:00,21:30,660,1290,False,False
+ChIJkdufGJmozokRcGiU9ScCiVA,Tadashi Japanese Restaurant,Monday,11:00,21:30,660,1290,False,False
+ChIJkdufGJmozokRcGiU9ScCiVA,Tadashi Japanese Restaurant,Tuesday,11:00,21:30,660,1290,False,False
+ChIJkdufGJmozokRcGiU9ScCiVA,Tadashi Japanese Restaurant,Wednesday,11:00,21:30,660,1290,False,False
+ChIJkdufGJmozokRcGiU9ScCiVA,Tadashi Japanese Restaurant,Thursday,11:00,21:30,660,1290,False,False
+ChIJkdufGJmozokRcGiU9ScCiVA,Tadashi Japanese Restaurant,Friday,11:00,22:00,660,1320,False,False
+ChIJkdufGJmozokRcGiU9ScCiVA,Tadashi Japanese Restaurant,Saturday,11:00,22:00,660,1320,False,False
+ChIJLzedEpmozokR1WZFWkCn5-E,Little Szechuan,Sunday,11:30,21:00,690,1260,False,False
+ChIJLzedEpmozokR1WZFWkCn5-E,Little Szechuan,Monday,11:00,21:00,660,1260,False,False
+ChIJLzedEpmozokR1WZFWkCn5-E,Little Szechuan,Tuesday,11:00,21:00,660,1260,False,False
+ChIJLzedEpmozokR1WZFWkCn5-E,Little Szechuan,Wednesday,11:00,21:00,660,1260,False,False
+ChIJLzedEpmozokR1WZFWkCn5-E,Little Szechuan,Thursday,11:00,21:00,660,1260,False,False
+ChIJLzedEpmozokR1WZFWkCn5-E,Little Szechuan,Friday,11:00,21:30,660,1290,False,False
+ChIJLzedEpmozokR1WZFWkCn5-E,Little Szechuan,Saturday,11:00,21:30,660,1290,False,False
+ChIJi53GwnBoSogR34J5rnskSFk,Primanti Bros. Restaurant and Bar,Sunday,11:00,02:00,660,1560,True,False
+ChIJi53GwnBoSogR34J5rnskSFk,Primanti Bros. Restaurant and Bar,Monday,11:00,02:00,660,1560,True,False
+ChIJi53GwnBoSogR34J5rnskSFk,Primanti Bros. Restaurant and Bar,Tuesday,11:00,02:00,660,1560,True,False
+ChIJi53GwnBoSogR34J5rnskSFk,Primanti Bros. Restaurant and Bar,Wednesday,11:00,02:00,660,1560,True,False
+ChIJi53GwnBoSogR34J5rnskSFk,Primanti Bros. Restaurant and Bar,Thursday,11:00,02:00,660,1560,True,False
+ChIJi53GwnBoSogR34J5rnskSFk,Primanti Bros. Restaurant and Bar,Friday,11:00,02:00,660,1560,True,False
+ChIJi53GwnBoSogR34J5rnskSFk,Primanti Bros. Restaurant and Bar,Saturday,11:00,02:00,660,1560,True,False
+ChIJV87IuZ-ozokR6UojuRZud6M,Sbarro,Monday,11:00,20:00,660,1200,False,False
+ChIJV87IuZ-ozokR6UojuRZud6M,Sbarro,Tuesday,11:00,20:00,660,1200,False,False
+ChIJV87IuZ-ozokR6UojuRZud6M,Sbarro,Wednesday,11:00,20:00,660,1200,False,False
+ChIJV87IuZ-ozokR6UojuRZud6M,Sbarro,Thursday,11:00,20:00,660,1200,False,False
+ChIJV87IuZ-ozokR6UojuRZud6M,Sbarro,Friday,11:00,20:00,660,1200,False,False
+ChIJS9MfwJ-ozokR3j9L8Z7Aegw,Hibachi-San,Sunday,12:00,19:00,720,1140,False,False
+ChIJS9MfwJ-ozokR3j9L8Z7Aegw,Hibachi-San,Monday,09:00,19:00,540,1140,False,False
+ChIJS9MfwJ-ozokR3j9L8Z7Aegw,Hibachi-San,Tuesday,09:00,19:00,540,1140,False,False
+ChIJS9MfwJ-ozokR3j9L8Z7Aegw,Hibachi-San,Wednesday,09:00,19:00,540,1140,False,False
+ChIJS9MfwJ-ozokR3j9L8Z7Aegw,Hibachi-San,Thursday,09:00,19:00,540,1140,False,False
+ChIJS9MfwJ-ozokR3j9L8Z7Aegw,Hibachi-San,Friday,09:00,18:00,540,1080,False,False
+ChIJh0Bkx5-ozokRgb9W_zKRMAk,McAlister's Deli,Monday,11:00,15:00,660,900,False,False
+ChIJh0Bkx5-ozokRgb9W_zKRMAk,McAlister's Deli,Tuesday,11:00,15:00,660,900,False,False
+ChIJh0Bkx5-ozokRgb9W_zKRMAk,McAlister's Deli,Wednesday,11:00,15:00,660,900,False,False
+ChIJh0Bkx5-ozokRgb9W_zKRMAk,McAlister's Deli,Thursday,11:00,15:00,660,900,False,False
+ChIJh0Bkx5-ozokRgb9W_zKRMAk,McAlister's Deli,Friday,11:00,15:00,660,900,False,False
+ChIJ_____6CozokRH0s6TRxxsYI,Big Bowl Noodle House,Sunday,12:00,20:30,720,1230,False,False
+ChIJ_____6CozokRH0s6TRxxsYI,Big Bowl Noodle House,Monday,11:30,20:30,690,1230,False,False
+ChIJ_____6CozokRH0s6TRxxsYI,Big Bowl Noodle House,Wednesday,11:30,20:30,690,1230,False,False
+ChIJ_____6CozokRH0s6TRxxsYI,Big Bowl Noodle House,Thursday,11:30,20:30,690,1230,False,False
+ChIJ_____6CozokRH0s6TRxxsYI,Big Bowl Noodle House,Friday,11:30,20:30,690,1230,False,False
+ChIJ_____6CozokRH0s6TRxxsYI,Big Bowl Noodle House,Saturday,12:00,20:30,720,1230,False,False
+ChIJuQ93hqCozokRFByYLZQn4As,Tokyo Sushi & Hibachi,Sunday,11:30,21:45,690,1305,False,False
+ChIJuQ93hqCozokRFByYLZQn4As,Tokyo Sushi & Hibachi,Monday,11:30,21:30,690,1290,False,False
+ChIJuQ93hqCozokRFByYLZQn4As,Tokyo Sushi & Hibachi,Tuesday,11:30,21:30,690,1290,False,False
+ChIJuQ93hqCozokRFByYLZQn4As,Tokyo Sushi & Hibachi,Wednesday,11:30,21:30,690,1290,False,False
+ChIJuQ93hqCozokRFByYLZQn4As,Tokyo Sushi & Hibachi,Thursday,11:30,21:30,690,1290,False,False
+ChIJuQ93hqCozokRFByYLZQn4As,Tokyo Sushi & Hibachi,Friday,11:30,22:30,690,1350,False,False
+ChIJuQ93hqCozokRFByYLZQn4As,Tokyo Sushi & Hibachi,Saturday,11:30,22:30,690,1350,False,False
+ChIJW9JL-x6mzokRLeOyNn9vIyU,Pollock Commons,Sunday,07:00,00:00,420,1440,False,False
+ChIJW9JL-x6mzokRLeOyNn9vIyU,Pollock Commons,Monday,07:00,00:00,420,1440,False,False
+ChIJW9JL-x6mzokRLeOyNn9vIyU,Pollock Commons,Tuesday,07:00,00:00,420,1440,False,False
+ChIJW9JL-x6mzokRLeOyNn9vIyU,Pollock Commons,Wednesday,07:00,00:00,420,1440,False,False
+ChIJW9JL-x6mzokRLeOyNn9vIyU,Pollock Commons,Thursday,07:00,00:00,420,1440,False,False
+ChIJW9JL-x6mzokRLeOyNn9vIyU,Pollock Commons,Friday,07:00,00:00,420,1440,False,False
+ChIJW9JL-x6mzokRLeOyNn9vIyU,Pollock Commons,Saturday,07:00,00:00,420,1440,False,False
+ChIJuw9nEpmozokRhw3lP0VS4LQ,Five Guys,Sunday,10:30,23:00,630,1380,False,False
+ChIJuw9nEpmozokRhw3lP0VS4LQ,Five Guys,Monday,10:30,23:00,630,1380,False,False
+ChIJuw9nEpmozokRhw3lP0VS4LQ,Five Guys,Tuesday,10:30,23:00,630,1380,False,False
+ChIJuw9nEpmozokRhw3lP0VS4LQ,Five Guys,Wednesday,10:30,23:00,630,1380,False,False
+ChIJuw9nEpmozokRhw3lP0VS4LQ,Five Guys,Thursday,10:30,23:00,630,1380,False,False
+ChIJuw9nEpmozokRhw3lP0VS4LQ,Five Guys,Friday,10:30,02:00,630,1560,True,False
+ChIJuw9nEpmozokRhw3lP0VS4LQ,Five Guys,Saturday,10:30,02:00,630,1560,True,False
+ChIJRSI7qJiozokRkEyNfzh5ud4,Masala Palace,Monday,11:30,14:30,690,870,False,False
+ChIJRSI7qJiozokRkEyNfzh5ud4,Masala Palace,Monday,17:00,22:00,1020,1320,False,False
+ChIJRSI7qJiozokRkEyNfzh5ud4,Masala Palace,Tuesday,11:30,14:30,690,870,False,False
+ChIJRSI7qJiozokRkEyNfzh5ud4,Masala Palace,Tuesday,17:00,22:00,1020,1320,False,False
+ChIJRSI7qJiozokRkEyNfzh5ud4,Masala Palace,Wednesday,11:30,14:30,690,870,False,False
+ChIJRSI7qJiozokRkEyNfzh5ud4,Masala Palace,Wednesday,17:00,22:00,1020,1320,False,False
+ChIJRSI7qJiozokRkEyNfzh5ud4,Masala Palace,Thursday,11:30,14:30,690,870,False,False
+ChIJRSI7qJiozokRkEyNfzh5ud4,Masala Palace,Thursday,17:00,22:00,1020,1320,False,False
+ChIJRSI7qJiozokRkEyNfzh5ud4,Masala Palace,Friday,11:30,14:30,690,870,False,False
+ChIJRSI7qJiozokRkEyNfzh5ud4,Masala Palace,Friday,17:00,22:00,1020,1320,False,False
+ChIJRSI7qJiozokRkEyNfzh5ud4,Masala Palace,Saturday,11:30,14:30,690,870,False,False
+ChIJRSI7qJiozokRkEyNfzh5ud4,Masala Palace,Saturday,17:00,22:00,1020,1320,False,False
+ChIJvYWt8qCozokRqNAhkLOkMEo,Uncle Chen's,Sunday,11:30,22:30,690,1350,False,False
+ChIJvYWt8qCozokRqNAhkLOkMEo,Uncle Chen's,Monday,11:00,23:30,660,1410,False,False
+ChIJvYWt8qCozokRqNAhkLOkMEo,Uncle Chen's,Tuesday,11:00,23:30,660,1410,False,False
+ChIJvYWt8qCozokRqNAhkLOkMEo,Uncle Chen's,Wednesday,11:00,23:30,660,1410,False,False
+ChIJvYWt8qCozokRqNAhkLOkMEo,Uncle Chen's,Thursday,11:00,01:30,660,1530,True,False
+ChIJvYWt8qCozokRqNAhkLOkMEo,Uncle Chen's,Friday,11:00,01:30,660,1530,True,False
+ChIJvYWt8qCozokRqNAhkLOkMEo,Uncle Chen's,Saturday,11:30,01:30,690,1530,True,False
+ChIJm2-Fs76ozokRGBciv9qcIkE,Domino's Pizza,Sunday,10:30,02:00,630,1560,True,False
+ChIJm2-Fs76ozokRGBciv9qcIkE,Domino's Pizza,Monday,10:30,02:00,630,1560,True,False
+ChIJm2-Fs76ozokRGBciv9qcIkE,Domino's Pizza,Tuesday,10:30,02:00,630,1560,True,False
+ChIJm2-Fs76ozokRGBciv9qcIkE,Domino's Pizza,Wednesday,10:30,02:00,630,1560,True,False
+ChIJm2-Fs76ozokRGBciv9qcIkE,Domino's Pizza,Thursday,10:30,02:00,630,1560,True,False
+ChIJm2-Fs76ozokRGBciv9qcIkE,Domino's Pizza,Friday,10:30,03:00,630,1620,True,False
+ChIJm2-Fs76ozokRGBciv9qcIkE,Domino's Pizza,Saturday,10:30,03:00,630,1620,True,False
+ChIJGej6tKGozokRBCNn-iA5GJk,Yummy Cafe,Sunday,11:00,21:00,660,1260,False,False
+ChIJGej6tKGozokRBCNn-iA5GJk,Yummy Cafe,Monday,11:00,21:00,660,1260,False,False
+ChIJGej6tKGozokRBCNn-iA5GJk,Yummy Cafe,Wednesday,11:00,21:00,660,1260,False,False
+ChIJGej6tKGozokRBCNn-iA5GJk,Yummy Cafe,Thursday,11:00,21:00,660,1260,False,False
+ChIJGej6tKGozokRBCNn-iA5GJk,Yummy Cafe,Friday,11:00,21:30,660,1290,False,False
+ChIJGej6tKGozokRBCNn-iA5GJk,Yummy Cafe,Saturday,11:00,21:30,660,1290,False,False
+ChIJZer94xymzokRRz-fbddQkbY,Burger King,Monday,08:30,16:00,510,960,False,False
+ChIJZer94xymzokRRz-fbddQkbY,Burger King,Tuesday,08:30,16:00,510,960,False,False
+ChIJZer94xymzokRRz-fbddQkbY,Burger King,Wednesday,08:30,16:00,510,960,False,False
+ChIJZer94xymzokRRz-fbddQkbY,Burger King,Thursday,08:30,16:00,510,960,False,False
+ChIJZer94xymzokRRz-fbddQkbY,Burger King,Friday,08:30,16:00,510,960,False,False
+ChIJpwPoIB6mzokRBLPM8-t344w,Beijing Restaurant,Sunday,11:30,22:00,690,1320,False,False
+ChIJpwPoIB6mzokRBLPM8-t344w,Beijing Restaurant,Monday,11:00,22:00,660,1320,False,False
+ChIJpwPoIB6mzokRBLPM8-t344w,Beijing Restaurant,Tuesday,11:00,22:00,660,1320,False,False
+ChIJpwPoIB6mzokRBLPM8-t344w,Beijing Restaurant,Wednesday,11:00,22:00,660,1320,False,False
+ChIJpwPoIB6mzokRBLPM8-t344w,Beijing Restaurant,Thursday,11:00,22:00,660,1320,False,False
+ChIJpwPoIB6mzokRBLPM8-t344w,Beijing Restaurant,Friday,11:00,22:30,660,1350,False,False
+ChIJpwPoIB6mzokRBLPM8-t344w,Beijing Restaurant,Saturday,11:00,22:30,660,1350,False,False
+ChIJWVog37yozokRVgDMrlbRA4g,Brother's Pizza,Sunday,12:15,20:00,735,1200,False,False
+ChIJWVog37yozokRVgDMrlbRA4g,Brother's Pizza,Tuesday,11:00,19:45,660,1185,False,False
+ChIJWVog37yozokRVgDMrlbRA4g,Brother's Pizza,Wednesday,11:00,19:45,660,1185,False,False
+ChIJWVog37yozokRVgDMrlbRA4g,Brother's Pizza,Thursday,11:00,19:45,660,1185,False,False
+ChIJWVog37yozokRVgDMrlbRA4g,Brother's Pizza,Friday,11:00,20:45,660,1245,False,False
+ChIJWVog37yozokRVgDMrlbRA4g,Brother's Pizza,Saturday,11:00,20:45,660,1245,False,False
+ChIJfbRwhqCozokR2OtQRSTVYmk,Pita Cabana Grill,Sunday,11:00,21:00,660,1260,False,False
+ChIJfbRwhqCozokR2OtQRSTVYmk,Pita Cabana Grill,Monday,11:00,21:00,660,1260,False,False
+ChIJfbRwhqCozokR2OtQRSTVYmk,Pita Cabana Grill,Tuesday,11:00,21:00,660,1260,False,False
+ChIJfbRwhqCozokR2OtQRSTVYmk,Pita Cabana Grill,Wednesday,11:00,21:00,660,1260,False,False
+ChIJfbRwhqCozokR2OtQRSTVYmk,Pita Cabana Grill,Thursday,11:00,21:00,660,1260,False,False
+ChIJfbRwhqCozokR2OtQRSTVYmk,Pita Cabana Grill,Friday,11:00,21:00,660,1260,False,False
+ChIJfbRwhqCozokR2OtQRSTVYmk,Pita Cabana Grill,Saturday,11:00,21:00,660,1260,False,False
+ChIJi4zEDKCozokRjCTx6EHrpKo,Panda Express,Sunday,11:00,20:00,660,1200,False,False
+ChIJi4zEDKCozokRjCTx6EHrpKo,Panda Express,Monday,09:00,21:00,540,1260,False,False
+ChIJi4zEDKCozokRjCTx6EHrpKo,Panda Express,Tuesday,09:00,21:00,540,1260,False,False
+ChIJi4zEDKCozokRjCTx6EHrpKo,Panda Express,Wednesday,09:00,21:00,540,1260,False,False
+ChIJi4zEDKCozokRjCTx6EHrpKo,Panda Express,Thursday,09:00,21:00,540,1260,False,False
+ChIJi4zEDKCozokRjCTx6EHrpKo,Panda Express,Friday,09:00,19:00,540,1140,False,False
+ChIJi4zEDKCozokRjCTx6EHrpKo,Panda Express,Saturday,11:00,17:00,660,1020,False,False
+ChIJffukuKCozokRBg_OwligzQk,Zen Wings and Things,Sunday,18:00,02:30,1080,1590,True,False
+ChIJffukuKCozokRBg_OwligzQk,Zen Wings and Things,Monday,18:00,02:30,1080,1590,True,False
+ChIJffukuKCozokRBg_OwligzQk,Zen Wings and Things,Tuesday,18:00,02:30,1080,1590,True,False
+ChIJffukuKCozokRBg_OwligzQk,Zen Wings and Things,Wednesday,18:00,02:30,1080,1590,True,False
+ChIJffukuKCozokRBg_OwligzQk,Zen Wings and Things,Thursday,18:00,02:30,1080,1590,True,False
+ChIJffukuKCozokRBg_OwligzQk,Zen Wings and Things,Friday,18:00,02:30,1080,1590,True,False
+ChIJffukuKCozokRBg_OwligzQk,Zen Wings and Things,Saturday,18:00,02:30,1080,1590,True,False
+ChIJb3Uc86CozokRaFlYdgkgKJU,Sharkies Bar & Thrifty Bottle,Sunday,14:00,02:00,840,1560,True,False
+ChIJb3Uc86CozokRaFlYdgkgKJU,Sharkies Bar & Thrifty Bottle,Monday,14:00,02:00,840,1560,True,False
+ChIJb3Uc86CozokRaFlYdgkgKJU,Sharkies Bar & Thrifty Bottle,Tuesday,14:00,02:00,840,1560,True,False
+ChIJb3Uc86CozokRaFlYdgkgKJU,Sharkies Bar & Thrifty Bottle,Wednesday,14:00,02:00,840,1560,True,False
+ChIJb3Uc86CozokRaFlYdgkgKJU,Sharkies Bar & Thrifty Bottle,Thursday,14:00,02:00,840,1560,True,False
+ChIJb3Uc86CozokRaFlYdgkgKJU,Sharkies Bar & Thrifty Bottle,Friday,11:00,02:00,660,1560,True,False
+ChIJb3Uc86CozokRaFlYdgkgKJU,Sharkies Bar & Thrifty Bottle,Saturday,11:00,02:00,660,1560,True,False
+ChIJ6_gXJ5mozokRC0wg4AKM-ns,Fiddlehead,Sunday,11:00,20:00,660,1200,False,False
+ChIJ6_gXJ5mozokRC0wg4AKM-ns,Fiddlehead,Monday,11:00,20:00,660,1200,False,False
+ChIJ6_gXJ5mozokRC0wg4AKM-ns,Fiddlehead,Tuesday,11:00,20:00,660,1200,False,False
+ChIJ6_gXJ5mozokRC0wg4AKM-ns,Fiddlehead,Wednesday,11:00,20:00,660,1200,False,False
+ChIJ6_gXJ5mozokRC0wg4AKM-ns,Fiddlehead,Thursday,11:00,20:00,660,1200,False,False
+ChIJ6_gXJ5mozokRC0wg4AKM-ns,Fiddlehead,Friday,11:00,20:00,660,1200,False,False
+ChIJ6_gXJ5mozokRC0wg4AKM-ns,Fiddlehead,Saturday,11:00,16:00,660,960,False,False
+ChIJ8_Qb-ZiozokRD7F9pX03yyo,Margarita's Pizzeria,Monday,10:30,20:00,630,1200,False,False
+ChIJ8_Qb-ZiozokRD7F9pX03yyo,Margarita's Pizzeria,Tuesday,10:30,20:00,630,1200,False,False
+ChIJ8_Qb-ZiozokRD7F9pX03yyo,Margarita's Pizzeria,Wednesday,10:30,20:00,630,1200,False,False
+ChIJ8_Qb-ZiozokRD7F9pX03yyo,Margarita's Pizzeria,Thursday,10:30,20:00,630,1200,False,False
+ChIJ8_Qb-ZiozokRD7F9pX03yyo,Margarita's Pizzeria,Friday,10:30,20:00,630,1200,False,False
+ChIJJbvniKCozokR4daSh2dRIUA,Penn Kebab,Sunday,12:00,22:00,720,1320,False,False
+ChIJJbvniKCozokR4daSh2dRIUA,Penn Kebab,Tuesday,12:00,22:00,720,1320,False,False
+ChIJJbvniKCozokR4daSh2dRIUA,Penn Kebab,Wednesday,12:00,22:00,720,1320,False,False
+ChIJJbvniKCozokR4daSh2dRIUA,Penn Kebab,Thursday,12:00,22:00,720,1320,False,False
+ChIJJbvniKCozokR4daSh2dRIUA,Penn Kebab,Friday,17:00,03:00,1020,1620,True,False
+ChIJJbvniKCozokR4daSh2dRIUA,Penn Kebab,Saturday,15:00,02:30,900,1590,True,False
+ChIJPXgkIR6mzokRkC7xFmBtXyc,Subway,Sunday,09:30,15:00,570,900,False,False
+ChIJPXgkIR6mzokRkC7xFmBtXyc,Subway,Monday,09:30,20:00,570,1200,False,False
+ChIJPXgkIR6mzokRkC7xFmBtXyc,Subway,Tuesday,09:30,15:00,570,900,False,False
+ChIJPXgkIR6mzokRkC7xFmBtXyc,Subway,Wednesday,09:30,20:00,570,1200,False,False
+ChIJPXgkIR6mzokRkC7xFmBtXyc,Subway,Thursday,09:30,10:00,570,600,False,False
+ChIJPXgkIR6mzokRkC7xFmBtXyc,Subway,Friday,09:30,15:00,570,900,False,False
+ChIJPXgkIR6mzokRkC7xFmBtXyc,Subway,Saturday,09:30,15:00,570,900,False,False
+ChIJY0vT1IKozokRqAsEESSjauU,Triplett's,Sunday,11:00,22:00,660,1320,False,False
+ChIJY0vT1IKozokRqAsEESSjauU,Triplett's,Monday,11:00,22:00,660,1320,False,False
+ChIJY0vT1IKozokRqAsEESSjauU,Triplett's,Tuesday,11:00,22:00,660,1320,False,False
+ChIJY0vT1IKozokRqAsEESSjauU,Triplett's,Wednesday,11:00,22:00,660,1320,False,False
+ChIJY0vT1IKozokRqAsEESSjauU,Triplett's,Thursday,11:00,22:00,660,1320,False,False
+ChIJY0vT1IKozokRqAsEESSjauU,Triplett's,Friday,11:00,00:00,660,1440,False,False
+ChIJY0vT1IKozokRqAsEESSjauU,Triplett's,Saturday,11:00,00:00,660,1440,False,False
+ChIJ-XE4Jx6mzokRv3NophvUGns,Osaka,Sunday,11:30,22:00,690,1320,False,False
+ChIJ-XE4Jx6mzokRv3NophvUGns,Osaka,Monday,11:00,22:00,660,1320,False,False
+ChIJ-XE4Jx6mzokRv3NophvUGns,Osaka,Tuesday,11:00,22:00,660,1320,False,False
+ChIJ-XE4Jx6mzokRv3NophvUGns,Osaka,Wednesday,11:00,22:00,660,1320,False,False
+ChIJ-XE4Jx6mzokRv3NophvUGns,Osaka,Thursday,11:00,22:00,660,1320,False,False
+ChIJ-XE4Jx6mzokRv3NophvUGns,Osaka,Friday,11:00,22:30,660,1350,False,False
+ChIJ-XE4Jx6mzokRv3NophvUGns,Osaka,Saturday,11:00,22:30,660,1350,False,False
+ChIJc8UbpZiozokRjK7d6eaAw2Q,Famous Ernie's Steaks,Sunday,11:00,02:00,660,1560,True,False
+ChIJc8UbpZiozokRjK7d6eaAw2Q,Famous Ernie's Steaks,Monday,11:00,02:00,660,1560,True,False
+ChIJc8UbpZiozokRjK7d6eaAw2Q,Famous Ernie's Steaks,Tuesday,11:00,02:00,660,1560,True,False
+ChIJc8UbpZiozokRjK7d6eaAw2Q,Famous Ernie's Steaks,Wednesday,11:00,02:00,660,1560,True,False
+ChIJc8UbpZiozokRjK7d6eaAw2Q,Famous Ernie's Steaks,Thursday,11:00,02:00,660,1560,True,False
+ChIJc8UbpZiozokRjK7d6eaAw2Q,Famous Ernie's Steaks,Friday,11:00,02:00,660,1560,True,False
+ChIJc8UbpZiozokRjK7d6eaAw2Q,Famous Ernie's Steaks,Saturday,11:00,02:00,660,1560,True,False
+ChIJY0vT1IKozokRxl4HzBdnTxY,Lionne & 1855 Lounge,Sunday,07:00,21:00,420,1260,False,False
+ChIJY0vT1IKozokRxl4HzBdnTxY,Lionne & 1855 Lounge,Monday,07:00,15:00,420,900,False,False
+ChIJY0vT1IKozokRxl4HzBdnTxY,Lionne & 1855 Lounge,Tuesday,07:00,21:00,420,1260,False,False
+ChIJY0vT1IKozokRxl4HzBdnTxY,Lionne & 1855 Lounge,Wednesday,07:00,21:00,420,1260,False,False
+ChIJY0vT1IKozokRxl4HzBdnTxY,Lionne & 1855 Lounge,Thursday,07:00,21:00,420,1260,False,False
+ChIJY0vT1IKozokRxl4HzBdnTxY,Lionne & 1855 Lounge,Friday,07:00,22:00,420,1320,False,False
+ChIJY0vT1IKozokRxl4HzBdnTxY,Lionne & 1855 Lounge,Saturday,07:00,22:00,420,1320,False,False
+ChIJmYdO8C6pzokRJn1Jvg8IdWs,Sichuan House,Monday,11:00,20:00,660,1200,False,False
+ChIJmYdO8C6pzokRJn1Jvg8IdWs,Sichuan House,Tuesday,11:00,20:00,660,1200,False,False
+ChIJmYdO8C6pzokRJn1Jvg8IdWs,Sichuan House,Wednesday,11:00,20:00,660,1200,False,False
+ChIJmYdO8C6pzokRJn1Jvg8IdWs,Sichuan House,Thursday,11:00,20:00,660,1200,False,False
+ChIJmYdO8C6pzokRJn1Jvg8IdWs,Sichuan House,Friday,11:00,20:00,660,1200,False,False
+ChIJmYdO8C6pzokRJn1Jvg8IdWs,Sichuan House,Saturday,11:00,20:00,660,1200,False,False
+ChIJSxorcgCpzokRDL_JdfMrvgM,Brothers Bar & Grill,Sunday,11:00,02:00,660,1560,True,False
+ChIJSxorcgCpzokRDL_JdfMrvgM,Brothers Bar & Grill,Monday,11:00,02:00,660,1560,True,False
+ChIJSxorcgCpzokRDL_JdfMrvgM,Brothers Bar & Grill,Tuesday,11:00,02:00,660,1560,True,False
+ChIJSxorcgCpzokRDL_JdfMrvgM,Brothers Bar & Grill,Wednesday,11:00,02:00,660,1560,True,False
+ChIJSxorcgCpzokRDL_JdfMrvgM,Brothers Bar & Grill,Thursday,11:00,02:00,660,1560,True,False
+ChIJSxorcgCpzokRDL_JdfMrvgM,Brothers Bar & Grill,Friday,11:00,02:00,660,1560,True,False
+ChIJSxorcgCpzokRDL_JdfMrvgM,Brothers Bar & Grill,Saturday,11:00,02:00,660,1560,True,False
+ChIJDcBcerGozokR5vOAUuQAJ10,Papa Johns Pizza,Sunday,10:00,01:00,600,1500,True,False
+ChIJDcBcerGozokR5vOAUuQAJ10,Papa Johns Pizza,Monday,10:00,01:00,600,1500,True,False
+ChIJDcBcerGozokR5vOAUuQAJ10,Papa Johns Pizza,Tuesday,10:00,01:00,600,1500,True,False
+ChIJDcBcerGozokR5vOAUuQAJ10,Papa Johns Pizza,Wednesday,10:00,01:00,600,1500,True,False
+ChIJDcBcerGozokR5vOAUuQAJ10,Papa Johns Pizza,Thursday,10:00,01:00,600,1500,True,False
+ChIJDcBcerGozokR5vOAUuQAJ10,Papa Johns Pizza,Friday,10:00,01:00,600,1500,True,False
+ChIJDcBcerGozokR5vOAUuQAJ10,Papa Johns Pizza,Saturday,10:00,01:00,600,1500,True,False
+ChIJ15xV77KozokRQAqGmZifsas,Sakura,Sunday,12:00,21:30,720,1290,False,False
+ChIJ15xV77KozokRQAqGmZifsas,Sakura,Monday,11:00,21:30,660,1290,False,False
+ChIJ15xV77KozokRQAqGmZifsas,Sakura,Wednesday,11:00,21:30,660,1290,False,False
+ChIJ15xV77KozokRQAqGmZifsas,Sakura,Thursday,11:00,21:30,660,1290,False,False
+ChIJ15xV77KozokRQAqGmZifsas,Sakura,Friday,11:00,21:30,660,1290,False,False
+ChIJ15xV77KozokRQAqGmZifsas,Sakura,Saturday,12:00,21:30,720,1290,False,False
+ChIJI4e2nKCozokRKzF2tXX4z_8,McDonald's,Sunday,06:00,23:00,360,1380,False,False
+ChIJI4e2nKCozokRKzF2tXX4z_8,McDonald's,Monday,06:00,23:00,360,1380,False,False
+ChIJI4e2nKCozokRKzF2tXX4z_8,McDonald's,Tuesday,06:00,23:00,360,1380,False,False
+ChIJI4e2nKCozokRKzF2tXX4z_8,McDonald's,Wednesday,06:00,23:00,360,1380,False,False
+ChIJI4e2nKCozokRKzF2tXX4z_8,McDonald's,Thursday,06:00,23:00,360,1380,False,False
+ChIJI4e2nKCozokRKzF2tXX4z_8,McDonald's,Friday,06:00,23:00,360,1380,False,False
+ChIJI4e2nKCozokRKzF2tXX4z_8,McDonald's,Saturday,06:00,23:00,360,1380,False,False
+ChIJfXA12rKozokRgGofwbWvSuU,Plaza Mexican Bar & Grill,Sunday,11:00,21:00,660,1260,False,False
+ChIJfXA12rKozokRgGofwbWvSuU,Plaza Mexican Bar & Grill,Monday,11:00,22:00,660,1320,False,False
+ChIJfXA12rKozokRgGofwbWvSuU,Plaza Mexican Bar & Grill,Tuesday,11:00,22:00,660,1320,False,False
+ChIJfXA12rKozokRgGofwbWvSuU,Plaza Mexican Bar & Grill,Wednesday,11:00,22:00,660,1320,False,False
+ChIJfXA12rKozokRgGofwbWvSuU,Plaza Mexican Bar & Grill,Thursday,11:00,22:00,660,1320,False,False
+ChIJfXA12rKozokRgGofwbWvSuU,Plaza Mexican Bar & Grill,Friday,11:00,22:00,660,1320,False,False
+ChIJfXA12rKozokRgGofwbWvSuU,Plaza Mexican Bar & Grill,Saturday,11:00,22:00,660,1320,False,False
+ChIJ4UpLLU2vzokRvWl3DsTHCY8,The Bistro - Eat. Drink. Connect.®,Sunday,07:00,10:00,420,600,False,False
+ChIJ4UpLLU2vzokRvWl3DsTHCY8,The Bistro - Eat. Drink. Connect.®,Sunday,17:00,22:00,1020,1320,False,False
+ChIJ4UpLLU2vzokRvWl3DsTHCY8,The Bistro - Eat. Drink. Connect.®,Monday,07:00,10:00,420,600,False,False
+ChIJ4UpLLU2vzokRvWl3DsTHCY8,The Bistro - Eat. Drink. Connect.®,Monday,17:00,22:00,1020,1320,False,False
+ChIJ4UpLLU2vzokRvWl3DsTHCY8,The Bistro - Eat. Drink. Connect.®,Tuesday,07:00,10:00,420,600,False,False
+ChIJ4UpLLU2vzokRvWl3DsTHCY8,The Bistro - Eat. Drink. Connect.®,Tuesday,17:00,22:00,1020,1320,False,False
+ChIJ4UpLLU2vzokRvWl3DsTHCY8,The Bistro - Eat. Drink. Connect.®,Wednesday,07:00,10:00,420,600,False,False
+ChIJ4UpLLU2vzokRvWl3DsTHCY8,The Bistro - Eat. Drink. Connect.®,Wednesday,17:00,22:00,1020,1320,False,False
+ChIJ4UpLLU2vzokRvWl3DsTHCY8,The Bistro - Eat. Drink. Connect.®,Thursday,07:00,10:00,420,600,False,False
+ChIJ4UpLLU2vzokRvWl3DsTHCY8,The Bistro - Eat. Drink. Connect.®,Thursday,17:00,22:00,1020,1320,False,False
+ChIJ4UpLLU2vzokRvWl3DsTHCY8,The Bistro - Eat. Drink. Connect.®,Friday,07:00,10:00,420,600,False,False
+ChIJ4UpLLU2vzokRvWl3DsTHCY8,The Bistro - Eat. Drink. Connect.®,Friday,17:00,22:00,1020,1320,False,False
+ChIJ4UpLLU2vzokRvWl3DsTHCY8,The Bistro - Eat. Drink. Connect.®,Saturday,07:00,10:00,420,600,False,False
+ChIJ4UpLLU2vzokRvWl3DsTHCY8,The Bistro - Eat. Drink. Connect.®,Saturday,17:00,22:00,1020,1320,False,False
+ChIJT555DE2vzokR839zF6otg6w,The Honey Baked Ham Company,Monday,10:00,18:00,600,1080,False,False
+ChIJT555DE2vzokR839zF6otg6w,The Honey Baked Ham Company,Tuesday,10:00,18:00,600,1080,False,False
+ChIJT555DE2vzokR839zF6otg6w,The Honey Baked Ham Company,Wednesday,10:00,18:00,600,1080,False,False
+ChIJT555DE2vzokR839zF6otg6w,The Honey Baked Ham Company,Thursday,10:00,18:00,600,1080,False,False
+ChIJT555DE2vzokR839zF6otg6w,The Honey Baked Ham Company,Friday,10:00,18:00,600,1080,False,False
+ChIJT555DE2vzokR839zF6otg6w,The Honey Baked Ham Company,Saturday,10:00,18:00,600,1080,False,False
+ChIJnYyUBE2vzokRl7ZNWPRN3eI,Rothrock Coffee,Sunday,08:00,14:00,480,840,False,False
+ChIJnYyUBE2vzokRl7ZNWPRN3eI,Rothrock Coffee,Monday,07:00,15:00,420,900,False,False
+ChIJnYyUBE2vzokRl7ZNWPRN3eI,Rothrock Coffee,Tuesday,07:00,15:00,420,900,False,False
+ChIJnYyUBE2vzokRl7ZNWPRN3eI,Rothrock Coffee,Wednesday,07:00,15:00,420,900,False,False
+ChIJnYyUBE2vzokRl7ZNWPRN3eI,Rothrock Coffee,Thursday,07:00,15:00,420,900,False,False
+ChIJnYyUBE2vzokRl7ZNWPRN3eI,Rothrock Coffee,Friday,07:00,15:00,420,900,False,False
+ChIJnYyUBE2vzokRl7ZNWPRN3eI,Rothrock Coffee,Saturday,07:00,15:00,420,900,False,False
+ChIJxTGidLGozokRogdtRvkQDzg,Dunkin',Sunday,04:00,19:00,240,1140,False,False
+ChIJxTGidLGozokRogdtRvkQDzg,Dunkin',Monday,04:00,19:00,240,1140,False,False
+ChIJxTGidLGozokRogdtRvkQDzg,Dunkin',Tuesday,04:00,19:00,240,1140,False,False
+ChIJxTGidLGozokRogdtRvkQDzg,Dunkin',Wednesday,04:00,19:00,240,1140,False,False
+ChIJxTGidLGozokRogdtRvkQDzg,Dunkin',Thursday,04:00,19:00,240,1140,False,False
+ChIJxTGidLGozokRogdtRvkQDzg,Dunkin',Friday,04:00,19:00,240,1140,False,False
+ChIJxTGidLGozokRogdtRvkQDzg,Dunkin',Saturday,04:00,19:00,240,1140,False,False
+ChIJxyZWQE6vzokR7ortuO-Wu_k,Taco Bell,Sunday,09:00,03:00,540,1620,True,False
+ChIJxyZWQE6vzokR7ortuO-Wu_k,Taco Bell,Monday,09:00,03:00,540,1620,True,False
+ChIJxyZWQE6vzokR7ortuO-Wu_k,Taco Bell,Tuesday,09:00,03:00,540,1620,True,False
+ChIJxyZWQE6vzokR7ortuO-Wu_k,Taco Bell,Wednesday,09:00,03:00,540,1620,True,False
+ChIJxyZWQE6vzokR7ortuO-Wu_k,Taco Bell,Thursday,09:00,03:00,540,1620,True,False
+ChIJxyZWQE6vzokR7ortuO-Wu_k,Taco Bell,Friday,09:00,03:00,540,1620,True,False
+ChIJxyZWQE6vzokR7ortuO-Wu_k,Taco Bell,Saturday,09:00,03:00,540,1620,True,False
+ChIJ7eDJt5iozokRESlT9wfgbjM,Jersey Mike's Subs,Sunday,10:00,21:00,600,1260,False,False
+ChIJ7eDJt5iozokRESlT9wfgbjM,Jersey Mike's Subs,Monday,10:00,21:00,600,1260,False,False
+ChIJ7eDJt5iozokRESlT9wfgbjM,Jersey Mike's Subs,Tuesday,10:00,21:00,600,1260,False,False
+ChIJ7eDJt5iozokRESlT9wfgbjM,Jersey Mike's Subs,Wednesday,10:00,21:00,600,1260,False,False
+ChIJ7eDJt5iozokRESlT9wfgbjM,Jersey Mike's Subs,Thursday,10:00,21:00,600,1260,False,False
+ChIJ7eDJt5iozokRESlT9wfgbjM,Jersey Mike's Subs,Friday,10:00,21:00,600,1260,False,False
+ChIJ7eDJt5iozokRESlT9wfgbjM,Jersey Mike's Subs,Saturday,10:00,21:00,600,1260,False,False
+ChIJM80XGwKpzokRSE1IyRVlQaw,Celebrities,Monday,16:00,21:00,960,1260,False,False
+ChIJM80XGwKpzokRSE1IyRVlQaw,Celebrities,Tuesday,11:00,21:00,660,1260,False,False
+ChIJM80XGwKpzokRSE1IyRVlQaw,Celebrities,Wednesday,11:00,21:00,660,1260,False,False
+ChIJM80XGwKpzokRSE1IyRVlQaw,Celebrities,Thursday,11:00,21:00,660,1260,False,False
+ChIJM80XGwKpzokRSE1IyRVlQaw,Celebrities,Friday,11:00,22:00,660,1320,False,False
+ChIJM80XGwKpzokRSE1IyRVlQaw,Celebrities,Saturday,11:00,22:00,660,1320,False,False
+ChIJu3-dGyevzokR5Rq0t1Fkj-c,KFC,Sunday,10:30,20:00,630,1200,False,False
+ChIJu3-dGyevzokR5Rq0t1Fkj-c,KFC,Monday,10:30,20:00,630,1200,False,False
+ChIJu3-dGyevzokR5Rq0t1Fkj-c,KFC,Tuesday,10:30,20:00,630,1200,False,False
+ChIJu3-dGyevzokR5Rq0t1Fkj-c,KFC,Wednesday,10:30,20:00,630,1200,False,False
+ChIJu3-dGyevzokR5Rq0t1Fkj-c,KFC,Thursday,10:30,20:00,630,1200,False,False
+ChIJu3-dGyevzokR5Rq0t1Fkj-c,KFC,Friday,10:30,20:00,630,1200,False,False
+ChIJu3-dGyevzokR5Rq0t1Fkj-c,KFC,Saturday,10:30,20:00,630,1200,False,False
+ChIJ951gerGozokRcpwrFiOSCj8,Lychee Chinese Restaurant,Sunday,11:30,22:00,690,1320,False,False
+ChIJ951gerGozokRcpwrFiOSCj8,Lychee Chinese Restaurant,Monday,10:45,22:00,645,1320,False,False
+ChIJ951gerGozokRcpwrFiOSCj8,Lychee Chinese Restaurant,Wednesday,10:45,22:00,645,1320,False,False
+ChIJ951gerGozokRcpwrFiOSCj8,Lychee Chinese Restaurant,Thursday,10:45,22:00,645,1320,False,False
+ChIJ951gerGozokRcpwrFiOSCj8,Lychee Chinese Restaurant,Friday,10:45,22:30,645,1350,False,False
+ChIJ951gerGozokRcpwrFiOSCj8,Lychee Chinese Restaurant,Saturday,10:45,22:30,645,1350,False,False
+ChIJxXBXPCKvzokRn_LaARTeaXw,Sheetz,Sunday,00:00,24:00,0,1440,False,True
+ChIJxXBXPCKvzokRn_LaARTeaXw,Sheetz,Monday,00:00,24:00,0,1440,False,True
+ChIJxXBXPCKvzokRn_LaARTeaXw,Sheetz,Tuesday,00:00,24:00,0,1440,False,True
+ChIJxXBXPCKvzokRn_LaARTeaXw,Sheetz,Wednesday,00:00,24:00,0,1440,False,True
+ChIJxXBXPCKvzokRn_LaARTeaXw,Sheetz,Thursday,00:00,24:00,0,1440,False,True
+ChIJxXBXPCKvzokRn_LaARTeaXw,Sheetz,Friday,00:00,24:00,0,1440,False,True
+ChIJxXBXPCKvzokRn_LaARTeaXw,Sheetz,Saturday,00:00,24:00,0,1440,False,True
+ChIJ4xWMQACvzokRe2Fa_2nbws4,Kitchen Garden,Sunday,07:00,15:00,420,900,False,False
+ChIJ4xWMQACvzokRe2Fa_2nbws4,Kitchen Garden,Monday,07:00,15:00,420,900,False,False
+ChIJ4xWMQACvzokRe2Fa_2nbws4,Kitchen Garden,Wednesday,07:00,15:00,420,900,False,False
+ChIJ4xWMQACvzokRe2Fa_2nbws4,Kitchen Garden,Thursday,07:00,15:00,420,900,False,False
+ChIJ4xWMQACvzokRe2Fa_2nbws4,Kitchen Garden,Friday,07:00,15:00,420,900,False,False
+ChIJ4xWMQACvzokRe2Fa_2nbws4,Kitchen Garden,Saturday,07:00,15:00,420,900,False,False
+ChIJKzjvq1yvzokRt93pqEeFNEY,Pizza Hut,Sunday,11:00,23:00,660,1380,False,False
+ChIJKzjvq1yvzokRt93pqEeFNEY,Pizza Hut,Monday,11:00,23:00,660,1380,False,False
+ChIJKzjvq1yvzokRt93pqEeFNEY,Pizza Hut,Tuesday,11:00,23:00,660,1380,False,False
+ChIJKzjvq1yvzokRt93pqEeFNEY,Pizza Hut,Wednesday,11:00,23:00,660,1380,False,False
+ChIJKzjvq1yvzokRt93pqEeFNEY,Pizza Hut,Thursday,11:00,23:00,660,1380,False,False
+ChIJKzjvq1yvzokRt93pqEeFNEY,Pizza Hut,Friday,11:00,23:00,660,1380,False,False
+ChIJKzjvq1yvzokRt93pqEeFNEY,Pizza Hut,Saturday,11:00,23:00,660,1380,False,False
+ChIJg7sbWbmozokR_uWQU_PI3Pk,Toasted Bagel Café,Sunday,07:00,14:00,420,840,False,False
+ChIJg7sbWbmozokR_uWQU_PI3Pk,Toasted Bagel Café,Monday,07:00,14:00,420,840,False,False
+ChIJg7sbWbmozokR_uWQU_PI3Pk,Toasted Bagel Café,Tuesday,07:00,14:00,420,840,False,False
+ChIJg7sbWbmozokR_uWQU_PI3Pk,Toasted Bagel Café,Wednesday,07:00,14:00,420,840,False,False
+ChIJg7sbWbmozokR_uWQU_PI3Pk,Toasted Bagel Café,Thursday,07:00,14:00,420,840,False,False
+ChIJg7sbWbmozokR_uWQU_PI3Pk,Toasted Bagel Café,Friday,07:00,14:00,420,840,False,False
+ChIJg7sbWbmozokR_uWQU_PI3Pk,Toasted Bagel Café,Saturday,07:00,14:00,420,840,False,False
+ChIJ1xxcniCpzokRfVpM3wyIvjk,Fatoum Bistro,Sunday,08:00,20:00,480,1200,False,False
+ChIJ1xxcniCpzokRfVpM3wyIvjk,Fatoum Bistro,Monday,09:00,21:00,540,1260,False,False
+ChIJ1xxcniCpzokRfVpM3wyIvjk,Fatoum Bistro,Tuesday,09:00,21:00,540,1260,False,False
+ChIJ1xxcniCpzokRfVpM3wyIvjk,Fatoum Bistro,Wednesday,09:00,21:00,540,1260,False,False
+ChIJ1xxcniCpzokRfVpM3wyIvjk,Fatoum Bistro,Thursday,09:00,21:00,540,1260,False,False
+ChIJ1xxcniCpzokRfVpM3wyIvjk,Fatoum Bistro,Friday,08:00,21:00,480,1260,False,False
+ChIJ1xxcniCpzokRfVpM3wyIvjk,Fatoum Bistro,Saturday,08:00,21:00,480,1260,False,False
+ChIJZ4ASbwCpzokRxrKXXfJT2zc,Manna BBQ and Hotpot,Sunday,12:00,22:00,720,1320,False,False
+ChIJZ4ASbwCpzokRxrKXXfJT2zc,Manna BBQ and Hotpot,Monday,12:00,22:00,720,1320,False,False
+ChIJZ4ASbwCpzokRxrKXXfJT2zc,Manna BBQ and Hotpot,Tuesday,12:00,22:00,720,1320,False,False
+ChIJZ4ASbwCpzokRxrKXXfJT2zc,Manna BBQ and Hotpot,Wednesday,12:00,22:00,720,1320,False,False
+ChIJZ4ASbwCpzokRxrKXXfJT2zc,Manna BBQ and Hotpot,Thursday,12:00,22:00,720,1320,False,False
+ChIJZ4ASbwCpzokRxrKXXfJT2zc,Manna BBQ and Hotpot,Friday,12:00,23:00,720,1380,False,False
+ChIJZ4ASbwCpzokRxrKXXfJT2zc,Manna BBQ and Hotpot,Saturday,12:00,23:00,720,1380,False,False
+ChIJN2d5kgKpzokR_NWKlNG47UI,CLUCK & CATCH,Sunday,11:00,20:45,660,1245,False,False
+ChIJN2d5kgKpzokR_NWKlNG47UI,CLUCK & CATCH,Monday,11:00,20:45,660,1245,False,False
+ChIJN2d5kgKpzokR_NWKlNG47UI,CLUCK & CATCH,Tuesday,11:00,20:45,660,1245,False,False
+ChIJN2d5kgKpzokR_NWKlNG47UI,CLUCK & CATCH,Wednesday,11:00,20:45,660,1245,False,False
+ChIJN2d5kgKpzokR_NWKlNG47UI,CLUCK & CATCH,Thursday,11:00,20:45,660,1245,False,False
+ChIJN2d5kgKpzokR_NWKlNG47UI,CLUCK & CATCH,Friday,11:00,20:45,660,1245,False,False
+ChIJN2d5kgKpzokR_NWKlNG47UI,CLUCK & CATCH,Saturday,11:00,20:45,660,1245,False,False
+ChIJyel8NdqnzokRDEE67ucopvg,Subway,Sunday,09:30,21:00,570,1260,False,False
+ChIJyel8NdqnzokRDEE67ucopvg,Subway,Monday,10:00,21:00,600,1260,False,False
+ChIJyel8NdqnzokRDEE67ucopvg,Subway,Tuesday,10:00,21:00,600,1260,False,False
+ChIJyel8NdqnzokRDEE67ucopvg,Subway,Wednesday,10:00,21:00,600,1260,False,False
+ChIJyel8NdqnzokRDEE67ucopvg,Subway,Thursday,10:00,21:00,600,1260,False,False
+ChIJyel8NdqnzokRDEE67ucopvg,Subway,Friday,10:00,21:00,600,1260,False,False
+ChIJyel8NdqnzokRDEE67ucopvg,Subway,Saturday,09:30,21:00,570,1260,False,False
+ChIJ3zrqLdenzokRowXv1F7ZeFY,Champs Sports Grill,Sunday,11:00,02:00,660,1560,True,False
+ChIJ3zrqLdenzokRowXv1F7ZeFY,Champs Sports Grill,Monday,11:00,02:00,660,1560,True,False
+ChIJ3zrqLdenzokRowXv1F7ZeFY,Champs Sports Grill,Tuesday,11:00,02:00,660,1560,True,False
+ChIJ3zrqLdenzokRowXv1F7ZeFY,Champs Sports Grill,Wednesday,11:00,02:00,660,1560,True,False
+ChIJ3zrqLdenzokRowXv1F7ZeFY,Champs Sports Grill,Thursday,11:00,02:00,660,1560,True,False
+ChIJ3zrqLdenzokRowXv1F7ZeFY,Champs Sports Grill,Friday,11:00,02:00,660,1560,True,False
+ChIJ3zrqLdenzokRowXv1F7ZeFY,Champs Sports Grill,Saturday,11:00,02:00,660,1560,True,False
+ChIJIxe76buozokRIH0rqC82eQY,Fuji Jade Garden & My Thai,Sunday,12:00,22:00,720,1320,False,False
+ChIJIxe76buozokRIH0rqC82eQY,Fuji Jade Garden & My Thai,Monday,11:00,22:00,660,1320,False,False
+ChIJIxe76buozokRIH0rqC82eQY,Fuji Jade Garden & My Thai,Tuesday,11:00,22:00,660,1320,False,False
+ChIJIxe76buozokRIH0rqC82eQY,Fuji Jade Garden & My Thai,Wednesday,11:00,22:00,660,1320,False,False
+ChIJIxe76buozokRIH0rqC82eQY,Fuji Jade Garden & My Thai,Thursday,11:00,22:00,660,1320,False,False
+ChIJIxe76buozokRIH0rqC82eQY,Fuji Jade Garden & My Thai,Friday,11:00,23:00,660,1380,False,False
+ChIJIxe76buozokRIH0rqC82eQY,Fuji Jade Garden & My Thai,Saturday,11:00,23:00,660,1380,False,False
+ChIJNQejOdWnzokR5mhZSP9FjW0,The Original Waffle Shop North,Sunday,07:00,15:00,420,900,False,False
+ChIJNQejOdWnzokR5mhZSP9FjW0,The Original Waffle Shop North,Monday,06:00,15:00,360,900,False,False
+ChIJNQejOdWnzokR5mhZSP9FjW0,The Original Waffle Shop North,Tuesday,06:00,15:00,360,900,False,False
+ChIJNQejOdWnzokR5mhZSP9FjW0,The Original Waffle Shop North,Wednesday,06:00,15:00,360,900,False,False
+ChIJNQejOdWnzokR5mhZSP9FjW0,The Original Waffle Shop North,Thursday,06:00,15:00,360,900,False,False
+ChIJNQejOdWnzokR5mhZSP9FjW0,The Original Waffle Shop North,Friday,06:00,15:00,360,900,False,False
+ChIJNQejOdWnzokR5mhZSP9FjW0,The Original Waffle Shop North,Saturday,06:00,15:00,360,900,False,False
+ChIJ227jINynzokRg5AB6ewbCQ0,Sheetz,Sunday,00:00,24:00,0,1440,False,True
+ChIJ227jINynzokRg5AB6ewbCQ0,Sheetz,Monday,00:00,24:00,0,1440,False,True
+ChIJ227jINynzokRg5AB6ewbCQ0,Sheetz,Tuesday,00:00,24:00,0,1440,False,True
+ChIJ227jINynzokRg5AB6ewbCQ0,Sheetz,Wednesday,00:00,24:00,0,1440,False,True
+ChIJ227jINynzokRg5AB6ewbCQ0,Sheetz,Thursday,00:00,24:00,0,1440,False,True
+ChIJ227jINynzokRg5AB6ewbCQ0,Sheetz,Friday,00:00,24:00,0,1440,False,True
+ChIJ227jINynzokRg5AB6ewbCQ0,Sheetz,Saturday,00:00,24:00,0,1440,False,True
+ChIJo78no9WnzokRfgse8sOLwqs,Subway,Sunday,10:00,21:00,600,1260,False,False
+ChIJo78no9WnzokRfgse8sOLwqs,Subway,Monday,10:00,21:00,600,1260,False,False
+ChIJo78no9WnzokRfgse8sOLwqs,Subway,Tuesday,10:00,21:00,600,1260,False,False
+ChIJo78no9WnzokRfgse8sOLwqs,Subway,Wednesday,10:00,21:00,600,1260,False,False
+ChIJo78no9WnzokRfgse8sOLwqs,Subway,Thursday,10:00,21:00,600,1260,False,False
+ChIJo78no9WnzokRfgse8sOLwqs,Subway,Friday,10:00,21:00,600,1260,False,False
+ChIJo78no9WnzokRfgse8sOLwqs,Subway,Saturday,10:00,21:00,600,1260,False,False
+ChIJJXRggiqmzokRs-PVkkMphjE,Domino's Pizza,Sunday,10:30,00:00,630,1440,False,False
+ChIJJXRggiqmzokRs-PVkkMphjE,Domino's Pizza,Monday,10:30,00:00,630,1440,False,False
+ChIJJXRggiqmzokRs-PVkkMphjE,Domino's Pizza,Tuesday,10:30,00:00,630,1440,False,False
+ChIJJXRggiqmzokRs-PVkkMphjE,Domino's Pizza,Wednesday,10:30,00:00,630,1440,False,False
+ChIJJXRggiqmzokRs-PVkkMphjE,Domino's Pizza,Thursday,10:30,00:00,630,1440,False,False
+ChIJJXRggiqmzokRs-PVkkMphjE,Domino's Pizza,Friday,10:30,01:00,630,1500,True,False
+ChIJJXRggiqmzokRs-PVkkMphjE,Domino's Pizza,Saturday,10:30,01:00,630,1500,True,False
+ChIJhwZW6LuozokRIL0n_VlWqbU,My Thai,Sunday,12:00,22:00,720,1320,False,False
+ChIJhwZW6LuozokRIL0n_VlWqbU,My Thai,Monday,11:00,22:00,660,1320,False,False
+ChIJhwZW6LuozokRIL0n_VlWqbU,My Thai,Tuesday,11:00,22:00,660,1320,False,False
+ChIJhwZW6LuozokRIL0n_VlWqbU,My Thai,Wednesday,11:00,22:00,660,1320,False,False
+ChIJhwZW6LuozokRIL0n_VlWqbU,My Thai,Thursday,11:00,22:00,660,1320,False,False
+ChIJhwZW6LuozokRIL0n_VlWqbU,My Thai,Friday,11:00,23:00,660,1380,False,False
+ChIJhwZW6LuozokRIL0n_VlWqbU,My Thai,Saturday,11:00,23:00,660,1380,False,False
+ChIJyfbDgtanzokRdlIBzpjpH0o,Dunkin',Sunday,04:00,20:00,240,1200,False,False
+ChIJyfbDgtanzokRdlIBzpjpH0o,Dunkin',Monday,04:00,20:00,240,1200,False,False
+ChIJyfbDgtanzokRdlIBzpjpH0o,Dunkin',Tuesday,04:00,20:00,240,1200,False,False
+ChIJyfbDgtanzokRdlIBzpjpH0o,Dunkin',Wednesday,04:00,20:00,240,1200,False,False
+ChIJyfbDgtanzokRdlIBzpjpH0o,Dunkin',Thursday,04:00,20:00,240,1200,False,False
+ChIJyfbDgtanzokRdlIBzpjpH0o,Dunkin',Friday,04:00,20:00,240,1200,False,False
+ChIJyfbDgtanzokRdlIBzpjpH0o,Dunkin',Saturday,04:00,20:00,240,1200,False,False
+ChIJ_6f0A9enzokRFc2lilYT1GQ,Arena Bar & Grill,Sunday,11:00,00:00,660,1440,False,False
+ChIJ_6f0A9enzokRFc2lilYT1GQ,Arena Bar & Grill,Monday,17:00,00:00,1020,1440,False,False
+ChIJ_6f0A9enzokRFc2lilYT1GQ,Arena Bar & Grill,Tuesday,11:00,00:00,660,1440,False,False
+ChIJ_6f0A9enzokRFc2lilYT1GQ,Arena Bar & Grill,Wednesday,11:00,00:00,660,1440,False,False
+ChIJ_6f0A9enzokRFc2lilYT1GQ,Arena Bar & Grill,Thursday,11:00,00:00,660,1440,False,False
+ChIJ_6f0A9enzokRFc2lilYT1GQ,Arena Bar & Grill,Friday,11:00,00:00,660,1440,False,False
+ChIJ_6f0A9enzokRFc2lilYT1GQ,Arena Bar & Grill,Saturday,11:00,00:00,660,1440,False,False
+ChIJAcw3qZiozokRADktxzEgEgw,Rita's Italian Ice & Frozen Custard,Sunday,12:00,21:30,720,1290,False,False
+ChIJAcw3qZiozokRADktxzEgEgw,Rita's Italian Ice & Frozen Custard,Monday,12:00,21:30,720,1290,False,False
+ChIJAcw3qZiozokRADktxzEgEgw,Rita's Italian Ice & Frozen Custard,Tuesday,12:00,21:30,720,1290,False,False
+ChIJAcw3qZiozokRADktxzEgEgw,Rita's Italian Ice & Frozen Custard,Wednesday,12:00,21:30,720,1290,False,False
+ChIJAcw3qZiozokRADktxzEgEgw,Rita's Italian Ice & Frozen Custard,Thursday,12:00,21:30,720,1290,False,False
+ChIJAcw3qZiozokRADktxzEgEgw,Rita's Italian Ice & Frozen Custard,Friday,12:00,21:30,720,1290,False,False
+ChIJAcw3qZiozokRADktxzEgEgw,Rita's Italian Ice & Frozen Custard,Saturday,12:00,21:30,720,1290,False,False
+ChIJOcg0J9SnzokRCHePt__4fTY,Hoss's Steak & Sea House,Sunday,11:00,20:30,660,1230,False,False
+ChIJOcg0J9SnzokRCHePt__4fTY,Hoss's Steak & Sea House,Monday,11:00,20:30,660,1230,False,False
+ChIJOcg0J9SnzokRCHePt__4fTY,Hoss's Steak & Sea House,Tuesday,11:00,20:30,660,1230,False,False
+ChIJOcg0J9SnzokRCHePt__4fTY,Hoss's Steak & Sea House,Wednesday,11:00,20:30,660,1230,False,False
+ChIJOcg0J9SnzokRCHePt__4fTY,Hoss's Steak & Sea House,Thursday,11:00,20:30,660,1230,False,False
+ChIJOcg0J9SnzokRCHePt__4fTY,Hoss's Steak & Sea House,Friday,11:00,21:00,660,1260,False,False
+ChIJOcg0J9SnzokRCHePt__4fTY,Hoss's Steak & Sea House,Saturday,11:00,21:00,660,1260,False,False
+ChIJMTGlNdenzokR35sHOTjCUF8,Panera Bread,Sunday,07:00,21:00,420,1260,False,False
+ChIJMTGlNdenzokR35sHOTjCUF8,Panera Bread,Monday,07:00,21:00,420,1260,False,False
+ChIJMTGlNdenzokR35sHOTjCUF8,Panera Bread,Tuesday,07:00,21:00,420,1260,False,False
+ChIJMTGlNdenzokR35sHOTjCUF8,Panera Bread,Wednesday,07:00,21:00,420,1260,False,False
+ChIJMTGlNdenzokR35sHOTjCUF8,Panera Bread,Thursday,07:00,21:00,420,1260,False,False
+ChIJMTGlNdenzokR35sHOTjCUF8,Panera Bread,Friday,07:00,21:00,420,1260,False,False
+ChIJMTGlNdenzokR35sHOTjCUF8,Panera Bread,Saturday,07:00,21:00,420,1260,False,False
+ChIJYcqVUtenzokRTV7LoUK7h9A,Red Lobster,Sunday,11:00,21:00,660,1260,False,False
+ChIJYcqVUtenzokRTV7LoUK7h9A,Red Lobster,Monday,11:00,21:00,660,1260,False,False
+ChIJYcqVUtenzokRTV7LoUK7h9A,Red Lobster,Tuesday,11:00,21:00,660,1260,False,False
+ChIJYcqVUtenzokRTV7LoUK7h9A,Red Lobster,Wednesday,11:00,21:00,660,1260,False,False
+ChIJYcqVUtenzokRTV7LoUK7h9A,Red Lobster,Thursday,11:00,21:00,660,1260,False,False
+ChIJYcqVUtenzokRTV7LoUK7h9A,Red Lobster,Friday,11:00,22:00,660,1320,False,False
+ChIJYcqVUtenzokRTV7LoUK7h9A,Red Lobster,Saturday,11:00,22:00,660,1320,False,False
+ChIJCd8IpPylzokRAVv9Di3dDXo,Dairy Queen Grill & Chill,Sunday,10:00,22:00,600,1320,False,False
+ChIJCd8IpPylzokRAVv9Di3dDXo,Dairy Queen Grill & Chill,Monday,10:00,22:00,600,1320,False,False
+ChIJCd8IpPylzokRAVv9Di3dDXo,Dairy Queen Grill & Chill,Tuesday,10:00,22:00,600,1320,False,False
+ChIJCd8IpPylzokRAVv9Di3dDXo,Dairy Queen Grill & Chill,Wednesday,10:00,22:00,600,1320,False,False
+ChIJCd8IpPylzokRAVv9Di3dDXo,Dairy Queen Grill & Chill,Thursday,10:00,22:00,600,1320,False,False
+ChIJCd8IpPylzokRAVv9Di3dDXo,Dairy Queen Grill & Chill,Friday,10:00,22:00,600,1320,False,False
+ChIJCd8IpPylzokRAVv9Di3dDXo,Dairy Queen Grill & Chill,Saturday,10:00,22:00,600,1320,False,False
+ChIJQ5NLv92nzokRJmpHsuRieFM,Moe's Southwest Grill,Sunday,10:30,22:00,630,1320,False,False
+ChIJQ5NLv92nzokRJmpHsuRieFM,Moe's Southwest Grill,Monday,10:30,22:00,630,1320,False,False
+ChIJQ5NLv92nzokRJmpHsuRieFM,Moe's Southwest Grill,Tuesday,10:30,22:00,630,1320,False,False
+ChIJQ5NLv92nzokRJmpHsuRieFM,Moe's Southwest Grill,Wednesday,10:30,22:00,630,1320,False,False
+ChIJQ5NLv92nzokRJmpHsuRieFM,Moe's Southwest Grill,Thursday,10:30,22:00,630,1320,False,False
+ChIJQ5NLv92nzokRJmpHsuRieFM,Moe's Southwest Grill,Friday,10:30,22:00,630,1320,False,False
+ChIJQ5NLv92nzokRJmpHsuRieFM,Moe's Southwest Grill,Saturday,10:30,22:00,630,1320,False,False
+ChIJW9Z0MtenzokRA60J8Onj0-4,McDonald's,Sunday,00:00,24:00,0,1440,False,True
+ChIJW9Z0MtenzokRA60J8Onj0-4,McDonald's,Monday,00:00,24:00,0,1440,False,True
+ChIJW9Z0MtenzokRA60J8Onj0-4,McDonald's,Tuesday,00:00,24:00,0,1440,False,True
+ChIJW9Z0MtenzokRA60J8Onj0-4,McDonald's,Wednesday,00:00,24:00,0,1440,False,True
+ChIJW9Z0MtenzokRA60J8Onj0-4,McDonald's,Thursday,00:00,24:00,0,1440,False,True
+ChIJW9Z0MtenzokRA60J8Onj0-4,McDonald's,Friday,00:00,24:00,0,1440,False,True
+ChIJW9Z0MtenzokRA60J8Onj0-4,McDonald's,Saturday,00:00,24:00,0,1440,False,True
+ChIJo78no9WnzokRatst01eBReo,Brothers Pizza,Monday,10:30,21:00,630,1260,False,False
+ChIJo78no9WnzokRatst01eBReo,Brothers Pizza,Tuesday,10:30,21:00,630,1260,False,False
+ChIJo78no9WnzokRatst01eBReo,Brothers Pizza,Wednesday,10:30,21:00,630,1260,False,False
+ChIJo78no9WnzokRatst01eBReo,Brothers Pizza,Thursday,10:30,21:00,630,1260,False,False
+ChIJo78no9WnzokRatst01eBReo,Brothers Pizza,Friday,10:30,21:00,630,1260,False,False
+ChIJo78no9WnzokRatst01eBReo,Brothers Pizza,Saturday,10:30,21:00,630,1260,False,False
+ChIJDX_eLdenzokRyaFWkTh7z8c,Wendy's,Sunday,10:00,02:00,600,1560,True,False
+ChIJDX_eLdenzokRyaFWkTh7z8c,Wendy's,Monday,10:00,02:00,600,1560,True,False
+ChIJDX_eLdenzokRyaFWkTh7z8c,Wendy's,Tuesday,10:00,02:00,600,1560,True,False
+ChIJDX_eLdenzokRyaFWkTh7z8c,Wendy's,Wednesday,10:00,02:00,600,1560,True,False
+ChIJDX_eLdenzokRyaFWkTh7z8c,Wendy's,Thursday,10:00,02:00,600,1560,True,False
+ChIJDX_eLdenzokRyaFWkTh7z8c,Wendy's,Friday,10:00,02:00,600,1560,True,False
+ChIJDX_eLdenzokRyaFWkTh7z8c,Wendy's,Saturday,10:00,02:00,600,1560,True,False
+ChIJBQtU1tSnzokRAoCa9kLih9Y,The Greek,Monday,16:30,21:00,990,1260,False,False
+ChIJBQtU1tSnzokRAoCa9kLih9Y,The Greek,Tuesday,16:30,21:00,990,1260,False,False
+ChIJBQtU1tSnzokRAoCa9kLih9Y,The Greek,Wednesday,16:30,21:00,990,1260,False,False
+ChIJBQtU1tSnzokRAoCa9kLih9Y,The Greek,Thursday,16:30,21:00,990,1260,False,False
+ChIJBQtU1tSnzokRAoCa9kLih9Y,The Greek,Friday,16:30,21:00,990,1260,False,False
+ChIJBQtU1tSnzokRAoCa9kLih9Y,The Greek,Saturday,16:30,21:00,990,1260,False,False
+ChIJ4WejM9enzokRDKJMk_WAWrg,CC Peppers,Tuesday,11:00,19:00,660,1140,False,False
+ChIJ4WejM9enzokRDKJMk_WAWrg,CC Peppers,Wednesday,11:00,19:00,660,1140,False,False
+ChIJ4WejM9enzokRDKJMk_WAWrg,CC Peppers,Thursday,11:00,19:00,660,1140,False,False
+ChIJ4WejM9enzokRDKJMk_WAWrg,CC Peppers,Friday,11:00,19:00,660,1140,False,False
+ChIJ4WejM9enzokRDKJMk_WAWrg,CC Peppers,Saturday,11:00,19:00,660,1140,False,False
+ChIJ56CsvCqmzokRpMgp9M5Vf4o,Penang Asian Fusion Cuisine,Sunday,12:00,21:15,720,1275,False,False
+ChIJ56CsvCqmzokRpMgp9M5Vf4o,Penang Asian Fusion Cuisine,Monday,11:00,21:15,660,1275,False,False
+ChIJ56CsvCqmzokRpMgp9M5Vf4o,Penang Asian Fusion Cuisine,Tuesday,11:00,21:15,660,1275,False,False
+ChIJ56CsvCqmzokRpMgp9M5Vf4o,Penang Asian Fusion Cuisine,Wednesday,11:00,21:15,660,1275,False,False
+ChIJ56CsvCqmzokRpMgp9M5Vf4o,Penang Asian Fusion Cuisine,Thursday,11:00,21:15,660,1275,False,False
+ChIJ56CsvCqmzokRpMgp9M5Vf4o,Penang Asian Fusion Cuisine,Friday,11:00,21:15,660,1275,False,False
+ChIJ56CsvCqmzokRpMgp9M5Vf4o,Penang Asian Fusion Cuisine,Saturday,11:00,21:15,660,1275,False,False
+ChIJS45lWp2nzokRG1CHQeG-Z9E,Marzoni’s Brick Oven & Brewing Co.,Sunday,11:00,21:00,660,1260,False,False
+ChIJS45lWp2nzokRG1CHQeG-Z9E,Marzoni’s Brick Oven & Brewing Co.,Monday,11:00,21:00,660,1260,False,False
+ChIJS45lWp2nzokRG1CHQeG-Z9E,Marzoni’s Brick Oven & Brewing Co.,Tuesday,11:00,21:00,660,1260,False,False
+ChIJS45lWp2nzokRG1CHQeG-Z9E,Marzoni’s Brick Oven & Brewing Co.,Wednesday,11:00,21:00,660,1260,False,False
+ChIJS45lWp2nzokRG1CHQeG-Z9E,Marzoni’s Brick Oven & Brewing Co.,Thursday,11:00,21:00,660,1260,False,False
+ChIJS45lWp2nzokRG1CHQeG-Z9E,Marzoni’s Brick Oven & Brewing Co.,Friday,11:00,22:00,660,1320,False,False
+ChIJS45lWp2nzokRG1CHQeG-Z9E,Marzoni’s Brick Oven & Brewing Co.,Saturday,11:00,22:00,660,1320,False,False
+ChIJTdppRFulzokRJ9wRPsZhdZE,GuDong Hot Pot Delivery,Sunday,11:30,21:00,690,1260,False,False
+ChIJTdppRFulzokRJ9wRPsZhdZE,GuDong Hot Pot Delivery,Monday,16:00,21:00,960,1260,False,False
+ChIJTdppRFulzokRJ9wRPsZhdZE,GuDong Hot Pot Delivery,Tuesday,16:00,21:00,960,1260,False,False
+ChIJTdppRFulzokRJ9wRPsZhdZE,GuDong Hot Pot Delivery,Wednesday,16:00,21:00,960,1260,False,False
+ChIJTdppRFulzokRJ9wRPsZhdZE,GuDong Hot Pot Delivery,Thursday,16:00,21:00,960,1260,False,False
+ChIJTdppRFulzokRJ9wRPsZhdZE,GuDong Hot Pot Delivery,Friday,16:00,21:00,960,1260,False,False
+ChIJTdppRFulzokRJ9wRPsZhdZE,GuDong Hot Pot Delivery,Saturday,11:30,21:00,690,1260,False,False
+ChIJJbB5LFipzokRLqvMJVcLgD4,Fire & Fig Grill,Sunday,11:00,21:30,660,1290,False,False
+ChIJJbB5LFipzokRLqvMJVcLgD4,Fire & Fig Grill,Tuesday,16:00,21:30,960,1290,False,False
+ChIJJbB5LFipzokRLqvMJVcLgD4,Fire & Fig Grill,Wednesday,16:00,21:30,960,1290,False,False
+ChIJJbB5LFipzokRLqvMJVcLgD4,Fire & Fig Grill,Thursday,16:00,21:30,960,1290,False,False
+ChIJJbB5LFipzokRLqvMJVcLgD4,Fire & Fig Grill,Friday,12:00,21:30,720,1290,False,False
+ChIJJbB5LFipzokRLqvMJVcLgD4,Fire & Fig Grill,Saturday,12:00,21:30,720,1290,False,False
+ChIJC61ONqOnzokR-6g_fIq8vgg,700 Degree Pizza,Monday,11:00,20:00,660,1200,False,False
+ChIJC61ONqOnzokR-6g_fIq8vgg,700 Degree Pizza,Tuesday,11:00,20:00,660,1200,False,False
+ChIJC61ONqOnzokR-6g_fIq8vgg,700 Degree Pizza,Wednesday,11:00,20:00,660,1200,False,False
+ChIJC61ONqOnzokR-6g_fIq8vgg,700 Degree Pizza,Thursday,11:00,20:00,660,1200,False,False
+ChIJC61ONqOnzokR-6g_fIq8vgg,700 Degree Pizza,Friday,11:00,20:00,660,1200,False,False
+ChIJC61ONqOnzokR-6g_fIq8vgg,700 Degree Pizza,Saturday,11:00,20:00,660,1200,False,False
+ChIJ3yCCneunzokREB_SeUnDEt0,College Buffet,Sunday,11:00,21:00,660,1260,False,False
+ChIJ3yCCneunzokREB_SeUnDEt0,College Buffet,Monday,11:00,21:00,660,1260,False,False
+ChIJ3yCCneunzokREB_SeUnDEt0,College Buffet,Wednesday,11:00,21:00,660,1260,False,False
+ChIJ3yCCneunzokREB_SeUnDEt0,College Buffet,Thursday,11:00,21:00,660,1260,False,False
+ChIJ3yCCneunzokREB_SeUnDEt0,College Buffet,Friday,11:00,21:00,660,1260,False,False
+ChIJ3yCCneunzokREB_SeUnDEt0,College Buffet,Saturday,11:00,21:00,660,1260,False,False
+ChIJafr7Yr2nzokRJN36dg0ar-s,Chipotle Mexican Grill,Sunday,10:45,23:00,645,1380,False,False
+ChIJafr7Yr2nzokRJN36dg0ar-s,Chipotle Mexican Grill,Monday,10:45,23:00,645,1380,False,False
+ChIJafr7Yr2nzokRJN36dg0ar-s,Chipotle Mexican Grill,Tuesday,10:45,23:00,645,1380,False,False
+ChIJafr7Yr2nzokRJN36dg0ar-s,Chipotle Mexican Grill,Wednesday,10:45,23:00,645,1380,False,False
+ChIJafr7Yr2nzokRJN36dg0ar-s,Chipotle Mexican Grill,Thursday,10:45,23:00,645,1380,False,False
+ChIJafr7Yr2nzokRJN36dg0ar-s,Chipotle Mexican Grill,Friday,10:45,23:00,645,1380,False,False
+ChIJafr7Yr2nzokRJN36dg0ar-s,Chipotle Mexican Grill,Saturday,10:45,23:00,645,1380,False,False
+ChIJ-c_Uad6nzokRe0dNYsOL9zU,Panda Express,Sunday,10:00,22:00,600,1320,False,False
+ChIJ-c_Uad6nzokRe0dNYsOL9zU,Panda Express,Monday,10:00,22:00,600,1320,False,False
+ChIJ-c_Uad6nzokRe0dNYsOL9zU,Panda Express,Tuesday,10:00,22:00,600,1320,False,False
+ChIJ-c_Uad6nzokRe0dNYsOL9zU,Panda Express,Wednesday,10:00,22:00,600,1320,False,False
+ChIJ-c_Uad6nzokRe0dNYsOL9zU,Panda Express,Thursday,10:00,22:00,600,1320,False,False
+ChIJ-c_Uad6nzokRe0dNYsOL9zU,Panda Express,Friday,10:00,22:00,600,1320,False,False
+ChIJ-c_Uad6nzokRe0dNYsOL9zU,Panda Express,Saturday,10:00,22:00,600,1320,False,False
+ChIJwVWm2_SozokR9UQ8F53pcZY,The Original Waffle Shop West,Sunday,07:00,15:00,420,900,False,False
+ChIJwVWm2_SozokR9UQ8F53pcZY,The Original Waffle Shop West,Monday,06:00,15:00,360,900,False,False
+ChIJwVWm2_SozokR9UQ8F53pcZY,The Original Waffle Shop West,Tuesday,06:00,15:00,360,900,False,False
+ChIJwVWm2_SozokR9UQ8F53pcZY,The Original Waffle Shop West,Wednesday,06:00,15:00,360,900,False,False
+ChIJwVWm2_SozokR9UQ8F53pcZY,The Original Waffle Shop West,Thursday,06:00,15:00,360,900,False,False
+ChIJwVWm2_SozokR9UQ8F53pcZY,The Original Waffle Shop West,Friday,06:00,15:00,360,900,False,False
+ChIJwVWm2_SozokR9UQ8F53pcZY,The Original Waffle Shop West,Saturday,06:00,15:00,360,900,False,False
+ChIJnygvaIyozokRdMO-LNqDGes,HiWay Pizza Pub,Sunday,11:00,22:00,660,1320,False,False
+ChIJnygvaIyozokRdMO-LNqDGes,HiWay Pizza Pub,Monday,11:00,22:00,660,1320,False,False
+ChIJnygvaIyozokRdMO-LNqDGes,HiWay Pizza Pub,Tuesday,11:00,22:00,660,1320,False,False
+ChIJnygvaIyozokRdMO-LNqDGes,HiWay Pizza Pub,Wednesday,11:00,22:00,660,1320,False,False
+ChIJnygvaIyozokRdMO-LNqDGes,HiWay Pizza Pub,Thursday,11:00,22:00,660,1320,False,False
+ChIJnygvaIyozokRdMO-LNqDGes,HiWay Pizza Pub,Friday,11:00,23:00,660,1380,False,False
+ChIJnygvaIyozokRdMO-LNqDGes,HiWay Pizza Pub,Saturday,11:00,23:00,660,1380,False,False
+ChIJl2fWJQClzokRLXfMVPQFuGg,Fatema's Kitchen,Monday,12:00,19:00,720,1140,False,False
+ChIJl2fWJQClzokRLXfMVPQFuGg,Fatema's Kitchen,Tuesday,12:00,19:00,720,1140,False,False
+ChIJl2fWJQClzokRLXfMVPQFuGg,Fatema's Kitchen,Wednesday,12:00,19:00,720,1140,False,False
+ChIJl2fWJQClzokRLXfMVPQFuGg,Fatema's Kitchen,Thursday,12:00,19:00,720,1140,False,False
+ChIJl2fWJQClzokRLXfMVPQFuGg,Fatema's Kitchen,Friday,12:00,19:00,720,1140,False,False
+ChIJl2fWJQClzokRLXfMVPQFuGg,Fatema's Kitchen,Saturday,12:00,19:00,720,1140,False,False
+ChIJpeRe5iupzokRHlXGQp4yhNE,Tadashi Japanese Restaurant,Sunday,11:00,21:30,660,1290,False,False
+ChIJpeRe5iupzokRHlXGQp4yhNE,Tadashi Japanese Restaurant,Monday,11:00,21:30,660,1290,False,False
+ChIJpeRe5iupzokRHlXGQp4yhNE,Tadashi Japanese Restaurant,Tuesday,11:00,21:30,660,1290,False,False
+ChIJpeRe5iupzokRHlXGQp4yhNE,Tadashi Japanese Restaurant,Wednesday,11:00,21:30,660,1290,False,False
+ChIJpeRe5iupzokRHlXGQp4yhNE,Tadashi Japanese Restaurant,Thursday,11:00,21:30,660,1290,False,False
+ChIJpeRe5iupzokRHlXGQp4yhNE,Tadashi Japanese Restaurant,Friday,11:00,22:00,660,1320,False,False
+ChIJpeRe5iupzokRHlXGQp4yhNE,Tadashi Japanese Restaurant,Saturday,11:00,22:00,660,1320,False,False
+ChIJJ3oZQ0KpzokRq6birKXoUr8,Trophy Room,Sunday,16:00,23:00,960,1380,False,False
+ChIJJ3oZQ0KpzokRq6birKXoUr8,Trophy Room,Monday,07:00,10:00,420,600,False,False
+ChIJJ3oZQ0KpzokRq6birKXoUr8,Trophy Room,Monday,16:00,22:00,960,1320,False,False
+ChIJJ3oZQ0KpzokRq6birKXoUr8,Trophy Room,Tuesday,07:00,10:00,420,600,False,False
+ChIJJ3oZQ0KpzokRq6birKXoUr8,Trophy Room,Tuesday,16:00,22:00,960,1320,False,False
+ChIJJ3oZQ0KpzokRq6birKXoUr8,Trophy Room,Wednesday,07:00,10:00,420,600,False,False
+ChIJJ3oZQ0KpzokRq6birKXoUr8,Trophy Room,Wednesday,16:00,22:00,960,1320,False,False
+ChIJJ3oZQ0KpzokRq6birKXoUr8,Trophy Room,Thursday,07:00,10:00,420,600,False,False
+ChIJJ3oZQ0KpzokRq6birKXoUr8,Trophy Room,Thursday,16:00,22:00,960,1320,False,False
+ChIJJ3oZQ0KpzokRq6birKXoUr8,Trophy Room,Friday,07:00,10:00,420,600,False,False
+ChIJJ3oZQ0KpzokRq6birKXoUr8,Trophy Room,Friday,16:00,00:00,960,1440,False,False
+ChIJJ3oZQ0KpzokRq6birKXoUr8,Trophy Room,Saturday,07:00,11:00,420,660,False,False
+ChIJJ3oZQ0KpzokRq6birKXoUr8,Trophy Room,Saturday,16:00,12:00,960,2160,True,False
+ChIJ65yEU16pzokR72CHVnNM63g,POKE & NOODLE BOWL,Sunday,12:00,19:30,720,1170,False,False
+ChIJ65yEU16pzokR72CHVnNM63g,POKE & NOODLE BOWL,Tuesday,11:30,19:30,690,1170,False,False
+ChIJ65yEU16pzokR72CHVnNM63g,POKE & NOODLE BOWL,Wednesday,11:30,19:30,690,1170,False,False
+ChIJ65yEU16pzokR72CHVnNM63g,POKE & NOODLE BOWL,Thursday,11:30,19:30,690,1170,False,False
+ChIJ65yEU16pzokR72CHVnNM63g,POKE & NOODLE BOWL,Friday,11:30,19:30,690,1170,False,False
+ChIJ65yEU16pzokR72CHVnNM63g,POKE & NOODLE BOWL,Saturday,12:00,19:30,720,1170,False,False
+ChIJyVU_oF6pzokRcfD0_Bv-yFc,Panera Bread,Monday,07:00,19:00,420,1140,False,False
+ChIJyVU_oF6pzokRcfD0_Bv-yFc,Panera Bread,Tuesday,07:00,19:00,420,1140,False,False
+ChIJyVU_oF6pzokRcfD0_Bv-yFc,Panera Bread,Wednesday,07:00,19:00,420,1140,False,False
+ChIJyVU_oF6pzokRcfD0_Bv-yFc,Panera Bread,Thursday,07:00,19:00,420,1140,False,False
+ChIJyVU_oF6pzokRcfD0_Bv-yFc,Panera Bread,Friday,07:00,17:00,420,1020,False,False
+ChIJY4aUUMypzokRue1uFTNCFio,Lupitas Authentic Mexican Food,Sunday,11:00,21:00,660,1260,False,False
+ChIJY4aUUMypzokRue1uFTNCFio,Lupitas Authentic Mexican Food,Monday,11:00,21:00,660,1260,False,False
+ChIJY4aUUMypzokRue1uFTNCFio,Lupitas Authentic Mexican Food,Tuesday,11:00,21:00,660,1260,False,False
+ChIJY4aUUMypzokRue1uFTNCFio,Lupitas Authentic Mexican Food,Wednesday,11:00,03:00,660,1620,True,False
+ChIJY4aUUMypzokRue1uFTNCFio,Lupitas Authentic Mexican Food,Thursday,11:00,03:00,660,1620,True,False
+ChIJY4aUUMypzokRue1uFTNCFio,Lupitas Authentic Mexican Food,Friday,11:00,03:00,660,1620,True,False
+ChIJY4aUUMypzokRue1uFTNCFio,Lupitas Authentic Mexican Food,Saturday,11:00,03:00,660,1620,True,False
+ChIJZ3nfQCKpzokR4j4tdWYjHvY,Chill Out Hookah Lounge,Thursday,17:00,01:00,1020,1500,True,False
+ChIJZ3nfQCKpzokR4j4tdWYjHvY,Chill Out Hookah Lounge,Friday,17:00,01:00,1020,1500,True,False
+ChIJZ3nfQCKpzokR4j4tdWYjHvY,Chill Out Hookah Lounge,Saturday,17:00,01:00,1020,1500,True,False
+ChIJvXSXt--pzokRIqQPTIDpdz4,Cafe Laura,Monday,11:00,13:00,660,780,False,False
+ChIJvXSXt--pzokRIqQPTIDpdz4,Cafe Laura,Tuesday,11:00,13:00,660,780,False,False
+ChIJvXSXt--pzokRIqQPTIDpdz4,Cafe Laura,Wednesday,11:00,13:00,660,780,False,False
+ChIJvXSXt--pzokRIqQPTIDpdz4,Cafe Laura,Thursday,11:00,13:00,660,780,False,False
+ChIJvXSXt--pzokRIqQPTIDpdz4,Cafe Laura,Friday,11:00,13:00,660,780,False,False
+ChIJtT99xzupzokRbQkw72lMjS8,Big Dean's Hot Chicken,Sunday,11:00,20:00,660,1200,False,False
+ChIJtT99xzupzokRbQkw72lMjS8,Big Dean's Hot Chicken,Monday,11:00,20:00,660,1200,False,False
+ChIJtT99xzupzokRbQkw72lMjS8,Big Dean's Hot Chicken,Tuesday,11:00,20:00,660,1200,False,False
+ChIJtT99xzupzokRbQkw72lMjS8,Big Dean's Hot Chicken,Wednesday,11:00,20:00,660,1200,False,False
+ChIJtT99xzupzokRbQkw72lMjS8,Big Dean's Hot Chicken,Thursday,11:00,20:00,660,1200,False,False
+ChIJtT99xzupzokRbQkw72lMjS8,Big Dean's Hot Chicken,Friday,11:00,20:00,660,1200,False,False
+ChIJtT99xzupzokRbQkw72lMjS8,Big Dean's Hot Chicken,Saturday,11:00,20:00,660,1200,False,False
+ChIJn5_eDRCpzokRj6M_f8B4jAM,Bagel Crust,Sunday,08:00,15:00,480,900,False,False
+ChIJn5_eDRCpzokRj6M_f8B4jAM,Bagel Crust,Monday,08:00,15:00,480,900,False,False
+ChIJn5_eDRCpzokRj6M_f8B4jAM,Bagel Crust,Tuesday,08:00,15:00,480,900,False,False
+ChIJn5_eDRCpzokRj6M_f8B4jAM,Bagel Crust,Wednesday,08:00,15:00,480,900,False,False
+ChIJn5_eDRCpzokRj6M_f8B4jAM,Bagel Crust,Thursday,08:00,15:00,480,900,False,False
+ChIJn5_eDRCpzokRj6M_f8B4jAM,Bagel Crust,Friday,08:00,15:00,480,900,False,False
+ChIJn5_eDRCpzokRj6M_f8B4jAM,Bagel Crust,Saturday,08:00,15:00,480,900,False,False
+ChIJ4Y3sI5SpzokRcln_Qk_3HqA,Fuego Grill,Sunday,09:00,17:00,540,1020,False,False
+ChIJ4Y3sI5SpzokRcln_Qk_3HqA,Fuego Grill,Wednesday,11:00,21:00,660,1260,False,False
+ChIJ4Y3sI5SpzokRcln_Qk_3HqA,Fuego Grill,Thursday,11:00,21:00,660,1260,False,False
+ChIJ4Y3sI5SpzokRcln_Qk_3HqA,Fuego Grill,Friday,11:00,01:00,660,1500,True,False
+ChIJ4Y3sI5SpzokRcln_Qk_3HqA,Fuego Grill,Saturday,11:00,01:00,660,1500,True,False
+ChIJH_4JGZepzokRtZTgKp-ZH-Q,Coffee Hemp & Tea,Tuesday,07:00,14:00,420,840,False,False
+ChIJH_4JGZepzokRtZTgKp-ZH-Q,Coffee Hemp & Tea,Tuesday,16:30,19:00,990,1140,False,False
+ChIJH_4JGZepzokRtZTgKp-ZH-Q,Coffee Hemp & Tea,Wednesday,07:00,14:00,420,840,False,False
+ChIJH_4JGZepzokRtZTgKp-ZH-Q,Coffee Hemp & Tea,Wednesday,16:30,19:00,990,1140,False,False
+ChIJH_4JGZepzokRtZTgKp-ZH-Q,Coffee Hemp & Tea,Thursday,07:00,14:00,420,840,False,False
+ChIJH_4JGZepzokRtZTgKp-ZH-Q,Coffee Hemp & Tea,Thursday,16:30,19:00,990,1140,False,False
+ChIJH_4JGZepzokRtZTgKp-ZH-Q,Coffee Hemp & Tea,Friday,07:00,14:00,420,840,False,False
+ChIJH_4JGZepzokRtZTgKp-ZH-Q,Coffee Hemp & Tea,Friday,16:30,19:00,990,1140,False,False
+ChIJH_4JGZepzokRtZTgKp-ZH-Q,Coffee Hemp & Tea,Saturday,07:00,14:00,420,840,False,False
+ChIJH_4JGZepzokRtZTgKp-ZH-Q,Coffee Hemp & Tea,Saturday,16:30,19:00,990,1140,False,False
+ChIJ25uo2GSpzokRZj-upQZQPtw,Benny Leone's Pizza,Sunday,11:00,01:00,660,1500,True,False
+ChIJ25uo2GSpzokRZj-upQZQPtw,Benny Leone's Pizza,Monday,11:00,01:00,660,1500,True,False
+ChIJ25uo2GSpzokRZj-upQZQPtw,Benny Leone's Pizza,Tuesday,11:00,01:00,660,1500,True,False
+ChIJ25uo2GSpzokRZj-upQZQPtw,Benny Leone's Pizza,Wednesday,11:00,01:00,660,1500,True,False
+ChIJ25uo2GSpzokRZj-upQZQPtw,Benny Leone's Pizza,Thursday,11:00,03:00,660,1620,True,False
+ChIJ25uo2GSpzokRZj-upQZQPtw,Benny Leone's Pizza,Friday,11:00,03:00,660,1620,True,False
+ChIJ25uo2GSpzokRZj-upQZQPtw,Benny Leone's Pizza,Saturday,11:00,03:00,660,1620,True,False
+ChIJI2ESi1OpzokRhHMTu--0VMI,Snap Custom Pizza,Sunday,11:00,21:00,660,1260,False,False
+ChIJI2ESi1OpzokRhHMTu--0VMI,Snap Custom Pizza,Monday,11:00,22:00,660,1320,False,False
+ChIJI2ESi1OpzokRhHMTu--0VMI,Snap Custom Pizza,Tuesday,11:00,22:00,660,1320,False,False
+ChIJI2ESi1OpzokRhHMTu--0VMI,Snap Custom Pizza,Wednesday,11:00,22:00,660,1320,False,False
+ChIJI2ESi1OpzokRhHMTu--0VMI,Snap Custom Pizza,Thursday,11:00,22:00,660,1320,False,False
+ChIJI2ESi1OpzokRhHMTu--0VMI,Snap Custom Pizza,Friday,11:00,22:00,660,1320,False,False
+ChIJI2ESi1OpzokRhHMTu--0VMI,Snap Custom Pizza,Saturday,11:00,22:00,660,1320,False,False
+ChIJJYdc65iozokR_63CFyOK-eA,Penn Pide Halal Brothers,Monday,13:00,22:00,780,1320,False,False
+ChIJJYdc65iozokR_63CFyOK-eA,Penn Pide Halal Brothers,Tuesday,13:00,22:00,780,1320,False,False
+ChIJJYdc65iozokR_63CFyOK-eA,Penn Pide Halal Brothers,Thursday,13:00,22:00,780,1320,False,False
+ChIJJYdc65iozokR_63CFyOK-eA,Penn Pide Halal Brothers,Friday,13:00,22:00,780,1320,False,False
+ChIJJYdc65iozokR_63CFyOK-eA,Penn Pide Halal Brothers,Saturday,13:00,22:00,780,1320,False,False
+ChIJRV_HftKpzokRn9SynT9N_eM,Allen Street Pizza,Sunday,12:00,01:00,720,1500,True,False
+ChIJRV_HftKpzokRn9SynT9N_eM,Allen Street Pizza,Monday,11:30,01:00,690,1500,True,False
+ChIJRV_HftKpzokRn9SynT9N_eM,Allen Street Pizza,Tuesday,11:30,02:00,690,1560,True,False
+ChIJRV_HftKpzokRn9SynT9N_eM,Allen Street Pizza,Wednesday,11:30,02:00,690,1560,True,False
+ChIJRV_HftKpzokRn9SynT9N_eM,Allen Street Pizza,Thursday,11:30,03:00,690,1620,True,False
+ChIJRV_HftKpzokRn9SynT9N_eM,Allen Street Pizza,Friday,11:30,03:00,690,1620,True,False
+ChIJRV_HftKpzokRn9SynT9N_eM,Allen Street Pizza,Saturday,12:00,03:00,720,1620,True,False
+ChIJoY_jt5iozokRIGvGoVUeliw,Sauly Boy's,Sunday,11:00,20:00,660,1200,False,False
+ChIJoY_jt5iozokRIGvGoVUeliw,Sauly Boy's,Monday,11:00,20:00,660,1200,False,False
+ChIJoY_jt5iozokRIGvGoVUeliw,Sauly Boy's,Tuesday,11:00,20:00,660,1200,False,False
+ChIJoY_jt5iozokRIGvGoVUeliw,Sauly Boy's,Wednesday,11:00,20:00,660,1200,False,False
+ChIJoY_jt5iozokRIGvGoVUeliw,Sauly Boy's,Thursday,11:00,20:00,660,1200,False,False
+ChIJoY_jt5iozokRIGvGoVUeliw,Sauly Boy's,Friday,11:00,21:00,660,1260,False,False
+ChIJoY_jt5iozokRIGvGoVUeliw,Sauly Boy's,Saturday,11:00,21:00,660,1260,False,False
+ChIJPf0064mpzokRsTYJn-I5_OE,Chick 2,Sunday,11:00,20:30,660,1230,False,False
+ChIJPf0064mpzokRsTYJn-I5_OE,Chick 2,Monday,11:00,23:30,660,1410,False,False
+ChIJPf0064mpzokRsTYJn-I5_OE,Chick 2,Tuesday,11:00,23:30,660,1410,False,False
+ChIJPf0064mpzokRsTYJn-I5_OE,Chick 2,Wednesday,11:00,23:30,660,1410,False,False
+ChIJPf0064mpzokRsTYJn-I5_OE,Chick 2,Thursday,11:00,23:30,660,1410,False,False
+ChIJPf0064mpzokRsTYJn-I5_OE,Chick 2,Friday,11:00,23:30,660,1410,False,False
+ChIJPf0064mpzokRsTYJn-I5_OE,Chick 2,Saturday,11:00,23:30,660,1410,False,False
+ChIJmWtlw4epzokRaoGti1MzJbU,Dagu Rice Noodle 大鼓米线,Monday,11:00,20:30,660,1230,False,False
+ChIJmWtlw4epzokRaoGti1MzJbU,Dagu Rice Noodle 大鼓米线,Tuesday,11:00,20:30,660,1230,False,False
+ChIJmWtlw4epzokRaoGti1MzJbU,Dagu Rice Noodle 大鼓米线,Wednesday,11:00,20:30,660,1230,False,False
+ChIJmWtlw4epzokRaoGti1MzJbU,Dagu Rice Noodle 大鼓米线,Thursday,11:00,20:30,660,1230,False,False
+ChIJmWtlw4epzokRaoGti1MzJbU,Dagu Rice Noodle 大鼓米线,Friday,11:00,20:30,660,1230,False,False
+ChIJmWtlw4epzokRaoGti1MzJbU,Dagu Rice Noodle 大鼓米线,Saturday,11:00,20:30,660,1230,False,False
+ChIJ1wxEiVWnzokR4y1xJmo8WCE,Playa Bowls,Sunday,09:00,21:00,540,1260,False,False
+ChIJ1wxEiVWnzokR4y1xJmo8WCE,Playa Bowls,Monday,09:00,21:00,540,1260,False,False
+ChIJ1wxEiVWnzokR4y1xJmo8WCE,Playa Bowls,Tuesday,09:00,21:00,540,1260,False,False
+ChIJ1wxEiVWnzokR4y1xJmo8WCE,Playa Bowls,Wednesday,09:00,21:00,540,1260,False,False
+ChIJ1wxEiVWnzokR4y1xJmo8WCE,Playa Bowls,Thursday,09:00,21:00,540,1260,False,False
+ChIJ1wxEiVWnzokR4y1xJmo8WCE,Playa Bowls,Friday,09:00,21:00,540,1260,False,False
+ChIJ1wxEiVWnzokR4y1xJmo8WCE,Playa Bowls,Saturday,09:00,21:00,540,1260,False,False
+ChIJ7_mN5HenzokRDrE-kl9NWc0,Big Chicken,Sunday,11:00,00:00,660,1440,False,False
+ChIJ7_mN5HenzokRDrE-kl9NWc0,Big Chicken,Monday,11:00,00:00,660,1440,False,False
+ChIJ7_mN5HenzokRDrE-kl9NWc0,Big Chicken,Tuesday,11:00,00:00,660,1440,False,False
+ChIJ7_mN5HenzokRDrE-kl9NWc0,Big Chicken,Wednesday,11:00,00:00,660,1440,False,False
+ChIJ7_mN5HenzokRDrE-kl9NWc0,Big Chicken,Thursday,11:00,00:00,660,1440,False,False
+ChIJ7_mN5HenzokRDrE-kl9NWc0,Big Chicken,Friday,11:00,02:00,660,1560,True,False
+ChIJ7_mN5HenzokRDrE-kl9NWc0,Big Chicken,Saturday,11:00,02:00,660,1560,True,False
+ChIJzUeky-CnzokRUJNhoMKfPD8,Teadori,Sunday,12:00,00:00,720,1440,False,False
+ChIJzUeky-CnzokRUJNhoMKfPD8,Teadori,Monday,12:00,00:00,720,1440,False,False
+ChIJzUeky-CnzokRUJNhoMKfPD8,Teadori,Tuesday,12:00,00:00,720,1440,False,False
+ChIJzUeky-CnzokRUJNhoMKfPD8,Teadori,Wednesday,12:00,00:00,720,1440,False,False
+ChIJzUeky-CnzokRUJNhoMKfPD8,Teadori,Thursday,12:00,00:00,720,1440,False,False
+ChIJzUeky-CnzokRUJNhoMKfPD8,Teadori,Friday,12:00,02:00,720,1560,True,False
+ChIJzUeky-CnzokRUJNhoMKfPD8,Teadori,Saturday,12:00,02:00,720,1560,True,False
+ChIJf_RhRb2pzokRN0Nrim_ZEks,Cafe Alina,Sunday,11:00,23:00,660,1380,False,False
+ChIJf_RhRb2pzokRN0Nrim_ZEks,Cafe Alina,Monday,11:00,22:00,660,1320,False,False
+ChIJf_RhRb2pzokRN0Nrim_ZEks,Cafe Alina,Tuesday,11:00,22:00,660,1320,False,False
+ChIJf_RhRb2pzokRN0Nrim_ZEks,Cafe Alina,Wednesday,11:00,22:00,660,1320,False,False
+ChIJf_RhRb2pzokRN0Nrim_ZEks,Cafe Alina,Thursday,11:00,23:00,660,1380,False,False
+ChIJf_RhRb2pzokRN0Nrim_ZEks,Cafe Alina,Friday,11:00,23:00,660,1380,False,False
+ChIJf_RhRb2pzokRN0Nrim_ZEks,Cafe Alina,Saturday,11:00,20:30,660,1230,False,False
+ChIJlZ9sPACpzokRZHVi08rrpC0,Mosul Grill,Sunday,11:00,22:00,660,1320,False,False
+ChIJlZ9sPACpzokRZHVi08rrpC0,Mosul Grill,Monday,11:00,22:00,660,1320,False,False
+ChIJlZ9sPACpzokRZHVi08rrpC0,Mosul Grill,Tuesday,11:00,22:00,660,1320,False,False
+ChIJlZ9sPACpzokRZHVi08rrpC0,Mosul Grill,Wednesday,11:00,22:00,660,1320,False,False
+ChIJlZ9sPACpzokRZHVi08rrpC0,Mosul Grill,Thursday,11:00,22:00,660,1320,False,False
+ChIJlZ9sPACpzokRZHVi08rrpC0,Mosul Grill,Friday,11:00,22:00,660,1320,False,False
+ChIJlZ9sPACpzokRZHVi08rrpC0,Mosul Grill,Saturday,11:00,22:00,660,1320,False,False
+ChIJJx-yTGCpzokRwCsVey0scRo,Penn State Halal Guys,Sunday,12:00,00:00,720,1440,False,False
+ChIJJx-yTGCpzokRwCsVey0scRo,Penn State Halal Guys,Monday,11:00,03:00,660,1620,True,False
+ChIJJx-yTGCpzokRwCsVey0scRo,Penn State Halal Guys,Tuesday,11:00,03:00,660,1620,True,False
+ChIJJx-yTGCpzokRwCsVey0scRo,Penn State Halal Guys,Wednesday,11:00,03:00,660,1620,True,False
+ChIJJx-yTGCpzokRwCsVey0scRo,Penn State Halal Guys,Thursday,11:00,03:00,660,1620,True,False
+ChIJJx-yTGCpzokRwCsVey0scRo,Penn State Halal Guys,Friday,11:00,03:00,660,1620,True,False
+ChIJJx-yTGCpzokRwCsVey0scRo,Penn State Halal Guys,Saturday,11:00,03:00,660,1620,True,False
+ChIJg9l96aCozokRmNprRLK1F5Y,Sowers Harvest Café,Tuesday,08:00,15:00,480,900,False,False
+ChIJg9l96aCozokRmNprRLK1F5Y,Sowers Harvest Café,Wednesday,08:00,15:00,480,900,False,False
+ChIJg9l96aCozokRmNprRLK1F5Y,Sowers Harvest Café,Thursday,08:00,15:00,480,900,False,False
+ChIJg9l96aCozokRmNprRLK1F5Y,Sowers Harvest Café,Friday,08:00,15:00,480,900,False,False
+ChIJg9l96aCozokRmNprRLK1F5Y,Sowers Harvest Café,Saturday,08:00,15:00,480,900,False,False
+ChIJx2YPDv-pzokRMlh0Z_WYyHU,Bistrozine,Sunday,11:30,22:00,690,1320,False,False
+ChIJx2YPDv-pzokRMlh0Z_WYyHU,Bistrozine,Tuesday,11:00,22:00,660,1320,False,False
+ChIJx2YPDv-pzokRMlh0Z_WYyHU,Bistrozine,Wednesday,11:00,22:00,660,1320,False,False
+ChIJx2YPDv-pzokRMlh0Z_WYyHU,Bistrozine,Thursday,11:00,22:00,660,1320,False,False
+ChIJx2YPDv-pzokRMlh0Z_WYyHU,Bistrozine,Friday,11:00,00:00,660,1440,False,False
+ChIJx2YPDv-pzokRMlh0Z_WYyHU,Bistrozine,Saturday,11:00,00:00,660,1440,False,False
