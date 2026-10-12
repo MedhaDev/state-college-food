@@ -20,7 +20,7 @@ So I did a massive internet search: restaurant data, Reddit threads, the academi
 
 - Pulled 145 restaurants from the Google Places API, plus posts from r/StateCollege and r/PennStateUniversity
 - Cleaned it with pandas and tagged cuisines with my own keyword taxonomy
-- Built the 2026–27 calendar by hand from official Penn State sources and gave each day a crowd level from 1 to 5 (my best guess, not a measurement)
+- Put together the 2026–27 calendar from official Penn State sources using an AI web scraper, and gave each day a crowd level from 1 to 5 (my best guess, not a measurement)
 - Made the site with Quarto; GitHub Actions rebuilds it whenever I change something
 - Total cost: $0
 
