@@ -20,7 +20,7 @@ Only step 1 needs a Google API key, and it has already been run. Everything else
 
 ---
 
-## Reference data (curated by hand)
+## Reference data (collected from official sources with an AI web scraper)
 
 ### `data/reference/psu_events_2026_27.csv`
 

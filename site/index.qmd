@@ -108,7 +108,7 @@ Project
 
 **Table for 100,000** is a data project about where to eat in State College, Pennsylvania, and, more to the point, *when*. State College is home to Penn State's University Park campus, and the town's rhythm follows the university's calendar. On a home football Saturday, Beaver Stadium holds more than 100,000 people.[^stadium] Over winter break, most of the students leave and the town goes quiet.
 
-Most restaurant guides answer *"what's good?"* This one answers *"what works for this day?"* It combines `{python} n_total` restaurants pulled from the Google Places API with a hand-built, day-by-day Penn State calendar for 2026–27, plus opening hours and walking distances. The result is a planning guide for visiting families, students and locals.
+Most restaurant guides answer *"what's good?"* This one answers *"what works for this day?"* It combines `{python} n_total` restaurants pulled from the Google Places API with a day-by-day Penn State calendar for 2026–27, put together from official sources, plus opening hours and walking distances. The result is a planning guide for visiting families, students and locals.
 
 ::: {.hatnote}
 For the interactive version, see [Plan a meal](planner.qmd). For every date and its expected crowd, see [The calendar](calendar.qmd).
@@ -304,7 +304,7 @@ Posts in r/StateCollege and r/PennStateUniversity were searched for restaurant n
 2. **Cleaning.** Fields were flattened into tables; late-night and Sunday flags were derived from opening hours; opening hours were reshaped into one row per opening window so that "open at 11 p.m.?" is a simple comparison.
 3. **Classification.** Cuisine types come from a priority-ordered keyword map against the restaurant name, with a short list of hand-checked overrides.
 4. **Geography.** Walking times are straight-line distance × 1.3 at 5 km/h.
-5. **Calendar.** Thirty-four events were curated by hand, each with an official source, and expanded to one row per day with a rule-based crowd level.
+5. **Calendar.** Thirty-four events were collected from official Penn State sources with an AI web scraper, each with its source link, and expanded to one row per day with a rule-based crowd level.
 
 Every table is documented column by column under [Data & methods](data.qmd).
 

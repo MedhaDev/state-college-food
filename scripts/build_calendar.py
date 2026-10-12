@@ -1,4 +1,4 @@
-"""Turn the hand-curated Penn State events list into a one-row-per-day calendar.
+"""Turn the Penn State events list into a one-row-per-day calendar.
 
 Input:  data/reference/psu_events_2026_27.csv   (curated, with a source URL per row)
 Output: data/clean/calendar_days.csv            (Aug 15 2026 - Aug 14 2027)
